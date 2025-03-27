@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Skal man være dansk statsborger for at stemme til folketingsvalg?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilken organisation blev Danmark medlem af i 1945?",
+    "options": [
+      "FN",
+      "WTO",
+      "EU"
+    ],
+    "answer": "FN"
+  },
+  {
+    "question": "Hvilken popgruppe udgav nummeret 'Barbie Girl' i 1990'erne?",
+    "options": [
+      "Gasolin",
+      "Aqua",
+      "Nik & Jay"
+    ],
+    "answer": "Aqua"
+  },
+  {
+    "question": "Hvad hedder Danmarks tredjestørste by?",
+    "options": [
+      "Esbjerg",
+      "Aalborg",
+      "Odense"
+    ],
+    "answer": "Odense"
+  },
+  {
+    "question": "Hvilke landsdele forbinder Lillebæltsbroen?",
+    "options": [
+      "Fyn og Sjælland",
+      "Fyn og Langeland",
+      "Fyn og Jylland"
+    ],
+    "answer": "Fyn og Jylland"
+  },
+  {
+    "question": "Må en arbejdsgiver fyre en kvinde, fordi hun er gravid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilket parti fik flest stemmer ved folketingsvalget i 2022?",
+    "options": [
+      "Socialdemokratiet",
+      "Dansk Folkeparti",
+      "Venstre"
+    ],
+    "answer": "Socialdemokratiet"
+  },
+  {
+    "question": "Hvad er den højeste karakter på 7-trins-skalaen, som man bruger i det danske uddannelsessystem?",
+    "options": [
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": "12"
+  },
+  {
+    "question": "Skal der være en folkeafstemning, hvis den danske grundlov skal ændres?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilket af følgende områder har kommunerne ansvaret for?",
+    "options": [
+      "Børnehaver",
+      "Sygehuse",
+      "Politiet"
+    ],
+    "answer": "Børnehaver"
+  },
+  {
+    "question": "Hvad fejres hvert år den 5. juni?",
+    "options": [
+      "Kristi himmelfart",
+      "Grundlovsdag",
+      "Kvindernes internationale kampdag"
+    ],
+    "answer": "Grundlovsdag"
+  },
+  {
+    "question": "Hvilket af følgende områder mistede Danmark i 1864?",
+    "options": [
+      "Norge",
+      "Skåne",
+      "Slesvig"
+    ],
+    "answer": "Slesvig"
+  },
+  {
+    "question": "Hvor mange medlemmer har Folketinget?",
+    "options": [
+      "87",
+      "179",
+      "265"
+    ],
+    "answer": "179"
+  },
+  {
+    "question": "Hvor mange år går børn normalt i folkeskolen?",
+    "options": [
+      "10 år",
+      "12 år",
+      "14 år"
+    ],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvortil kan man normalt anke en afgørelse fra byretten?",
+    "options": [
+      "Landsretten",
+      "Højesteret"
+    ],
+    "answer": "Landsretten"
+  },
+  {
+    "question": "Er flertallet af Danmarks befolkning medlem af folkekirken?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad fremstiller den danske virksomhed LEGO?",
+    "options": [
+      "Insulin",
+      "Vindmøller",
+      "Legetøj"
+    ],
+    "answer": "Legetøj"
+  },
+  {
+    "question": "Hvilket år blev Danmark besat af tyske tropper?",
+    "options": [
+      "1935",
+      "1940",
+      "1945"
+    ],
+    "answer": "1940"
+  },
+  {
+    "question": "Hvornår er man ifølge loven myndig i Danmark?",
+    "options": [
+      "Når man fylder 15 år",
+      "Når man fylder 18 år",
+      "Når man fylder 21 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  },
+  {
+    "question": "Hvilket af følgende lande er ikke med i det danske rigsfællesskab?",
+    "options": [
+      "Færøerne",
+      "Grønland",
+      "Island"
+    ],
+    "answer": "Island"
+  },
+  {
+    "question": "Hvor blev danske FN-soldater udsendt til i 1990’erne som en del af FN’s styrker?",
+    "options": [
+      "Libyen",
+      "Afghanistan",
+      "Bosnien"
+    ],
+    "answer": "Bosnien"
+  },
+  {
+    "question": "Hvor mange regioner er der i Danmark?",
+    "options": [
+      "5",
+      "15",
+      "25"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "Skal politiet normalt give tilladelse til, at man afholder en demonstration?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad var Yahya Hassan særligt kendt for?",
+    "options": [
+      "Han var skuespiller",
+      "Han var fodboldspiller",
+      "Han var digter"
+    ],
+    "answer": "Han var digter"
+  },
+  {
+    "question": "I hvilken type institution går børn typisk, når de er fire år?",
+    "options": [
+      "Vuggestue",
+      "Børnehave"
+    ],
+    "answer": "Børnehave"
+  }
+]

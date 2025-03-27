@@ -1,0 +1,179 @@
+[
+  {
+    "question": "Hvor mange års undervisningspligt er der i Danmark?",
+    "options": ["8 år", "10 år", "12 år"],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvad er formålet med undervisningen i folkeskolen?",
+    "options": [
+      "At lære børn at tale engelsk",
+      "At forberede børnene til videre uddannelse og et demokratisk samfund",
+      "At gøre børn klar til arbejdsmarkedet"
+    ],
+    "answer": "At forberede børnene til videre uddannelse og et demokratisk samfund"
+  },
+  {
+    "question": "Hvad betyder det, at folkeskolen er gratis?",
+    "options": [
+      "Forældre skal betale for undervisningsmaterialer",
+      "Staten betaler for skolegang i folkeskolen",
+      "Kun børn af danske statsborgere kan gå der"
+    ],
+    "answer": "Staten betaler for skolegang i folkeskolen"
+  },
+  {
+    "question": "Hvilket organ laver love i Danmark?",
+    "options": ["Folketinget", "Domstolene", "Politiet"],
+    "answer": "Folketinget"
+  },
+  {
+    "question": "Hvor mange medlemmer vælges til Folketinget fra Grønland?",
+    "options": ["2", "4", "6"],
+    "answer": "2"
+  },
+  {
+    "question": "Hvad hedder princippet, hvor staten ikke blander sig meget i arbejdsmarkedet?",
+    "options": ["Den nordiske model", "Den danske model", "Velfærdsmodellen"],
+    "answer": "Den danske model"
+  },
+  {
+    "question": "Hvad er en fagforening?",
+    "options": [
+      "En gruppe, der laver skolematerialer",
+      "En organisation, der repræsenterer arbejdstageres rettigheder",
+      "En forening for frivillige"
+    ],
+    "answer": "En organisation, der repræsenterer arbejdstageres rettigheder"
+  },
+  {
+    "question": "Hvad kaldes den økonomiske støtte til studerende i Danmark?",
+    "options": ["SU", "SKAT", "PPR"],
+    "answer": "SU"
+  },
+  {
+    "question": "Hvornår kan børn begynde at få karakterer i folkeskolen?",
+    "options": ["Fra 3. klasse", "Fra 8. klasse", "Fra 5. klasse"],
+    "answer": "Fra 8. klasse"
+  },
+  {
+    "question": "Hvilket dokument sikrer religionsfrihed i Danmark?",
+    "options": ["Kommunalreformen", "Grundloven", "Skoleloven"],
+    "answer": "Grundloven"
+  },
+  {
+    "question": "Hvad er en skolebestyrelse?",
+    "options": [
+      "En komité for kommunale beslutninger",
+      "Et udvalg for at vælge lærere",
+      "Et råd med forældre, elever og ansatte, der hjælper med beslutninger"
+    ],
+    "answer": "Et råd med forældre, elever og ansatte, der hjælper med beslutninger"
+  },
+  {
+    "question": "Hvad er SFO?",
+    "options": [
+      "En skole for voksne",
+      "Skolefritidsordning for børn efter skoletid",
+      "Et sportscenter"
+    ],
+    "answer": "Skolefritidsordning for børn efter skoletid"
+  },
+  {
+    "question": "Hvad er en efterskole?",
+    "options": [
+      "En skole for ældre mennesker",
+      "En skole, hvor man bor og går i 8., 9. eller 10. klasse",
+      "En eftermiddagsskole"
+    ],
+    "answer": "En skole, hvor man bor og går i 8., 9. eller 10. klasse"
+  },
+  {
+    "question": "Hvad betyder “flexicurity”?",
+    "options": [
+      "Fast arbejde og ingen opsigelser",
+      "Fleksibelt arbejdsmarked med social sikkerhed",
+      "En ordning for pensionister"
+    ],
+    "answer": "Fleksibelt arbejdsmarked med social sikkerhed"
+  },
+  {
+    "question": "Hvilket ansvar har en arbejdsmiljørepræsentant?",
+    "options": [
+      "At føre regnskab på arbejdspladsen",
+      "At arrangere ferier",
+      "At sikre et godt fysisk og psykisk arbejdsmiljø"
+    ],
+    "answer": "At sikre et godt fysisk og psykisk arbejdsmiljø"
+  },
+  {
+    "question": "Hvilket ansvar har pædagoger i dagtilbud?",
+    "options": [
+      "At undervise i engelsk",
+      "At støtte børns trivsel, udvikling og læring",
+      "At lave mad til børnene"
+    ],
+    "answer": "At støtte børns trivsel, udvikling og læring"
+  },
+  {
+    "question": "Hvilken offentlig ydelse kan man søge, hvis man mister sit arbejde og ikke er i en a-kasse?",
+    "options": ["Børnepenge", "SU", "Kontanthjælp"],
+    "answer": "Kontanthjælp"
+  },
+  {
+    "question": "Hvor mange ugers ferie med løn har man som udgangspunkt ret til i Danmark?",
+    "options": ["3 uger", "5 uger", "6 uger"],
+    "answer": "5 uger"
+  },
+  {
+    "question": "Hvad lærer børn i Danmark om i samfundsfag i folkeskolen?",
+    "options": [
+      "Madlavning og sport",
+      "Politiske systemer og demokrati",
+      "Hvordan man bygger huse"
+    ],
+    "answer": "Politiske systemer og demokrati"
+  },
+  {
+    "question": "Hvad betyder det, at Danmark har åndsfrihed?",
+    "options": [
+      "Man må kun tale dansk",
+      "Man må frit vælge sine tanker og tro",
+      "Man skal gå i kirke"
+    ],
+    "answer": "Man må frit vælge sine tanker og tro"
+  },
+  {
+    "question": "Hvor mange regioner er der i Danmark?",
+    "options": ["3", "5", "8"],
+    "answer": "5"
+  },
+  {
+    "question": "Hvad er formålet med de frie grundskoler?",
+    "options": [
+      "At følge alternative pædagogiske eller religiøse metoder",
+      "At undervise børn i udlandet",
+      "At tilbyde sportstræning"
+    ],
+    "answer": "At følge alternative pædagogiske eller religiøse metoder"
+  },
+  {
+    "question": "Hvad er et elevråd i folkeskolen?",
+    "options": [
+      "En gruppe lærere",
+      "En gruppe elever med indflydelse på skolens hverdag",
+      "Et møde mellem forældre"
+    ],
+    "answer": "En gruppe elever med indflydelse på skolens hverdag"
+  },
+  {
+    "question": "Hvor længe varer en typisk gymnasial uddannelse (stx, hhx, htx)?",
+    "options": ["2 år", "3 år", "4 år"],
+    "answer": "3 år"
+  },
+  {
+    "question": "Hvem har pligt til at sikre, at børn får undervisning?",
+    "options": ["Kommunen", "Forældrene", "Skolen"],
+    "answer": "Forældrene"
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "question": "Kan man få arbejdsløshedsdagpenge uden at være medlem af en arbejdsløshedskasse (A-kasse)?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilken rettighed er beskyttet af den danske grundlov?",
+    "options": [
+      "Retten til at holde ferie",
+      "Retten til at eje våben",
+      "Retten til at forsamles"
+    ],
+    "answer": "Retten til at forsamles"
+  },
+  {
+    "question": "Hvornår blev protestantismen indført i Danmark?",
+    "options": [
+      "I 1100-tallet",
+      "I 1300-tallet",
+      "I 1500-tallet"
+    ],
+    "answer": "I 1500-tallet"
+  },
+  {
+    "question": "Hvem holder sin nytårstale den 31. december?",
+    "options": [
+      "Dronningen",
+      "Statsministeren"
+    ],
+    "answer": "Dronningen"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Fyn og Sjælland?",
+    "options": [
+      "Storebælt",
+      "Øresund",
+      "Lillebælt"
+    ],
+    "answer": "Storebælt"
+  },
+  {
+    "question": "Skal man være dansk statsborger for at stemme til folketingsvalg?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvornår kan man som hjemmeboende tidligst få SU (Statens Uddannelsesstøtte)?",
+    "options": [
+      "Når man fylder 14 år",
+      "Når man fylder 16 år",
+      "Når man fylder 18 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  },
+  {
+    "question": "Har en medarbejder altid krav på at arbejde deltid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Skal forældre normalt betale for, at deres børn går i en friskole eller privatskole?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem har den dømmende magt?",
+    "options": [
+      "Folketinget",
+      "Regeringen",
+      "Domstolene"
+    ],
+    "answer": "Domstolene"
+  },
+  {
+    "question": "Hvilken af følgende virksomheder producerer vindmøller?",
+    "options": [
+      "Vestas",
+      "Novo Nordisk",
+      "Arla"
+    ],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Hvor ofte er der valg til kommunalbestyrelser og regionsråd?",
+    "options": [
+      "Hvert 3. år",
+      "Hvert 4. år",
+      "Hvert 5. år"
+    ],
+    "answer": "Hvert 4. år"
+  },
+  {
+    "question": "Betyder en betinget fængselsstraf, at man skal direkte i fængsel?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad er P.S. Krøyer særlig kendt for?",
+    "options": [
+      "Han var videnskabsmand",
+      "Han var politiker",
+      "Han var kunstmaler"
+    ],
+    "answer": "Han var kunstmaler"
+  },
+  {
+    "question": "Ved hvilken by i Jylland ligger Danmarks nordligste punkt Grenen?",
+    "options": [
+      "Skagen",
+      "Aarhus",
+      "Aalborg"
+    ],
+    "answer": "Skagen"
+  },
+  {
+    "question": "I forbindelse med hvilken mærkedag klæder børn sig ud og slår katten af tønden?",
+    "options": [
+      "Sankthans",
+      "Fastelavn",
+      "Pinse"
+    ],
+    "answer": "Fastelavn"
+  },
+  {
+    "question": "Hvem vælger en tillidsrepræsentant på en arbejdsplads?",
+    "options": [
+      "Medarbejderne og arbejdsgiveren i fællesskab",
+      "Arbejdsgiveren",
+      "Medarbejderne"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt på Færøerne?",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Ved hvilken bygning blev der begået et terrorangreb i 2015?",
+    "options": [
+      "Københavns Hovedbanegård",
+      "Københavns Synagoge",
+      "Københavns Lufthavn"
+    ],
+    "answer": "Københavns Synagoge"
+  },
+  {
+    "question": "Hvor mange regioner er Danmark opdelt i?",
+    "options": [
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "Hvem står for driften af de offentlige sygehuse?",
+    "options": [
+      "Kommunerne",
+      "Regionerne",
+      "Staten"
+    ],
+    "answer": "Regionerne"
+  },
+  {
+    "question": "Hvilket område mistede Danmark i 1864?",
+    "options": [
+      "Norge",
+      "Skåne",
+      "Slesvig"
+    ],
+    "answer": "Slesvig"
+  },
+  {
+    "question": "Hvad hedder Danmarks første kvindelige statsminister?",
+    "options": [
+      "Pia Kjærsgaard",
+      "Mette Frederiksen",
+      "Helle Thorning-Schmidt"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Hvad fejres hvert år den 5. juni?",
+    "options": [
+      "Kristi Himmelfart",
+      "Grundlovsdag",
+      "Fastelavn"
+    ],
+    "answer": "Grundlovsdag"
+  },
+  {
+    "question": "Hvornår er man ifølge loven myndig i Danmark?",
+    "options": [
+      "Når man fylder 15 år",
+      "Når man fylder 18 år",
+      "Når man fylder 21 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  }
+]

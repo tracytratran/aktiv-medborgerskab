@@ -1,0 +1,215 @@
+[
+  {
+    "question": "Skal Folketingets medlemmer tilhøre et politisk parti?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvem var Danmarks første kvindelige statsminister?",
+    "options": [
+      "Pia Olsen Dyhr",
+      "Sofie Carsten Nielsen",
+      "Helle Thorning-Schmidt"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Hvilken rettighed fik kvinder i forbindelse med grundlovsændringen i 1915?",
+    "options": [
+      "Retten til at stemme til den lovgivende forsamling",
+      "Retten til at få en abort til og med 12. graviditetsuge",
+      "Retten til at blive skilt fra en voldelig ægtemand"
+    ],
+    "answer": "Retten til at stemme til den lovgivende forsamling"
+  },
+  {
+    "question": "Må man danne en forening, hvis man ikke er dansk statsborger?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Jylland og Fyn?",
+    "options": [
+      "Storebælt",
+      "Øresund",
+      "Lillebælt"
+    ],
+    "answer": "Lillebælt"
+  },
+  {
+    "question": "Er det normalt gratis at være medlem af en fagforening?",
+    "options": [
+      "Nej",
+      "Ja"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvornår blev Danmarks Riges Grundlov indført?",
+    "options": [
+      "1661",
+      "1788",
+      "1849"
+    ],
+    "answer": "1849"
+  },
+  {
+    "question": "Er undervisningen gratis på de offentlige gymnasier?",
+    "options": [
+      "Nej",
+      "Ja"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er en straffeattest?",
+    "options": [
+      "Et dokument, man skal vise til politiet, hvis man bliver anholdt",
+      "Et dokument, der viser, om man har været straffet for visse forbrydelser"
+    ],
+    "answer": "Et dokument, der viser, om man har været straffet for visse forbrydelser"
+  },
+  {
+    "question": "Hvornår levede forfatteren H.C. Andersen?",
+    "options": [
+      "1805-1875",
+      "1855-1925",
+      "1905-1975"
+    ],
+    "answer": "1805-1875"
+  },
+  {
+    "question": "Hvor gammel skal man være for at blive gift i Danmark?",
+    "options": [
+      "Mindst 15 år",
+      "Mindst 18 år",
+      "Mindst 21 år"
+    ],
+    "answer": "Mindst 18 år"
+  },
+  {
+    "question": "Hvad er det danske firma Novo Nordisk særlig kendt for at producere?",
+    "options": [
+      "Legetøj",
+      "Vindmøller",
+      "Medicin"
+    ],
+    "answer": "Medicin"
+  },
+  {
+    "question": "Kan man blive gift i folkekirken, hvis man ikke er medlem?",
+    "options": [
+      "Ja, hvis den, man skal giftes med, er medlem",
+      "Nej, begge, der skal giftes, skal være medlemmer"
+    ],
+    "answer": "Ja, hvis den, man skal giftes med, er medlem"
+  },
+  {
+    "question": "Hvornår blev Danmark besat af tyske tropper under 2. Verdenskrig?",
+    "options": [
+      "April 1937",
+      "April 1940",
+      "April 1945"
+    ],
+    "answer": "April 1940"
+  },
+  {
+    "question": "Hvilke lande er med i rigsfællesskabet?",
+    "options": [
+      "Danmark, Grønland og Færøerne",
+      "Danmark, Island og Norge"
+    ],
+    "answer": "Danmark, Grønland og Færøerne"
+  },
+  {
+    "question": "Hvordan bliver det afgjort, hvem der skal være konge eller dronning i Danmark?",
+    "options": [
+      "Folketinget vælger den bedst kvalificerede",
+      "Den nye konge eller dronning arver tronen",
+      "Det bliver afgjort gennem en folkeafstemning"
+    ],
+    "answer": "Den nye konge eller dronning arver tronen"
+  },
+  {
+    "question": "Hvem står normalt for driften af de offentlige børnehaver og vuggestuer?",
+    "options": [
+      "Staten",
+      "Regionerne",
+      "Kommunerne"
+    ],
+    "answer": "Kommunerne"
+  },
+  {
+    "question": "Hvor gamle er børn normalt, når de begynder i 0. klasse i skolen?",
+    "options": [
+      "3-4 år",
+      "5-6 år",
+      "7-8 år"
+    ],
+    "answer": "5-6 år"
+  },
+  {
+    "question": "Er Danmark medlem af NATO?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er Karen Blixen især kendt for?",
+    "options": [
+      "Hun skrev bøger",
+      "Hun lavede billedkunst",
+      "Hun spillede teater"
+    ],
+    "answer": "Hun skrev bøger"
+  },
+  {
+    "question": "Har man normalt mulighed for at få økonomisk støtte under barsels- og fædreorlov?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Må en arbejdsgiver fyre en ansat, fordi han eller hun melder sig ind i en fagforening?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvem er den øverste politiske leder af en kommune?",
+    "options": [
+      "En borgmester",
+      "En kommunaldirektør"
+    ],
+    "answer": "En borgmester"
+  },
+  {
+    "question": "Hvor mange kommuner er der i Danmark?",
+    "options": [
+      "68",
+      "98",
+      "128"
+    ],
+    "answer": "98"
+  },
+  {
+    "question": "Må en arbejdsgiver fyre en kvinde, fordi hun er gravid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  }
+]

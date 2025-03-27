@@ -1,0 +1,812 @@
+{
+    "Skole": [
+        {
+            "question": "Hvornår starter børn typisk i folkeskolen i Danmark?",
+            "options": ["5 år", "6 år", "7 år"],
+            "answer": "6 år"
+        },
+        {
+            "question": "Hvor længe varer undervisningspligten i Danmark?",
+            "options": ["8 år", "9 år", "10 år"],
+            "answer": "10 år"
+        },
+        {
+            "question": "Hvilken klasse afslutter normalt folkeskolens forløb?",
+            "options": ["8. klasse", "9. klasse", "10. klasse"],
+            "answer": "9. klasse"
+        },
+        {
+            "question": "Er 10. klasse obligatorisk i Danmark?",
+            "options": ["Ja", "Nej"],
+            "answer": "Nej"
+        },
+        {
+            "question": "Hvilket trin i folkeskolen dækker 4. til 6. klasse?",
+            "options": ["Indskolingen", "Mellemtrinnet", "Udskolingen"],
+            "answer": "Mellemtrinnet"
+        },
+        {
+            "question": "Hvad er en efterskole?",
+            "options": [
+                "En skole for voksne",
+                "En skole med fokus på musik",
+                "En skole hvor eleverne bor og går i skole i 8.-10. klasse"
+            ],
+            "answer": "En skole hvor eleverne bor og går i skole i 8.-10. klasse"
+        },
+        {
+            "question": "Hvad lærer eleverne i folkeskolen ud over faglig viden?",
+            "options": [
+                "Sociale og personlige færdigheder",
+                "Kun grammatik",
+                "Kun matematik"
+            ],
+            "answer": "Sociale og personlige færdigheder"
+        },
+        {
+            "question": "Hvilket formål har undervisning i fx historie og samfundsfag?",
+            "options": [
+                "At forbedre matematikfærdigheder",
+                "At lære børnene om demokrati og rettigheder",
+                "At lære at bruge computerprogrammer"
+            ],
+            "answer": "At lære børnene om demokrati og rettigheder"
+        },
+        {
+            "question": "Hvad er en skolebestyrelse?",
+            "options": [
+                "En gruppe lærere",
+                "Et råd af forældre, elever og ansatte",
+                "Et udvalg af kommunale politikere"
+            ],
+            "answer": "Et råd af forældre, elever og ansatte"
+        },
+        {
+            "question": "Hvad lærer børnene gennem gruppearbejde og lejrskoler?",
+            "options": [
+                "Fysik og kemi",
+                "Indkøb og madlavning",
+                "Samarbejde og sociale færdigheder"
+            ],
+            "answer": "Samarbejde og sociale færdigheder"
+        },
+        {
+            "question": "Hvornår begynder eleverne at få karakterer i folkeskolen?",
+            "options": ["Fra 6. klasse", "Fra 7. klasse", "Fra 8. klasse"],
+            "answer": "Fra 8. klasse"
+        },
+        {
+            "question": "Hvilken karakterskala bruges i Danmark?",
+            "options": ["A-F", "1-10", "7-trinsskalaen"],
+            "answer": "7-trinsskalaen"
+        },
+        {
+            "question": "Hvad er formålet med skole-hjem-samarbejdet?",
+            "options": [
+                "At planlægge skolens budget",
+                "At støtte elevens læring og trivsel",
+                "At arrangere skolefester"
+            ],
+            "answer": "At støtte elevens læring og trivsel"
+        },
+        {
+            "question": "Hvad er en skole-hjem-samtale?",
+            "options": [
+                "En evaluering med elevens lærere og forældre",
+                "Et forældremøde for hele skolen",
+                "Et møde med kommunen"
+            ],
+            "answer": "En evaluering med elevens lærere og forældre"
+        },
+        {
+            "question": "Hvad er et elevråd?",
+            "options": [
+                "En gruppe lærere der planlægger aktiviteter",
+                "Et udvalg af elever som repræsenterer deres klasser",
+                "Et udvalg af forældre"
+            ],
+            "answer": "Et udvalg af elever som repræsenterer deres klasser"
+        },
+        {
+            "question": "Hvad kan et klasseråd hjælpe med?",
+            "options": [
+                "Undervisning i matematik",
+                "Sociale aktiviteter og trivsel i klassen",
+                "Vælge skolebøger"
+            ],
+            "answer": "Sociale aktiviteter og trivsel i klassen"
+        },
+        {
+            "question": "Hvem har ansvar for at føre kontakt mellem skole og hjem?",
+            "options": [
+                "Borgmesteren",
+                "Skole-hjem-vejlederen",
+                "Rengøringspersonalet"
+            ],
+            "answer": "Skole-hjem-vejlederen"
+        },
+        {
+            "question": "Hvad er meddelelsesbogen?",
+            "options": [
+                "Et karakterblad fra kommunen",
+                "Lærerens vurdering af elevens faglige og sociale niveau",
+                "Et skoleblad for elever"
+            ],
+            "answer": "Lærerens vurdering af elevens faglige og sociale niveau"
+        },
+        {
+            "question": "Hvad er en fri grundskole?",
+            "options": [
+                "En offentlig skole uden lærere",
+                "En selvejende skole med særlig pædagogik eller religion",
+                "En skole for voksne"
+            ],
+            "answer": "En selvejende skole med særlig pædagogik eller religion"
+        },
+        {
+            "question": "Hvem betaler normalt for frie grundskoler?",
+            "options": ["Staten", "Forældrene", "Kommunen"],
+            "answer": "Forældrene"
+        }
+    ],
+    "Uddannelse": [
+        {
+            "question": "Hvad betyder det, at Danmark er et videnssamfund?",
+            "options": [
+                "Man arbejder mest med fysisk arbejde",
+                "Viden er en vigtig ressource i mange job",
+                "Folk får kun korte uddannelser"
+            ],
+            "answer": "Viden er en vigtig ressource i mange job"
+        },
+        {
+            "question": "Hvad er formålet med FGU (forberedende grunduddannelse)?",
+            "options": [
+                "At forberede unge til universitetet",
+                "At hjælpe unge under 25 uden uddannelse eller job",
+                "At give unge kørekort"
+            ],
+            "answer": "At hjælpe unge under 25 uden uddannelse eller job"
+        },
+        {
+            "question": "Hvad står STU for?",
+            "options": [
+                "Særlig tilrettelagt ungdomsuddannelse",
+                "Studenteruddannelse for unge",
+                "Statens tekniske undervisning"
+            ],
+            "answer": "Særlig tilrettelagt ungdomsuddannelse"
+        },
+        {
+            "question": "Hvilken STU-målgruppe nævnes i materialet?",
+            "options": [
+                "Unge med høje karakterer",
+                "Unge med særlige behov eller handicap",
+                "Unge med job i forvejen"
+            ],
+            "answer": "Unge med særlige behov eller handicap"
+        },
+        {
+            "question": "Hvor mange år varer en STX, HHX eller HTX?",
+            "options": ["2 år", "3 år", "4 år"],
+            "answer": "3 år"
+        },
+        {
+            "question": "Hvad karakteriserer HF-uddannelsen?",
+            "options": [
+                "Varer tre år og er rettet mod universitet",
+                "Varer to år og er rettet mod korte og mellemlange videregående uddannelser",
+                "Er en teknisk uddannelse"
+            ],
+            "answer": "Varer to år og er rettet mod korte og mellemlange videregående uddannelser"
+        },
+        {
+            "question": "Hvad lærer man typisk på HHX?",
+            "options": [
+                "Naturvidenskab",
+                "Handels- og økonomifag",
+                "Socialfag"
+            ],
+            "answer": "Handels- og økonomifag"
+        },
+        {
+            "question": "Hvor foregår HTX-uddannelsen typisk?",
+            "options": [
+                "Landbrugsskoler",
+                "Handelsskoler",
+                "Tekniske gymnasier"
+            ],
+            "answer": "Tekniske gymnasier"
+        },
+        {
+            "question": "Hvad er en erhvervsuddannelse typisk opdelt i?",
+            "options": [
+                "Teori og eksamen",
+                "Grundforløb og hovedforløb",
+                "Moduler og semestre"
+            ],
+            "answer": "Grundforløb og hovedforløb"
+        },
+        {
+            "question": "Hvad får man typisk under oplæring i erhvervsuddannelse?",
+            "options": ["SU", "Ingen betaling", "Løn"],
+            "answer": "Løn"
+        },
+        {
+            "question": "Hvad betyder EUX?",
+            "options": [
+                "En erhvervsuddannelse med indbyggede gymnasiale fag",
+                "Et særligt kursus for udlændinge",
+                "En eksamen i europæisk historie"
+            ],
+            "answer": "En erhvervsuddannelse med indbyggede gymnasiale fag"
+        },
+        {
+            "question": "Hvor lang er en typisk erhvervsakademiuddannelse?",
+            "options": ["1 år", "2 år", "4 år"],
+            "answer": "2 år"
+        },
+        {
+            "question": "Hvilken type uddannelse kan man tage på en professionshøjskole?",
+            "options": [
+                "Professionsbachelor som lærer, pædagog eller sygeplejerske",
+                "Gymnasial uddannelse",
+                "Grundskoleuddannelse"
+            ],
+            "answer": "Professionsbachelor som lærer, pædagog eller sygeplejerske"
+        },
+        {
+            "question": "Hvor mange universiteter findes i Danmark?",
+            "options": ["5", "7", "8"],
+            "answer": "8"
+        },
+        {
+            "question": "Hvad hedder den økonomiske støtte, studerende kan få?",
+            "options": ["Løntilskud", "SU", "Borgerløn"],
+            "answer": "SU"
+        },
+        {
+            "question": "Hvad kræves for at få SU?",
+            "options": [
+                "At man er født i Danmark",
+                "At man er indskrevet og studieaktiv",
+                "At man har børn"
+            ],
+            "answer": "At man er indskrevet og studieaktiv"
+        },
+        {
+            "question": "Hvad står AMU for?",
+            "options": [
+                "Almen Menneskelig Undervisning",
+                "Arbejdsmarkedsuddannelser",
+                "Akademisk Moduluddannelse"
+            ],
+            "answer": "Arbejdsmarkedsuddannelser"
+        },
+        {
+            "question": "Hvad kan voksne tage på VUC, hvis de har svært ved at læse og skrive?",
+            "options": ["AMU", "FVU", "HF"],
+            "answer": "FVU"
+        },
+        {
+            "question": "Hvad er formålet med AVU-kurser på VUC?",
+            "options": [
+                "At lære børn matematik",
+                "At give voksne fag på grundskoleniveau",
+                "At tilbyde danskundervisning til turister"
+            ],
+            "answer": "At give voksne fag på grundskoleniveau"
+        },
+        {
+            "question": "Hvornår kan man normalt tage ordblindeundervisning (OBU)?",
+            "options": [
+                "Efter 15 år",
+                "Når man starter universitetet",
+                "Efter man er fyldt 25 år"
+            ],
+            "answer": "Efter man er fyldt 25 år"
+        }
+    ],
+    "Dagtilbud": [
+        {
+            "question": "Hvem har ansvaret for dagtilbuddene i Danmark?",
+            "options": ["Skolen", "Staten", "Kommunerne"],
+            "answer": "Kommunerne"
+        },
+        {
+            "question": "Hvad er formålet med det pædagogiske arbejde i dagtilbud?",
+            "options": [
+                "At undervise i dansk grammatik",
+                "At fremme børns trivsel, udvikling og læring",
+                "At forberede børn til gymnasiet"
+            ],
+            "answer": "At fremme børns trivsel, udvikling og læring"
+        },
+        {
+            "question": "Hvad er en vuggestue?",
+            "options": [
+                "Et fritidstilbud for unge",
+                "Et pasningstilbud for børn op til 3 år",
+                "En skole for små børn"
+            ],
+            "answer": "Et pasningstilbud for børn op til 3 år"
+        },
+        {
+            "question": "Hvad laver pædagogerne i vuggestuen?",
+            "options": [
+                "Lærer børn at læse",
+                "Underviser i matematik",
+                "Støtter børns sproglige og kropslige udvikling"
+            ],
+            "answer": "Støtter børns sproglige og kropslige udvikling"
+        },
+        {
+            "question": "Hvordan stimulerer pædagogerne børns sprog i vuggestuen?",
+            "options": [
+                "Ved at læse bøger, synge og tale med børnene",
+                "Ved at vise tv",
+                "Ved at give lektier"
+            ],
+            "answer": "Ved at læse bøger, synge og tale med børnene"
+        },
+        {
+            "question": "Hvad er en dagpleje?",
+            "options": [
+                "Et dagtilbud i en privat institution",
+                "Pasning i dagplejerens eget hjem",
+                "En børnehave med mange børn"
+            ],
+            "answer": "Pasning i dagplejerens eget hjem"
+        },
+        {
+            "question": "Hvad er et krav til dagplejehjem?",
+            "options": [
+                "De skal være privatejede",
+                "Der må ikke ryges, hvor børnene opholder sig",
+                "De skal være udenfor byen"
+            ],
+            "answer": "Der må ikke ryges, hvor børnene opholder sig"
+        },
+        {
+            "question": "Hvad er børnehavealderen typisk?",
+            "options": ["0–2 år", "3–6 år", "7–10 år"],
+            "answer": "3–6 år"
+        },
+        {
+            "question": "Hvad lærer børn i børnehaven?",
+            "options": [
+                "Kun bogstaver og tal",
+                "Sociale færdigheder, sprog og kreativitet",
+                "Gymnasiale fag"
+            ],
+            "answer": "Sociale færdigheder, sprog og kreativitet"
+        },
+        {
+            "question": "Hvad er SFO?",
+            "options": [
+                "Et tilbud for børn efter skoletid",
+                "Et pædagogisk universitet",
+                "En skolefaglig organisation"
+            ],
+            "answer": "Et tilbud for børn efter skoletid"
+        },
+        {
+            "question": "Hvem arbejder i SFO'en?",
+            "options": ["Lærere", "Pædagoger", "Sygeplejersker"],
+            "answer": "Pædagoger"
+        },
+        {
+            "question": "Hvad er formålet med fritidsklubber for større børn?",
+            "options": [
+                "At tilbyde aftenundervisning",
+                "At tilbyde aktiviteter som sport, musik og film",
+                "At gøre børn skoleparate"
+            ],
+            "answer": "At tilbyde aktiviteter som sport, musik og film"
+        },
+        {
+            "question": "Hvorfor er forældresamarbejde vigtigt i dagtilbud?",
+            "options": [
+                "Fordi kommunen kræver det",
+                "Fordi det hjælper barnet til trivsel og udvikling",
+                "Fordi børnene lærer hurtigere"
+            ],
+            "answer": "Fordi det hjælper barnet til trivsel og udvikling"
+        },
+        {
+            "question": "Hvad foregår typisk til et forældremøde i en institution?",
+            "options": [
+                "Undervisning af forældrene",
+                "Valg af kommuneledelse",
+                "Information og dialog om hverdagen og aktiviteter"
+            ],
+            "answer": "Information og dialog om hverdagen og aktiviteter"
+        },
+        {
+            "question": "Hvem vælger forældrebestyrelsen i daginstitutioner?",
+            "options": ["Kommunen", "Børnene", "Forældrene"],
+            "answer": "Forældrene"
+        },
+        {
+            "question": "Hvad har forældrebestyrelsen indflydelse på?",
+            "options": [
+                "Pædagogernes løn",
+                "Institutionens økonomi og aktiviteter",
+                "Byggeriet af skolen"
+            ],
+            "answer": "Institutionens økonomi og aktiviteter"
+        },
+        {
+            "question": "Hvem betaler for dagtilbud?",
+            "options": [
+                "Kun staten",
+                "Kun forældrene",
+                "Kommunen og forældrene"
+            ],
+            "answer": "Kommunen og forældrene"
+        },
+        {
+            "question": "Kan nogle familier få ekstra økonomisk hjælp til betaling af dagtilbud?",
+            "options": [
+                "Nej, det er ens for alle",
+                "Ja, fx enlige forsørgere",
+                "Kun hvis børnene er over 5 år"
+            ],
+            "answer": "Ja, fx enlige forsørgere"
+        },
+        {
+            "question": "Hvad er dagtilbudslovens overordnede formål?",
+            "options": [
+                "At sikre undervisning i matematik",
+                "At fremme børns trivsel, udvikling og læring",
+                "At få børn til at sove mere"
+            ],
+            "answer": "At fremme børns trivsel, udvikling og læring"
+        },
+        {
+            "question": "Hvordan støtter dagtilbud børn med sproglige udfordringer?",
+            "options": [
+                "Ved at give lektier",
+                "Ved hjælp af sprogstimulering og dialog",
+                "Ved at bruge tegnsprog"
+            ],
+            "answer": "Ved hjælp af sprogstimulering og dialog"
+        }
+    ],
+    "Det danske arbejdsmarked": [
+        {
+            "question": "Hvad betyder 'den danske model' på arbejdsmarkedet?",
+            "options": [
+                "At staten bestemmer alle lønninger",
+                "At arbejdsmarkedets parter selv aftaler regler",
+                "At alle får samme løn"
+            ],
+            "answer": "At arbejdsmarkedets parter selv aftaler regler"
+        },
+        {
+            "question": "Hvad er en kollektiv overenskomst?",
+            "options": [
+                "En aftale mellem to arbejdere",
+                "En lov vedtaget af Folketinget",
+                "En aftale mellem fagforeninger og arbejdsgivere"
+            ],
+            "answer": "En aftale mellem fagforeninger og arbejdsgivere"
+        },
+        {
+            "question": "Hvad betyder 'fredspligt' under en overenskomst?",
+            "options": [
+                "Der må ikke være krig i landet",
+                "Der må ikke være strejker eller lockout",
+                "Man skal holde ferie"
+            ],
+            "answer": "Der må ikke være strejker eller lockout"
+        },
+        {
+            "question": "Hvad kan fagforeninger gøre, hvis forhandlinger bryder sammen?",
+            "options": [
+                "Indkalde politiet",
+                "Organisere strejker",
+                "Ansætte flere"
+            ],
+            "answer": "Organisere strejker"
+        },
+        {
+            "question": "Hvad er en lockout?",
+            "options": [
+                "Når ansatte nægter at arbejde",
+                "Når arbejdsgivere forhindrer ansatte i at møde på arbejde",
+                "Når folk arbejder hjemmefra"
+            ],
+            "answer": "Når arbejdsgivere forhindrer ansatte i at møde på arbejde"
+        },
+        {
+            "question": "Hvor mange danskere i alderen 15–64 år har arbejde?",
+            "options": ["Ca. halvdelen", "Ca. 3 ud af 4", "Ca. 1 ud af 5"],
+            "answer": "Ca. 3 ud af 4"
+        },
+        {
+            "question": "Hvad betyder 'flexicurity'?",
+            "options": [
+                "Fast ansættelse hele livet",
+                "Fleksibelt arbejdsmarked og tryghed for de ansatte",
+                "Gratis ferie"
+            ],
+            "answer": "Fleksibelt arbejdsmarked og tryghed for de ansatte"
+        },
+        {
+            "question": "Hvad koster det typisk at være medlem af en fagforening?",
+            "options": [
+                "Gratis",
+                "Et månedligt kontingent",
+                "Man får penge for det"
+            ],
+            "answer": "Et månedligt kontingent"
+        },
+        {
+            "question": "Hvad er typisk dækket i en kollektiv overenskomst?",
+            "options": [
+                "Køb af bolig",
+                "Løn, arbejdstid og pension",
+                "SU og boligstøtte"
+            ],
+            "answer": "Løn, arbejdstid og pension"
+        },
+        {
+            "question": "Hvem forhandler overenskomster i Danmark?",
+            "options": [
+                "Folketinget og kommunerne",
+                "Fagforeninger og arbejdsgiverorganisationer",
+                "Skoler og hospitaler"
+            ],
+            "answer": "Fagforeninger og arbejdsgiverorganisationer"
+        },
+        {
+            "question": "Hvor mange ugers ferie er sikret ved lov i Danmark?",
+            "options": ["4 uger", "5 uger", "6 uger"],
+            "answer": "5 uger"
+        },
+        {
+            "question": "Hvad gælder på arbejdspladsen under barselsorlov?",
+            "options": [
+                "Man må ikke vende tilbage til arbejdet",
+                "Man kan ikke få løn",
+                "Der er regler om løn og rettigheder"
+            ],
+            "answer": "Der er regler om løn og rettigheder"
+        },
+        {
+            "question": "Hvem vælger en tillidsrepræsentant?",
+            "options": ["Arbejdsgiveren", "Staten", "Medarbejderne"],
+            "answer": "Medarbejderne"
+        },
+        {
+            "question": "Hvad er en a-kasse?",
+            "options": [
+                "Et kursuscenter",
+                "En arbejdsformidling",
+                "En arbejdsløshedskasse, der udbetaler dagpenge"
+            ],
+            "answer": "En arbejdsløshedskasse, der udbetaler dagpenge"
+        },
+        {
+            "question": "Hvad kræves for at få dagpenge?",
+            "options": [
+                "At man er i arbejde",
+                "At man er medlem af en a-kasse og opfylder visse krav",
+                "At man er pensionist"
+            ],
+            "answer": "At man er medlem af en a-kasse og opfylder visse krav"
+        },
+        {
+            "question": "Hvad er 'Min Plan'?",
+            "options": [
+                "Et personligt budget",
+                "Et jobcenter- og aktiveringsforløb for ledige",
+                "En ferieplan"
+            ],
+            "answer": "Et jobcenter- og aktiveringsforløb for ledige"
+        },
+        {
+            "question": "Hvilken økonomisk hjælp kan man få, hvis man ikke er i en a-kasse?",
+            "options": ["SU", "Barselsdagpenge", "Kontanthjælp"],
+            "answer": "Kontanthjælp"
+        },
+        {
+            "question": "Hvad skal selvstændige oplyse til SKAT?",
+            "options": ["CV", "Sprogkundskaber", "Overskud og underskud"],
+            "answer": "Overskud og underskud"
+        },
+        {
+            "question": "Hvordan kan man blive selvstændig?",
+            "options": [
+                "Ved at søge Folketingets tilladelse",
+                "Ved at registrere sig hos Erhvervsstyrelsen",
+                "Ved at tage en test på Jobcenteret"
+            ],
+            "answer": "Ved at registrere sig hos Erhvervsstyrelsen"
+        },
+        {
+            "question": "Hvor kan man få hjælp til at starte virksomhed?",
+            "options": [
+                "Hos jobcentret",
+                "Hos vækstkonsulenter og kommunale erhvervsrådgivere",
+                "På politistationen"
+            ],
+            "answer": "Hos vækstkonsulenter og kommunale erhvervsrådgivere"
+        }
+    ],
+    "Dansk erhvervsliv": [
+        {
+            "question": "Hvilken sektor beskæftiger flest i det private erhvervsliv i Danmark?",
+            "options": ["Landbrug", "Industri og service", "Militæret"],
+            "answer": "Industri og service"
+        }
+    ],
+    "Det danske velfærdssamfund": [
+        {
+            "question": "Hvordan finansieres det danske velfærdssamfund primært?",
+            "options": ["Donationer", "Skatter", "Brugerbetaling"],
+            "answer": "Skatter"
+        }
+    ],
+    "Familieliv": [
+        {
+            "question": "Hvem har forældremyndighed over et barn ved fødslen?",
+            "options": ["Kun moderen", "Begge forældre", "Bedsteforældre"],
+            "answer": "Begge forældre"
+        }
+    ],
+    "Forenings- og fritidsliv": [
+        {
+            "question": "Hvilken fritidsaktivitet er meget udbredt i Danmark?",
+            "options": ["Skydning", "Foreningsidræt", "Lystfiskeri"],
+            "answer": "Foreningsidræt"
+        }
+    ],
+    "Sundhed og sygdom": [
+        {
+            "question": "Hvad er typisk gratis for borgere i det danske sundhedsvæsen?",
+            "options": ["Tandlæge for voksne", "Lægebesøg", "Medicintilskud"],
+            "answer": "Lægebesøg"
+        }
+    ],
+    "Ligestilling": [
+        {
+            "question": "Hvornår fik kvinder stemmeret i Danmark?",
+            "options": ["1915", "1945", "1970"],
+            "answer": "1915"
+        }
+    ],
+    "Demokrati og grundloven": [
+        {
+            "question": "Hvad sikrer grundloven i Danmark?",
+            "options": ["Monarki", "Borgernes rettigheder", "Religiøse regler"],
+            "answer": "Borgernes rettigheder"
+        }
+    ],
+    "Det danske retssamfund": [
+        {
+            "question": "Hvem dømmer i en straffesag i Danmark?",
+            "options": ["Politiet", "Domstolene", "Folketinget"],
+            "answer": "Domstolene"
+        }
+    ],
+    "Folketing og regering": [
+        {
+            "question": "Hvor mange medlemmer er der i Folketinget?",
+            "options": ["179", "100", "200"],
+            "answer": "179"
+        }
+    ],
+    "Det lokale selvstyre": [
+        {
+            "question": "Hvad beslutter kommunalbestyrelsen typisk?",
+            "options": [
+                "Udenrigspolitik",
+                "Skoler og daginstitutioner",
+                "Domme i sager"
+            ],
+            "answer": "Skoler og daginstitutioner"
+        }
+    ],
+    "Folkestyret i praksis – valg og partier": [
+        {
+            "question": "Hvor ofte er der valg til Folketinget?",
+            "options": ["Hvert 2. år", "Hvert 4. år", "Hvert 6. år"],
+            "answer": "Hvert 4. år"
+        }
+    ],
+    "Borgernes rettigheder og pligter": [
+        {
+            "question": "Hvilken pligt har alle danske statsborgere?",
+            "options": ["Militærtjeneste", "Betale skat", "Stemmetvang"],
+            "answer": "Betale skat"
+        }
+    ],
+    "Religion og kirke": [
+        {
+            "question": "Hvad hedder Danmarks største trossamfund?",
+            "options": [
+                "Katolske kirke",
+                "Folkekirken",
+                "Islamisk Trossamfund"
+            ],
+            "answer": "Folkekirken"
+        }
+    ],
+    "Danmark og omverdenen": [
+        {
+            "question": "Hvilket internationalt samarbejde er Danmark medlem af?",
+            "options": ["FN og NATO", "OPEC", "G7"],
+            "answer": "FN og NATO"
+        }
+    ],
+    "Danmarks geografi og befolkning": [
+        {
+            "question": "Hvad er Danmarks største ø?",
+            "options": ["Sjælland", "Fyn", "Bornholm"],
+            "answer": "Sjælland"
+        }
+    ],
+    "Danmarks historie før 1945": [
+        {
+            "question": "Hvad skete der i Danmark i 1849?",
+            "options": [
+                "Invasion",
+                "Grundlov blev indført",
+                "Kvinder fik stemmeret"
+            ],
+            "answer": "Grundlov blev indført"
+        }
+    ],
+    "Danmarks historie efter 1945": [
+        {
+            "question": "Hvornår blev Danmark medlem af EU (EF)?",
+            "options": ["1973", "1989", "2000"],
+            "answer": "1973"
+        }
+    ],
+    "Dansk kultur": [
+        {
+            "question": "Hvilken kendt dansk forfatter skrev eventyr?",
+            "options": ["Karen Blixen", "H.C. Andersen", "Lars von Trier"],
+            "answer": "H.C. Andersen"
+        }
+    ],
+    "Traditioner og mærkedage": [
+        {
+            "question": "Hvornår fejrer man jul i Danmark?",
+            "options": ["24. december", "25. december", "31. december"],
+            "answer": "24. december"
+        }
+    ],
+    "Danmarks forsvars- og sikkerhedspolitik": [
+        {
+            "question": "Hvem har det øverste ansvar for det danske forsvar?",
+            "options": ["Folketinget", "Regeringen", "Dronningen"],
+            "answer": "Regeringen"
+        }
+    ],
+    "Diskrimination, antisemitisme, hadforbrydelser og ekstremisme": [
+        {
+            "question": "Hvad er antisemitisme?",
+            "options": [
+                "Modstand mod religion generelt",
+                "Modstand mod jøder",
+                "Støtte til muslimer"
+            ],
+            "answer": "Modstand mod jøder"
+        }
+    ],
+    "Klima": [
+        {
+            "question": "Hvad gør Danmark for at bekæmpe klimaforandringer?",
+            "options": [
+                "Bruger mere kul",
+                "Reducerer CO₂-udslip",
+                "Skærer ned på vindenergi"
+            ],
+            "answer": "Reducerer CO₂-udslip"
+        }
+    ]
+}

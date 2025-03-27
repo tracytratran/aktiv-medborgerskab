@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Hvem vælger en tillidsrepræsentant på en arbejdsplads?",
+    "options": [
+      "Medarbejderne og arbejdsgiveren i fællesskab",
+      "Arbejdsgiveren",
+      "Medarbejderne"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Hvilken rettighed er beskyttet af grundloven?",
+    "options": [
+      "Retten til at eje våben",
+      "Retten til at have et arbejde",
+      "Retten til selv at vælge religion"
+    ],
+    "answer": "Retten til selv at vælge religion"
+  },
+  {
+    "question": "Hvor gammel skal man være for at blive gift i Danmark?",
+    "options": [
+      "Mindst 16 år",
+      "Mindst 18 år",
+      "Mindst 20 år"
+    ],
+    "answer": "Mindst 18 år"
+  },
+  {
+    "question": "Må man danne en forening, hvis man ikke er dansk statsborger?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad var rødstrømpe-bevægelsen en del af?",
+    "options": [
+      "Arbejderbevægelsen i 1930'erne",
+      "Kvindebevægelsen i 1970'erne",
+      "Miljøbevægelsen i 1990'erne"
+    ],
+    "answer": "Kvindebevægelsen i 1970'erne"
+  },
+  {
+    "question": "Under hvilken krig var Danmark besat af tyske tropper?",
+    "options": [
+      "1. Verdenskrig",
+      "2. Verdenskrig"
+    ],
+    "answer": "2. Verdenskrig"
+  },
+  {
+    "question": "Hvem fik Danmark økonomisk hjælp af i tiden omkring 1950 med Marshall-planen?",
+    "options": [
+      "Storbritannien",
+      "Canada",
+      "USA"
+    ],
+    "answer": "USA"
+  },
+  {
+    "question": "Hvilket af følgende partier har været med i regeringen siden 2022?",
+    "options": [
+      "Dansk Folkeparti",
+      "Venstre",
+      "Det Konservative Folkeparti"
+    ],
+    "answer": "Venstre"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt på Færøerne?",
+    "options": [
+      "To",
+      "Fem",
+      "Otte"
+    ],
+    "answer": "To"
+  },
+  {
+    "question": "På hvilken ø ligger Danmarks sydligste punkt?",
+    "options": [
+      "Læsø",
+      "Fyn",
+      "Falster"
+    ],
+    "answer": "Falster"
+  },
+  {
+    "question": "Hvilken af følgende byer har flest indbyggere?",
+    "options": [
+      "Odense",
+      "Aalborg",
+      "Aarhus"
+    ],
+    "answer": "Aarhus"
+  },
+  {
+    "question": "Hvad er Susanne Bier og Thomas Vinterberg særlig kendte for?",
+    "options": [
+      "De er filminstruktører",
+      "De er kunstmalere",
+      "De er forfattere"
+    ],
+    "answer": "De er filminstruktører"
+  },
+  {
+    "question": "Hvem fik især betydning for højskolerne i 1800-tallet?",
+    "options": [
+      "N.F.S. Grundtvig",
+      "Søren Kierkegaard",
+      "P.S. Krøyer"
+    ],
+    "answer": "N.F.S. Grundtvig"
+  },
+  {
+    "question": "Hvilket landområde mistede Danmark i 1658?",
+    "options": [
+      "Shetlands-øerne",
+      "Slesvig",
+      "Skåne"
+    ],
+    "answer": "Skåne"
+  },
+  {
+    "question": "Hvornår blev Reformationen og dermed den protestantiske kristendom indført i Danmark?",
+    "options": [
+      "900-tallet",
+      "1200-tallet",
+      "1500-tallet"
+    ],
+    "answer": "1500-tallet"
+  },
+  {
+    "question": "Er et flertal af Danmarks befolkning medlem af Folkekirken?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvornår er grundloven sidst blevet ændret?",
+    "options": [
+      "1866",
+      "1915",
+      "1953"
+    ],
+    "answer": "1953"
+  },
+  {
+    "question": "Er det normalt gratis at gå til tandlægen, når man er under 20 år?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem laver lovene i Danmark?",
+    "options": [
+      "Folketinget og domstolene",
+      "Regeringen og Folketinget"
+    ],
+    "answer": "Regeringen og Folketinget"
+  },
+  {
+    "question": "Må andre se, hvad man stemmer til folketingsvalg?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad er moms?",
+    "options": [
+      "En skat man betaler af sin indkomst",
+      "En afgift på blandt andet varer man køber i butikkerne",
+      "Et gebyr man betaler for at kunne se DR's tv- og radiokanaler"
+    ],
+    "answer": "En afgift på blandt andet varer man køber i butikkerne"
+  },
+  {
+    "question": "Hvor mange års undervisning skal børn i Danmark normalt have?",
+    "options": [
+      "Mindst 10 år",
+      "Mindst 12 år",
+      "Mindst 14 år"
+    ],
+    "answer": "Mindst 10 år"
+  },
+  {
+    "question": "Skal forældre normalt betale for, at deres børn går i en friskole eller privatskole?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilket land sendte Danmark soldater til i 2003 efter en invasion, der var ledet af USA?",
+    "options": [
+      "Syrien",
+      "Irak",
+      "Libyen"
+    ],
+    "answer": "Irak"
+  },
+  {
+    "question": "Hvor tit er der valg til kommunalbestyrelser og regionsråd?",
+    "options": [
+      "Hvert tredje år",
+      "Hvert fjerde år",
+      "Hvert femte år"
+    ],
+    "answer": "Hvert fjerde år"
+  }
+]

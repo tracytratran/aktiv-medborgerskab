@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Hvem fik især betydning for højskolerne i 1800-tallet?",
+    "options": [
+      "Ludvig Holberg",
+      "Søren Kierkegaard",
+      "N.F.S. Grundtvig"
+    ],
+    "answer": "N.F.S. Grundtvig"
+  },
+  {
+    "question": "Betyder en betinget fængselsstraf, at man skal direkte i fængsel?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilken af følgende byer har flest indbyggere?",
+    "options": [
+      "Esbjerg",
+      "Thisted",
+      "Hjørring"
+    ],
+    "answer": "Esbjerg"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt på Færøerne?",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Hvornår blev grundloven sidst ændret?",
+    "options": [
+      "1855",
+      "1907",
+      "1953"
+    ],
+    "answer": "1953"
+  },
+  {
+    "question": "Hvilken af følgende virksomheder producerer vindmøller?",
+    "options": [
+      "Novo Nordisk",
+      "Arla",
+      "Vestas"
+    ],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Hvornår begynder eleverne i den danske folkeskole at få karakterer efter 7-trins-skalaen?",
+    "options": [
+      "0. klasse",
+      "4. klasse",
+      "8. klasse"
+    ],
+    "answer": "8. klasse"
+  },
+  {
+    "question": "Hvad er P.S. Krøyer særlig kendt for?",
+    "options": [
+      "Han var kunstmaler",
+      "Han var politiker",
+      "Han var videnskabsmand"
+    ],
+    "answer": "Han var kunstmaler"
+  },
+  {
+    "question": "Hvornår blev de første jernbaner i Danmark bygget?",
+    "options": [
+      "I 1700-tallet",
+      "I 1800-tallet",
+      "I 1900-tallet"
+    ],
+    "answer": "I 1800-tallet"
+  },
+  {
+    "question": "Hvad hedder Danmarks næststørste by?",
+    "options": [
+      "Aalborg",
+      "Odense",
+      "Aarhus"
+    ],
+    "answer": "Aarhus"
+  },
+  {
+    "question": "På hvilken årstid ligger påsken?",
+    "options": [
+      "Forår",
+      "Sommer",
+      "Efterår"
+    ],
+    "answer": "Forår"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem København og Sverige?",
+    "options": [
+      "Lillebælt",
+      "Kattegat",
+      "Øresund"
+    ],
+    "answer": "Øresund"
+  },
+  {
+    "question": "Hvad er Karen Blixen især kendt for?",
+    "options": [
+      "Hun lavede film",
+      "Hun skrev bøger",
+      "Hun spillede teater"
+    ],
+    "answer": "Hun skrev bøger"
+  },
+  {
+    "question": "Hvor mange indbyggere har Danmark?",
+    "options": [
+      "Cirka seks millioner",
+      "Cirka otte millioner",
+      "Cirka ti millioner"
+    ],
+    "answer": "Cirka seks millioner"
+  },
+  {
+    "question": "Hvad er værnepligt?",
+    "options": [
+      "Pligten til at forsvare Danmark",
+      "Pligten til at forsørge sin familie"
+    ],
+    "answer": "Pligten til at forsvare Danmark"
+  },
+  {
+    "question": "Hvordan har antallet af landmænd i Danmark udviklet sig siden 1960?",
+    "options": [
+      "Antallet er steget",
+      "Antallet er faldet"
+    ],
+    "answer": "Antallet er faldet"
+  },
+  {
+    "question": "Hvem var Danmarks første kvindelige statsminister?",
+    "options": [
+      "Pia Kjærsgaard",
+      "Mette Frederiksen",
+      "Helle Thorning-Schmidt"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Skal personer over 21 år normalt selv betale en del af regningen, når de går til tandlægen?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Er Danmark medlem af NATO?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor gammel skal man mindst være for at købe cigaretter i Danmark?",
+    "options": [
+      "15 år",
+      "18 år",
+      "21 år"
+    ],
+    "answer": "18 år"
+  },
+  {
+    "question": "Hvornår blev protestantismen indført i Danmark?",
+    "options": [
+      "1100-tallet",
+      "1300-tallet",
+      "1500-tallet"
+    ],
+    "answer": "1500-tallet"
+  },
+  {
+    "question": "Fik kvinder stemmeret til Folketinget med grundloven fra 1849?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvor mange ugers ferie har lønmodtagere på det danske arbejdsmarked normalt ret til?",
+    "options": [
+      "1-2 uger om året",
+      "3-4 uger om året",
+      "5-6 uger om året"
+    ],
+    "answer": "5-6 uger om året"
+  },
+  {
+    "question": "Hvor gammel skal man være for at blive gift i Danmark?",
+    "options": [
+      "Mindst 15 år",
+      "Mindst 18 år",
+      "Mindst 21 år"
+    ],
+    "answer": "Mindst 18 år"
+  },
+  {
+    "question": "Kan man få arbejdsløshedsdagpenge, hvis man ikke er medlem af en arbejdsløshedskasse (a-kasse)?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  }
+]

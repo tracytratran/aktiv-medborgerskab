@@ -1,0 +1,219 @@
+[
+  {
+    "question": "Har man mulighed for at få økonomisk støtte under barselsorlov?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor stor en del af borgerne med stemmeret stemmer normalt, når der er folketingsvalg?",
+    "options": [
+      "40-50 procent",
+      "60-70 procent",
+      "80-90 procent"
+    ],
+    "answer": "80-90 procent"
+  },
+  {
+    "question": "Er det gratis at låne bøger på landets folkebiblioteker?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvortil kan man anke en afgørelse fra byretten?",
+    "options": [
+      "Landsretten",
+      "Højesteret"
+    ],
+    "answer": "Landsretten"
+  },
+  {
+    "question": "Hvor var danske soldater blandt andet udsendt til i 1990’erne som en del af FN’s styrker?",
+    "options": [
+      "Afghanistan",
+      "Bosnien",
+      "Libyen"
+    ],
+    "answer": "Bosnien"
+  },
+  {
+    "question": "Hvad var Yahya Hassan særligt kendt for?",
+    "options": [
+      "Han var digter",
+      "Han var fodboldspiller",
+      "Han var skuespiller"
+    ],
+    "answer": "Han var digter"
+  },
+  {
+    "question": "Hvordan bliver det afgjort, hvem der skal være konge eller dronning i Danmark?",
+    "options": [
+      "Den nye konge eller dronning arver tronen",
+      "Den nye konge eller dronning vælges af Folketinget",
+      "Den nye konge eller dronning udpeges af regeringen"
+    ],
+    "answer": "Den nye konge eller dronning arver tronen"
+  },
+  {
+    "question": "Hvilken rettighed er beskyttet af grundloven?",
+    "options": [
+      "Retten til bære våben",
+      "Retten til at have et arbejde",
+      "Retten til selv at vælge religion"
+    ],
+    "answer": "Retten til selv at vælge religion"
+  },
+  {
+    "question": "Hvilket land blev Danmark besat af den 9. april 1940?",
+    "options": [
+      "Frankrig",
+      "Sverige",
+      "Tyskland"
+    ],
+    "answer": "Tyskland"
+  },
+  {
+    "question": "Skal man være medlem af folkekirken for at blive begravet på en af folkekirkens kirkegårde?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvor har USA luftbasen Thulebasen?",
+    "options": [
+      "Bornholm",
+      "Grønland",
+      "Færøerne"
+    ],
+    "answer": "Grønland"
+  },
+  {
+    "question": "I hvilken måned fejres sankthans?",
+    "options": [
+      "I april",
+      "I maj",
+      "I juni"
+    ],
+    "answer": "I juni"
+  },
+  {
+    "question": "Er Danmark medlem af De Forenede Nationer (FN)?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Kan man få dagpenge ved arbejdsløshed uden at være medlem af en arbejdsløshedskasse?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilken forfatter har skrevet eventyret Den Grimme Ælling?",
+    "options": [
+      "Karen Blixen",
+      "H.C. Andersen",
+      "Benny Andersen"
+    ],
+    "answer": "H.C. Andersen"
+  },
+  {
+    "question": "Hvad er den højeste karakter på 7-trins-skalaen?",
+    "options": [
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": "12"
+  },
+  {
+    "question": "For hvilken film vandt Thomas Vinterberg en Oscar i 2021?",
+    "options": [
+      "Druk",
+      "Pelle Erobreren",
+      "Kundskabens Træ"
+    ],
+    "answer": "Druk"
+  },
+  {
+    "question": "Hvilken rolle har Dronningen blandt andet?",
+    "options": [
+      "Hun repræsenterer den danske regering i EU",
+      "Hun underskriver nye love sammen med en minister",
+      "Hun holder åbningstalen ved Folketingets åbning i oktober"
+    ],
+    "answer": "Hun underskriver nye love sammen med en minister"
+  },
+  {
+    "question": "Hvad fremstiller den danske virksomhed LEGO?",
+    "options": [
+      "Insulin",
+      "Vindmøller",
+      "Byggeklodser"
+    ],
+    "answer": "Byggeklodser"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Jylland og Fyn?",
+    "options": [
+      "Storebælt",
+      "Øresund",
+      "Lillebælt"
+    ],
+    "answer": "Lillebælt"
+  },
+  {
+    "question": "Hvem er ikke med i det danske rigsfællesskab?",
+    "options": [
+      "Island",
+      "Færøerne",
+      "Grønland"
+    ],
+    "answer": "Island"
+  },
+  {
+    "question": "Hvor mange års undervisning skal børn i Danmark mindst have?",
+    "options": [
+      "7 år",
+      "10 år",
+      "13 år"
+    ],
+    "answer": "10 år"
+  },
+  {
+    "question": "Må man danne en forening, hvis man ikke er dansk statsborger?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem er den øverste politiske leder af en kommune?",
+    "options": [
+      "En borgmester",
+      "En kommunaldirektør"
+    ],
+    "answer": "En borgmester"
+  },
+  {
+    "question": "Hvilket område mistede Danmark blandt andet i 1864?",
+    "options": [
+      "Norge",
+      "Skåne",
+      "Slesvig"
+    ],
+    "answer": "Slesvig"
+  }
+]

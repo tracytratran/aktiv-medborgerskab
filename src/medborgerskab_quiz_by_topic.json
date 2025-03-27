@@ -1,0 +1,143 @@
+{
+  "Demokrati og Grundloven": [
+    {
+      "question": "Hvornår blev Danmarks nuværende grundlov vedtaget?",
+      "options": [
+        "1849",
+        "1915",
+        "1953"
+      ],
+      "answer": "1953"
+    },
+    {
+      "question": "Hvad betyder det, at Danmark har en tredeling af magten?",
+      "options": [
+        "At regeringen styrer alt",
+        "At Folketinget, domstolene og regeringen har hver deres rolle",
+        "At borgerne har al magt"
+      ],
+      "answer": "At Folketinget, domstolene og regeringen har hver deres rolle"
+    },
+    {
+      "question": "Hvem laver lovene i Danmark?",
+      "options": [
+        "Folketinget",
+        "Regeringen",
+        "Domstolene"
+      ],
+      "answer": "Folketinget"
+    },
+    {
+      "question": "Hvad sikrer ytringsfriheden ifølge Grundloven?",
+      "options": [
+        "Man må sige hvad som helst uden konsekvenser",
+        "Man må sige og skrive, hvad man vil, med ansvar og lovgivning",
+        "Man må ikke kritisere myndighederne"
+      ],
+      "answer": "Man må sige og skrive, hvad man vil, med ansvar og lovgivning"
+    },
+    {
+      "question": "Hvem bestemmer om en forening skal opløses, hvis den har et voldeligt formål?",
+      "options": [
+        "Politiet",
+        "Domstolene",
+        "Folketinget"
+      ],
+      "answer": "Domstolene"
+    }
+  ],
+  "Det danske arbejdsmarked": [
+    {
+      "question": "Hvad betyder 'flexicurity' i Danmark?",
+      "options": [
+        "Fast arbejde og ingen opsigelser",
+        "Fleksibelt arbejdsmarked med social sikkerhed",
+        "En ordning for pensionister"
+      ],
+      "answer": "Fleksibelt arbejdsmarked med social sikkerhed"
+    },
+    {
+      "question": "Hvad er en fagforening?",
+      "options": [
+        "En gruppe, der laver skolematerialer",
+        "En organisation, der repræsenterer arbejdstageres rettigheder",
+        "En forening for frivillige"
+      ],
+      "answer": "En organisation, der repræsenterer arbejdstageres rettigheder"
+    },
+    {
+      "question": "Hvad er en arbejdsmiljørepræsentant ansvarlig for?",
+      "options": [
+        "At føre regnskab på arbejdspladsen",
+        "At arrangere ferier",
+        "At sikre et godt fysisk og psykisk arbejdsmiljø"
+      ],
+      "answer": "At sikre et godt fysisk og psykisk arbejdsmiljø"
+    },
+    {
+      "question": "Hvad sker der, hvis man mister sit arbejde og ikke er medlem af en a-kasse?",
+      "options": [
+        "Man får SU",
+        "Man får kontanthjælp",
+        "Man får feriepenge"
+      ],
+      "answer": "Man får kontanthjælp"
+    },
+    {
+      "question": "Hvor mange ugers ferie med løn har man som udgangspunkt ret til i Danmark?",
+      "options": [
+        "3 uger",
+        "5 uger",
+        "6 uger"
+      ],
+      "answer": "5 uger"
+    }
+  ],
+  "Skole og uddannelse": [
+    {
+      "question": "Hvornår begynder børn at få karakterer i folkeskolen?",
+      "options": [
+        "Fra 3. klasse",
+        "Fra 8. klasse",
+        "Fra 5. klasse"
+      ],
+      "answer": "Fra 8. klasse"
+    },
+    {
+      "question": "Hvad er formålet med undervisningen i folkeskolen?",
+      "options": [
+        "At lære børn at tale engelsk",
+        "At forberede børnene til videre uddannelse og et demokratisk samfund",
+        "At gøre børn klar til arbejdsmarkedet"
+      ],
+      "answer": "At forberede børnene til videre uddannelse og et demokratisk samfund"
+    },
+    {
+      "question": "Hvad er SFO?",
+      "options": [
+        "En skole for voksne",
+        "Skolefritidsordning for børn efter skoletid",
+        "Et sportscenter"
+      ],
+      "answer": "Skolefritidsordning for børn efter skoletid"
+    },
+    {
+      "question": "Hvad er en efterskole?",
+      "options": [
+        "En skole for ældre mennesker",
+        "En skole, hvor man bor og går i 8., 9. eller 10. klasse",
+        "En eftermiddagsskole"
+      ],
+      "answer": "En skole, hvor man bor og går i 8., 9. eller 10. klasse"
+    },
+    {
+      "question": "Hvad betyder det, at folkeskolen er gratis?",
+      "options": [
+        "Forældre skal betale for undervisningsmaterialer",
+        "Staten betaler for skolegang i folkeskolen",
+        "Kun børn af danske statsborgere kan gå der"
+      ],
+      "answer": "Staten betaler for skolegang i folkeskolen"
+    }
+  ]
+}
