@@ -2,6 +2,7 @@
   "name": "medborgerskab-quiz-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tracytratran.github.io/aktiv-medborgerskab/",
   "dependencies": {
     "@types/node": "^16.18.46",
     "@types/react": "^18.2.21",
