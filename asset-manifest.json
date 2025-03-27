@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7140987.css",
-    "main.js": "/static/js/main.68345669.js",
-    "static/js/776.1be9a65a.chunk.js": "/static/js/776.1be9a65a.chunk.js",
-    "static/js/244.77dd801d.chunk.js": "/static/js/244.77dd801d.chunk.js",
-    "static/js/384.71a53e31.chunk.js": "/static/js/384.71a53e31.chunk.js",
-    "static/js/764.35dd8264.chunk.js": "/static/js/764.35dd8264.chunk.js",
-    "static/js/543.ce9464e5.chunk.js": "/static/js/543.ce9464e5.chunk.js",
-    "static/js/336.ec6b968d.chunk.js": "/static/js/336.ec6b968d.chunk.js",
-    "static/js/239.5c63a163.chunk.js": "/static/js/239.5c63a163.chunk.js",
-    "static/js/32.fcb62b1b.chunk.js": "/static/js/32.fcb62b1b.chunk.js",
-    "index.html": "/index.html",
-    "main.c7140987.css.map": "/static/css/main.c7140987.css.map",
-    "main.68345669.js.map": "/static/js/main.68345669.js.map"
+    "main.css": "/aktiv-medborgerskab/static/css/main.c7140987.css",
+    "main.js": "/aktiv-medborgerskab/static/js/main.544118ba.js",
+    "static/js/776.1be9a65a.chunk.js": "/aktiv-medborgerskab/static/js/776.1be9a65a.chunk.js",
+    "static/js/244.77dd801d.chunk.js": "/aktiv-medborgerskab/static/js/244.77dd801d.chunk.js",
+    "static/js/384.71a53e31.chunk.js": "/aktiv-medborgerskab/static/js/384.71a53e31.chunk.js",
+    "static/js/764.35dd8264.chunk.js": "/aktiv-medborgerskab/static/js/764.35dd8264.chunk.js",
+    "static/js/543.ce9464e5.chunk.js": "/aktiv-medborgerskab/static/js/543.ce9464e5.chunk.js",
+    "static/js/336.ec6b968d.chunk.js": "/aktiv-medborgerskab/static/js/336.ec6b968d.chunk.js",
+    "static/js/239.5c63a163.chunk.js": "/aktiv-medborgerskab/static/js/239.5c63a163.chunk.js",
+    "static/js/32.fcb62b1b.chunk.js": "/aktiv-medborgerskab/static/js/32.fcb62b1b.chunk.js",
+    "index.html": "/aktiv-medborgerskab/index.html",
+    "main.c7140987.css.map": "/aktiv-medborgerskab/static/css/main.c7140987.css.map",
+    "main.544118ba.js.map": "/aktiv-medborgerskab/static/js/main.544118ba.js.map"
   },
   "entrypoints": [
     "static/css/main.c7140987.css",
-    "static/js/main.68345669.js"
+    "static/js/main.544118ba.js"
   ]
 }
