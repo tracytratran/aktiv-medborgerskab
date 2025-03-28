@@ -16,7 +16,9 @@
   },
   "quiz": {
     "question": "问题 {{current}}/{{total}}",
-    "cancel": "取消测验"
+    "cancel": "取消测验",
+    "timeRemaining": "剩余时间",
+    "timeExpired": "时间到期"
   },
   "results": {
     "title": "测验结果",
@@ -26,7 +28,8 @@
     "history": "测验历史",
     "previousAttempts": "之前的尝试",
     "date": "日期",
-    "noHistory": "没有之前的测验记录"
+    "noHistory": "没有之前的测验记录",
+    "timeExpired": "时间到期 - 测验自动提交"
   },
   "donate": {
     "buyMeACoffee": "请我喝杯咖啡",

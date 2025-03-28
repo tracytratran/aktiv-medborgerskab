@@ -16,7 +16,9 @@
   },
   "quiz": {
     "question": "Spørgsmål {{current}} af {{total}}",
-    "cancel": "Annuller Quiz"
+    "cancel": "Annuller Quiz",
+    "timeRemaining": "Resterende tid",
+    "timeExpired": "Tiden er udløbet"
   },
   "results": {
     "title": "Quiz Resultater",
@@ -26,7 +28,8 @@
     "history": "Quiz Historik",
     "previousAttempts": "Tidligere Forsøg",
     "date": "Dato",
-    "noHistory": "Ingen tidligere quiz-forsøg"
+    "noHistory": "Ingen tidligere quiz-forsøg",
+    "timeExpired": "Tiden er udløbet - quiz automatisk indsendt"
   },
   "donate": {
     "buyMeACoffee": "Køb Mig En Kaffe",

@@ -17,4 +17,5 @@ export interface QuizAttempt {
   correctAnswers: number; // Number of correct answers
   totalQuestions: number; // Total number of questions
   answers: UserAnswer[]; // All answers from this attempt
+  timeExpired?: boolean; // Flag to indicate if the quiz ended due to timeout
 }

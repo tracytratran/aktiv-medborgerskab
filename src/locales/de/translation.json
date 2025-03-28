@@ -16,7 +16,9 @@
   },
   "quiz": {
     "question": "Frage {{current}} von {{total}}",
-    "cancel": "Quiz Abbrechen"
+    "cancel": "Quiz Abbrechen",
+    "timeRemaining": "Verbleibende Zeit",
+    "timeExpired": "Zeit abgelaufen"
   },
   "results": {
     "title": "Quiz Ergebnisse",
@@ -26,7 +28,8 @@
     "history": "Quiz Verlauf",
     "previousAttempts": "Vorherige Versuche",
     "date": "Datum",
-    "noHistory": "Keine vorherigen Quiz-Versuche"
+    "noHistory": "Keine vorherigen Quiz-Versuche",
+    "timeExpired": "Zeit abgelaufen - Quiz automatisch abgegeben"
   },
   "donate": {
     "buyMeACoffee": "Kaufen Sie mir einen Kaffee",

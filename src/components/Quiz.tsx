@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppTranslation } from '../hooks/useAppTranslation';
 import { Question } from '../types';
 
@@ -6,20 +6,35 @@ interface QuizProps {
   question: Question;
   currentQuestion: number;
   totalQuestions: number;
+  timeRemaining: number;
+  setTimeRemaining: React.Dispatch<React.SetStateAction<number>>;
+  timerActive: boolean;
   onAnswer: (selectedOption: string) => void;
-  onCancel: () => void; // Add a new prop for canceling the quiz
+  onCancel: () => void;
+  onTimeout: () => void;
 }
 
 const Quiz: React.FC<QuizProps> = ({ 
   question, 
   currentQuestion, 
-  totalQuestions, 
+  totalQuestions,
+  timeRemaining,
+  setTimeRemaining,
+  timerActive,
   onAnswer,
-  onCancel
+  onCancel,
+  onTimeout
 }) => {
   const { t } = useAppTranslation();
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState<boolean>(false);
+  
+  // Format time remaining as MM:SS
+  const formatTime = (timeInSeconds: number): string => {
+    const minutes = Math.floor(timeInSeconds / 60);
+    const seconds = timeInSeconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  };
   
   const handleOptionSelect = (option: string): void => {
     setSelectedOption(option);
@@ -33,13 +48,42 @@ const Quiz: React.FC<QuizProps> = ({
     }, 1000);
   };
   
+  // Timer effect - update the timer every second when active
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+    
+    if (timerActive && timeRemaining > 0) {
+      timer = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            // Time is up, clear the interval and call the timeout handler
+            clearInterval(timer);
+            onTimeout();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    
+    // Cleanup interval on component unmount or when timer is not active
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [timerActive, timeRemaining, onTimeout, setTimeRemaining]);
+  
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 transition-all duration-300">
-      {/* Progress bar */}
+      {/* Timer and Progress bar */}
       <div className="mb-6">
         <div className="flex justify-between mb-2 text-sm text-gray-600">
           <span>{t('quiz.question', { current: currentQuestion, total: totalQuestions })}</span>
-          <span>{Math.round((currentQuestion / totalQuestions) * 100)}%</span>
+          <div className="flex items-center">
+            <span className={`font-medium mr-2 ${timeRemaining < 300 ? 'text-red-600' : ''}`}>
+              ⏱️ {formatTime(timeRemaining)}
+            </span>
+            <span>{Math.round((currentQuestion / totalQuestions) * 100)}%</span>
+          </div>
         </div>
         <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">
           <div 

@@ -23,6 +23,8 @@ const App: React.FC = () => {
   const [selectedExamId, setSelectedExamId] = useState<string>('random'); // Default to random questions
   const [showExamSelector, setShowExamSelector] = useState<boolean>(true);
   const [showDonateModal, setShowDonateModal] = useState<boolean>(false);
+  const [timeRemaining, setTimeRemaining] = useState<number>(30 * 60); // 30 minutes in seconds
+  const [timerActive, setTimerActive] = useState<boolean>(false);
 
   // Random questions are now generated in the examData.ts file
 
@@ -92,6 +94,7 @@ const App: React.FC = () => {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setQuizCompleted(true);
+      setTimerActive(false);
       
       // Create a new quiz attempt with the completed quiz data
       const newAnswers = [...userAnswers, userAnswer];
@@ -121,6 +124,7 @@ const App: React.FC = () => {
     setCurrentQuestionIndex(0);
     setUserAnswers([]);
     setQuizCompleted(false);
+    setTimerActive(false);
   };
   
   // Handle canceling a quiz without saving results
@@ -130,6 +134,7 @@ const App: React.FC = () => {
     setCurrentQuestionIndex(0);
     setUserAnswers([]);
     setQuizCompleted(false);
+    setTimerActive(false);
   };
   
   // Handle exam selection
@@ -141,6 +146,9 @@ const App: React.FC = () => {
   const startQuiz = () => {
     setShowExamSelector(false);
     loadSelectedExam();
+    // Reset and start timer
+    setTimeRemaining(30 * 60); // Reset to 30 minutes
+    setTimerActive(true);
   };
 
   // No need to calculate results here as it's handled in the Results component
@@ -189,8 +197,34 @@ const App: React.FC = () => {
               question={questions[currentQuestionIndex]} 
               currentQuestion={currentQuestionIndex + 1} 
               totalQuestions={questions.length}
+              timeRemaining={timeRemaining}
+              setTimeRemaining={setTimeRemaining}
+              timerActive={timerActive}
               onAnswer={handleAnswer}
               onCancel={cancelQuiz}
+              onTimeout={() => {
+                // Auto-submit the quiz when time runs out
+                setQuizCompleted(true);
+                setTimerActive(false);
+                
+                // Create a new quiz attempt with current answers
+                const correctCount = userAnswers.filter(answer => answer.isCorrect).length;
+                const score = Math.round((correctCount / userAnswers.length) * 100);
+                
+                const newQuizAttempt: QuizAttempt = {
+                  date: new Date().toISOString(),
+                  score,
+                  correctAnswers: correctCount,
+                  totalQuestions: userAnswers.length,
+                  answers: userAnswers,
+                  timeExpired: true // Flag to indicate the quiz was ended due to timeout
+                };
+                
+                // Update quiz history
+                const updatedHistory = [newQuizAttempt, ...quizHistory];
+                setQuizHistory(updatedHistory);
+                localStorage.setItem(QUIZ_HISTORY_KEY, JSON.stringify(updatedHistory));
+              }}
             />
           </div>
         )

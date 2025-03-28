@@ -107,6 +107,13 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
             </span>
           </div>
           
+          {quizHistory.length > 0 && quizHistory[0].timeExpired && (
+            <div className="flex items-center text-amber-600 mb-4 p-3 bg-amber-50 rounded-lg">
+              <span className="mr-2">⏱️</span>
+              <span>{t('results.timeExpired')}</span>
+            </div>
+          )}
+          
           <p className="text-xl mb-8">{getFeedbackMessage()}</p>
           
           <div className="flex flex-col w-full max-w-xs gap-4">
@@ -223,9 +230,17 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
                     {attempt.score}%
                   </span>
                 </div>
-                <p className="text-gray-700">
-                  {attempt.correctAnswers} correct out of {attempt.totalQuestions} questions
-                </p>
+                <div className="flex flex-col">
+                  <p className="text-gray-700">
+                    {attempt.correctAnswers} correct out of {attempt.totalQuestions} questions
+                  </p>
+                  {attempt.timeExpired && (
+                    <div className="flex items-center text-amber-600 mt-2 text-sm">
+                      <span className="mr-1">⏱️</span>
+                      <span>{t('quiz.timeExpired')}</span>
+                    </div>
+                  )}
+                </div>
               </div>
             ))}
           </div>

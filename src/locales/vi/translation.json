@@ -16,7 +16,9 @@
   },
   "quiz": {
     "question": "Câu hỏi {{current}} / {{total}}",
-    "cancel": "Hủy Bài Kiểm Tra"
+    "cancel": "Hủy Bài Kiểm Tra",
+    "timeRemaining": "Thời gian còn lại",
+    "timeExpired": "Hết thời gian"
   },
   "results": {
     "title": "Kết Quả Kiểm Tra",
@@ -26,7 +28,8 @@
     "history": "Lịch Sử Kiểm Tra",
     "previousAttempts": "Các Lần Thử Trước",
     "date": "Ngày",
-    "noHistory": "Không có lần kiểm tra nào trước đây"
+    "noHistory": "Không có lần kiểm tra nào trước đây",
+    "timeExpired": "Hết thời gian - bài kiểm tra được nộp tự động"
   },
   "donate": {
     "buyMeACoffee": "Mua Cho Tôi Một Ly Cà Phê",

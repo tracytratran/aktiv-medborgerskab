@@ -16,7 +16,9 @@
   },
   "quiz": {
     "question": "Question {{current}} of {{total}}",
-    "cancel": "Cancel Quiz"
+    "cancel": "Cancel Quiz",
+    "timeRemaining": "Time Remaining",
+    "timeExpired": "Time Expired"
   },
   "results": {
     "title": "Quiz Results",
@@ -26,7 +28,8 @@
     "history": "Quiz History",
     "previousAttempts": "Previous Attempts",
     "date": "Date",
-    "noHistory": "No previous quiz attempts"
+    "noHistory": "No previous quiz attempts",
+    "timeExpired": "Time expired - quiz automatically submitted"
   },
   "donate": {
     "buyMeACoffee": "Buy Me a Coffee",
