@@ -3,7 +3,8 @@ import Quiz from './components/Quiz';
 import Results from './components/Results';
 import ExamSelector from './components/ExamSelector';
 import { Question, UserAnswer, QuizAttempt } from './types';
-import topicQuestionsData from './medborgerskab_quiz_by_topic.json';
+// No longer needed as we're using exam data directly
+// import topicQuestionsData from './medborgerskab_quiz_by_topic.json';
 import { availableExams, getExamById, loadExam } from './utils/examData';
 
 // LocalStorage key for storing quiz history
@@ -20,47 +21,7 @@ const App: React.FC = () => {
   const [showExamSelector, setShowExamSelector] = useState<boolean>(true);
   const [showDonateModal, setShowDonateModal] = useState<boolean>(false);
 
-  /**
-   * Generates a random set of questions from each topic in the question bank
-   * @param questionsPerTopic - Number of questions to select from each topic (or percentage as a decimal)
-   * @param minQuestionsPerTopic - Minimum number of questions to include from each topic
-   * @returns Array of questions selected randomly from each topic
-   */
-  const generateRandomQuestions = (questionsPerTopic: number | number[] = 0.4, minQuestionsPerTopic: number = 2): Question[] => {
-    const allTopics = Object.keys(topicQuestionsData);
-    const selectedQuestions: Question[] = [];
-    
-    allTopics.forEach((topic, index) => {
-      const topicQuestions = topicQuestionsData[topic as keyof typeof topicQuestionsData];
-      let numToSelect: number;
-      
-      if (Array.isArray(questionsPerTopic)) {
-        // If questionsPerTopic is an array, use the specific number for this topic or the last element
-        numToSelect = questionsPerTopic[index] || questionsPerTopic[questionsPerTopic.length - 1];
-      } else if (questionsPerTopic < 1) {
-        // If questionsPerTopic is a decimal, interpret as a percentage
-        numToSelect = Math.max(Math.ceil(topicQuestions.length * questionsPerTopic), minQuestionsPerTopic);
-      } else {
-        // If questionsPerTopic is a whole number, use it directly
-        numToSelect = Math.min(questionsPerTopic, topicQuestions.length);
-      }
-      
-      // Ensure we don't try to select more questions than are available
-      numToSelect = Math.min(numToSelect, topicQuestions.length);
-      
-      // Create a copy of the topic questions to shuffle
-      const shuffledTopicQuestions = [...topicQuestions].sort(() => Math.random() - 0.5);
-      
-      // Take the required number of questions from this topic
-      const selectedTopicQuestions = shuffledTopicQuestions.slice(0, numToSelect);
-      
-      // Add to the main questions array
-      selectedQuestions.push(...selectedTopicQuestions);
-    });
-    
-    // Shuffle the final selection to mix questions from different topics
-    return selectedQuestions.sort(() => Math.random() - 0.5);
-  };
+  // Random questions are now generated in the examData.ts file
 
   // Load questions based on the selected exam
   const loadSelectedExam = async () => {
@@ -73,21 +34,13 @@ const App: React.FC = () => {
       return;
     }
     
-    if (selectedExam.id === 'random') {
-      // For random questions, use the existing function to generate random questions from topics
-      const randomQuestions = generateRandomQuestions(0.4, 2);
-      setQuestions(randomQuestions);
-    } else {
-      // For specific exams, load from the corresponding file
-      try {
-        const examQuestions = await loadExam(selectedExam);
-        setQuestions(examQuestions);
-      } catch (error) {
-        console.error(`Failed to load exam ${selectedExam.id}:`, error);
-        // Fallback to random questions if loading fails
-        const randomQuestions = generateRandomQuestions(0.4, 2);
-        setQuestions(randomQuestions);
-      }
+    // Load questions for the selected exam
+    try {
+      const examQuestions = await loadExam(selectedExam);
+      setQuestions(examQuestions);
+    } catch (error) {
+      console.error(`Failed to load exam ${selectedExam.id}:`, error);
+      setLoading(false);
     }
     
     // Reset quiz state when changing exam
