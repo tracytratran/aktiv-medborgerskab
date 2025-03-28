@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Aktiv Medborgerskab Quiz",
+    "loading": "Indlæser spørgsmål...",
+    "selectExam": "Vælg Din Eksamen",
+    "startQuiz": "Start Quiz"
+  },
+  "examSelector": {
+    "selectYear": "Vælg År:",
+    "selectSeason": "Vælg Sæson:",
+    "randomQuestions": "Tilfældige Spørgsmål fra Alle Emner",
+    "selectedExam": "Valgt Eksamen:",
+    "summer": "Sommer",
+    "winter": "Vinter",
+    "random": "Tilfældig"
+  },
+  "quiz": {
+    "question": "Spørgsmål {{current}} af {{total}}",
+    "cancel": "Annuller Quiz"
+  },
+  "results": {
+    "title": "Quiz Resultater",
+    "score": "Din score: {{score}}%",
+    "correct": "Korrekt: {{correct}} ud af {{total}}",
+    "restart": "Tag En Anden Quiz",
+    "history": "Quiz Historik",
+    "previousAttempts": "Tidligere Forsøg",
+    "date": "Dato",
+    "noHistory": "Ingen tidligere quiz-forsøg"
+  },
+  "donate": {
+    "buyMeACoffee": "Køb Mig En Kaffe",
+    "support": "Støt dette projekt"
+  },
+  "close": "Luk"
+}

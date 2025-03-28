@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Aktiv Staatsbürgerschaft Quiz",
+    "loading": "Lade Fragen...",
+    "selectExam": "Wählen Sie Ihre Prüfung",
+    "startQuiz": "Quiz Starten"
+  },
+  "examSelector": {
+    "selectYear": "Jahr auswählen:",
+    "selectSeason": "Jahreszeit auswählen:",
+    "randomQuestions": "Zufällige Fragen aus allen Themen",
+    "selectedExam": "Ausgewählte Prüfung:",
+    "summer": "Sommer",
+    "winter": "Winter",
+    "random": "Zufällig"
+  },
+  "quiz": {
+    "question": "Frage {{current}} von {{total}}",
+    "cancel": "Quiz Abbrechen"
+  },
+  "results": {
+    "title": "Quiz Ergebnisse",
+    "score": "Ihre Punktzahl: {{score}}%",
+    "correct": "Richtig: {{correct}} von {{total}}",
+    "restart": "Noch Ein Quiz Machen",
+    "history": "Quiz Verlauf",
+    "previousAttempts": "Vorherige Versuche",
+    "date": "Datum",
+    "noHistory": "Keine vorherigen Quiz-Versuche"
+  },
+  "donate": {
+    "buyMeACoffee": "Kaufen Sie mir einen Kaffee",
+    "support": "Unterstützen Sie dieses Projekt"
+  },
+  "close": "Schließen"
+}

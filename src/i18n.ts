@@ -6,6 +6,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslation from './locales/en/translation.json';
 import zhTranslation from './locales/zh/translation.json';
 import viTranslation from './locales/vi/translation.json';
+import daTranslation from './locales/da/translation.json';
+import deTranslation from './locales/de/translation.json';
 
 // Define resource structure for type safety
 declare module 'i18next' {
@@ -27,6 +29,12 @@ const resources = {
   },
   vi: {
     translation: viTranslation
+  },
+  da: {
+    translation: daTranslation
+  },
+  de: {
+    translation: deTranslation
   }
 };
 
