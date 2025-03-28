@@ -9,7 +9,6 @@ interface ResultsProps {
 
 const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz }) => {
   const [showReview, setShowReview] = useState<boolean>(false);
-  const [showDonateModal, setShowDonateModal] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<'current' | 'history'>('current');
   
   const correctAnswersCount = userAnswers.filter(answer => answer.isCorrect).length;
@@ -125,13 +124,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
               Start New Quiz
             </button>
             
-            <button 
-              className="py-3 px-6 bg-blue-500 border-2 border-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 hover:border-blue-600 transition-colors flex items-center justify-center gap-2"
-              onClick={() => setShowDonateModal(true)}
-            >
-              <span>Support This Project</span>
-              <span role="img" aria-label="qr-code" className="text-lg">🔗</span>
-            </button>
+
           </div>
         </div>
       ) : activeTab === 'current' && showReview ? (
@@ -237,51 +230,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
         </div>
       )}
       
-      {/* Modal for donations remains unchanged */}
-      {showDonateModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 transition-opacity">
-          <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-6 relative">
-            <button 
-              onClick={() => setShowDonateModal(false)}
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-              aria-label="Close"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-            
-            <div className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Medborgerskab Quiz</h3>
-              
-              <p className="text-gray-600 text-lg mb-4">
-                5186WU
-              </p>
-              
-              <div className="mb-6 flex justify-center">
-                <div className="border border-gray-200 rounded-lg p-3 inline-block">
-                  <img 
-                    src="/5186WU.jpg" 
-                    alt="QR Code for MobilePay donation" 
-                    className="w-48 h-48" 
-                  />
-                </div>
-              </div>
-              
-              <p className="mb-6 text-gray-700">
-                If you found this quiz useful for your Danish citizenship test preparation, consider supporting this project to help with development and server costs.
-              </p>
-              
-              <button
-                onClick={() => setShowDonateModal(false)}
-                className="py-2 px-6 bg-gray-200 text-gray-800 rounded-lg font-medium hover:bg-gray-300 transition-colors"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+
     </div>
   );
 };

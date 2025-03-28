@@ -18,6 +18,7 @@ const App: React.FC = () => {
   const [quizHistory, setQuizHistory] = useState<QuizAttempt[]>([]);
   const [selectedExamId, setSelectedExamId] = useState<string>('random'); // Default to random questions
   const [showExamSelector, setShowExamSelector] = useState<boolean>(true);
+  const [showDonateModal, setShowDonateModal] = useState<boolean>(false);
 
   /**
    * Generates a random set of questions from each topic in the question bank
@@ -190,7 +191,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4 relative">
       <h1 className="text-3xl font-bold text-blue-600 mb-4">Aktiv Medborgerskab Quiz</h1>
       
       {showExamSelector ? (
@@ -226,6 +227,62 @@ const App: React.FC = () => {
       ) : (
         <div className="w-full max-w-3xl">
           <Results userAnswers={userAnswers} quizHistory={quizHistory} restartQuiz={restartQuiz} />
+        </div>
+      )}
+      
+      {/* Coffee button that appears on all pages */}
+      <div className="fixed bottom-4 right-4">
+        <button 
+          className="py-2 px-4 bg-blue-500 border-2 border-blue-500 text-white rounded-lg text-sm font-medium hover:bg-blue-600 hover:border-blue-600 transition-colors flex items-center justify-center gap-1 shadow-md opacity-75 hover:opacity-100"
+          onClick={() => setShowDonateModal(true)}
+        >
+          Buy me a coffee<span role="img" aria-label="coffee cup" className="text-md">☕️</span>
+        </button>
+      </div>
+      
+      {/* Donate modal with MobilePay details */}
+      {showDonateModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 transition-opacity">
+          <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-6 relative">
+            <button 
+              onClick={() => setShowDonateModal(false)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+              aria-label="Close"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            
+            <div className="text-center">
+              <h3 className="text-2xl font-bold mb-4">Medborgerskab Quiz</h3>
+              
+              <p className="text-gray-600 text-lg mb-4">
+                5186WU
+              </p>
+              
+              <div className="mb-6 flex justify-center">
+                <div className="border border-gray-200 rounded-lg p-3 inline-block">
+                  <img 
+                    src={process.env.PUBLIC_URL + "/5186WU.jpg"} 
+                    alt="QR Code for MobilePay donation" 
+                    className="w-48 h-48" 
+                  />
+                </div>
+              </div>
+              
+              <p className="mb-6 text-gray-700">
+                If you found this quiz useful for your Danish active citizenship test preparation, consider supporting this project to help with development and server costs.
+              </p>
+              
+              <button
+                onClick={() => setShowDonateModal(false)}
+                className="py-2 px-6 bg-gray-200 text-gray-800 rounded-lg font-medium hover:bg-gray-300 transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
