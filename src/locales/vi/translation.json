@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Bài Kiểm Tra Công Dân Tích Cực",
+    "loading": "Đang tải câu hỏi...",
+    "selectExam": "Chọn Bài Kiểm Tra Của Bạn",
+    "startQuiz": "Bắt Đầu Kiểm Tra"
+  },
+  "examSelector": {
+    "selectYear": "Chọn Năm:",
+    "selectSeason": "Chọn Mùa:",
+    "randomQuestions": "Câu Hỏi Ngẫu Nhiên từ Tất Cả Chủ Đề",
+    "selectedExam": "Bài Kiểm Tra Đã Chọn:",
+    "summer": "Mùa Hè",
+    "winter": "Mùa Đông",
+    "random": "Ngẫu Nhiên"
+  },
+  "quiz": {
+    "question": "Câu hỏi {{current}} / {{total}}",
+    "cancel": "Hủy Bài Kiểm Tra"
+  },
+  "results": {
+    "title": "Kết Quả Kiểm Tra",
+    "score": "Điểm số của bạn: {{score}}%",
+    "correct": "Chính xác: {{correct}} trên {{total}}",
+    "restart": "Làm Bài Kiểm Tra Khác",
+    "history": "Lịch Sử Kiểm Tra",
+    "previousAttempts": "Các Lần Thử Trước",
+    "date": "Ngày",
+    "noHistory": "Không có lần kiểm tra nào trước đây"
+  },
+  "donate": {
+    "buyMeACoffee": "Mua Cho Tôi Một Ly Cà Phê",
+    "support": "Hỗ trợ dự án này"
+  },
+  "close": "Đóng"
+}

@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "积极公民考试",
+    "loading": "正在加载问题...",
+    "selectExam": "选择您的考试",
+    "startQuiz": "开始测验"
+  },
+  "examSelector": {
+    "selectYear": "选择年份：",
+    "selectSeason": "选择季节：",
+    "randomQuestions": "所有主题的随机问题",
+    "selectedExam": "已选择的考试：",
+    "summer": "夏季",
+    "winter": "冬季",
+    "random": "随机"
+  },
+  "quiz": {
+    "question": "问题 {{current}}/{{total}}",
+    "cancel": "取消测验"
+  },
+  "results": {
+    "title": "测验结果",
+    "score": "你的分数: {{score}}%",
+    "correct": "正确: {{correct}}/{{total}}",
+    "restart": "再次测验",
+    "history": "测验历史",
+    "previousAttempts": "之前的尝试",
+    "date": "日期",
+    "noHistory": "没有之前的测验记录"
+  },
+  "donate": {
+    "buyMeACoffee": "请我喝杯咖啡",
+    "support": "支持此项目"
+  },
+  "close": "关闭"
+}

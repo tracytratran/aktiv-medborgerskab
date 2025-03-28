@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useAppTranslation } from '../hooks/useAppTranslation';
 import { UserAnswer, QuizAttempt } from '../types';
 
 interface ResultsProps {
@@ -8,6 +9,7 @@ interface ResultsProps {
 }
 
 const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz }) => {
+  const { t } = useAppTranslation();
   const [showReview, setShowReview] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<'current' | 'history'>('current');
   
@@ -75,13 +77,13 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
           className={`px-4 py-2 font-medium ${activeTab === 'current' ? 'text-primary border-b-2 border-primary' : 'text-gray-500'}`}
           onClick={() => setActiveTab('current')}
         >
-          Current Result
+          {t('results.title')}
         </button>
         <button
           className={`px-4 py-2 font-medium ${activeTab === 'history' ? 'text-primary border-b-2 border-primary' : 'text-gray-500'}`}
           onClick={() => setActiveTab('history')}
         >
-          History
+          {t('results.history')}
           {quizHistory.length > 0 && (
             <span className="ml-2 px-2 py-0.5 bg-gray-200 text-gray-700 text-xs rounded-full">
               {quizHistory.length}
@@ -94,14 +96,14 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
       {activeTab === 'current' && !showReview ? (
         // Current results view
         <div className="flex flex-col items-center text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">Quiz Complete!</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8">{t('results.title')}</h2>
           
           <div 
             className={`w-40 h-40 md:w-48 md:h-48 rounded-full border-8 flex flex-col justify-center items-center mb-8 ${getGradeColorClasses()}`}
           >
             <span className="text-4xl md:text-5xl font-bold">{percentage}%</span>
             <span className="text-sm mt-2">
-              {correctAnswersCount} of {totalQuestions} correct
+              {t('results.correct', { correct: correctAnswersCount, total: totalQuestions })}
             </span>
           </div>
           
@@ -113,7 +115,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
                 className="py-3 px-6 bg-white border-2 border-primary text-primary rounded-lg font-medium hover:bg-blue-50 transition-colors"
                 onClick={() => setShowReview(true)}
               >
-                Review Incorrect Answers
+                {t('results.restart')}
               </button>
             )}
             
@@ -121,7 +123,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
               className="py-3 px-6 bg-primary border-2 border-primary text-white rounded-lg font-medium hover:bg-primary-dark hover:border-primary-dark transition-colors"
               onClick={restartQuiz}
             >
-              Start New Quiz
+              {t('results.restart')}
             </button>
             
 
@@ -163,23 +165,23 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
             className="self-start py-3 px-6 bg-primary border-2 border-primary text-white rounded-lg font-medium hover:bg-primary-dark transition-colors"
             onClick={() => setShowReview(false)}
           >
-            Back to Results
+            {t('results.title')}
           </button>
         </div>
       ) : (
         // History tab view
         <div className="flex flex-col">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold mb-4">Your Progress</h2>
+            <h2 className="text-2xl font-bold mb-4">{t('results.title')}</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="bg-blue-50 rounded-lg p-4 text-center">
-                <p className="text-sm text-gray-600 mb-1">Total Attempts</p>
+                <p className="text-sm text-gray-600 mb-1">{t('results.previousAttempts')}</p>
                 <p className="text-2xl font-bold text-blue-700">{quizHistory.length}</p>
               </div>
               
               <div className="bg-green-50 rounded-lg p-4 text-center">
-                <p className="text-sm text-gray-600 mb-1">Average Score</p>
+                <p className="text-sm text-gray-600 mb-1">{t('results.score', { score: averageScore })}</p>
                 <p className="text-2xl font-bold text-green-700">{averageScore}%</p>
               </div>
               
@@ -211,12 +213,12 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, quizHistory, restartQuiz
             )}
           </div>
           
-          <h3 className="text-lg font-semibold mb-3">Quiz History</h3>
+          <h3 className="text-lg font-semibold mb-3">{t('results.history')}</h3>
           <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
             {quizHistory.map((attempt, index) => (
               <div key={index} className="border rounded-lg p-4 hover:bg-gray-50 transition-colors">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-sm text-gray-500">{formatDate(attempt.date)}</span>
+                  <span className="text-sm text-gray-500">{t('results.date')}: {formatDate(attempt.date)}</span>
                   <span className={`px-2 py-1 rounded-full text-sm font-medium ${attempt.score >= 75 ? 'bg-green-100 text-green-800' : attempt.score >= 60 ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`}>
                     {attempt.score}%
                   </span>

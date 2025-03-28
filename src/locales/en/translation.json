@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Active Citizenship Quiz",
+    "loading": "Loading questions...",
+    "selectExam": "Select Your Exam",
+    "startQuiz": "Start Quiz"
+  },
+  "examSelector": {
+    "selectYear": "Select Year:",
+    "selectSeason": "Select Season:",
+    "randomQuestions": "Random Questions from All Topics",
+    "selectedExam": "Selected Exam:",
+    "summer": "Summer",
+    "winter": "Winter",
+    "random": "Random"
+  },
+  "quiz": {
+    "question": "Question {{current}} of {{total}}",
+    "cancel": "Cancel Quiz"
+  },
+  "results": {
+    "title": "Quiz Results",
+    "score": "Your score: {{score}}%",
+    "correct": "Correct: {{correct}} out of {{total}}",
+    "restart": "Take Another Quiz",
+    "history": "Quiz History",
+    "previousAttempts": "Previous Attempts",
+    "date": "Date",
+    "noHistory": "No previous quiz attempts"
+  },
+  "donate": {
+    "buyMeACoffee": "Buy Me a Coffee",
+    "support": "Support this project"
+  },
+  "close": "Close"
+}

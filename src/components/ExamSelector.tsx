@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useAppTranslation } from '../hooks/useAppTranslation';
 
 export interface ExamOption {
   id: string;
@@ -19,6 +20,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
   selectedExamId, 
   onSelectExam 
 }) => {
+  const { t } = useAppTranslation();
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   
   // Group exams by year for easier selection
@@ -71,7 +73,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
     <div className="mb-6">
       {/* Year Selection */}
       <div className="mb-6">
-        <h3 className="font-medium text-gray-700 mb-2">Select Year:</h3>
+        <h3 className="font-medium text-gray-700 mb-2">{t('examSelector.selectYear')}</h3>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           <button
             key="random"
@@ -81,7 +83,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
               : 'border-gray-200 hover:border-primary hover:bg-blue-50'
             }`}
           >
-            Random
+            {t('examSelector.random')}
           </button>
           
           {years.map(year => (
@@ -102,7 +104,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
       {/* Season Selection (if year is selected) */}
       {selectedYear !== null && selectedYear !== 0 && (
         <div className="mb-6">
-          <h3 className="font-medium text-gray-700 mb-2">Select Season:</h3>
+          <h3 className="font-medium text-gray-700 mb-2">{t('examSelector.selectSeason')}</h3>
           <div className="grid grid-cols-2 gap-3">
             {groupedExams[selectedYear.toString()].map(option => (
               <button
@@ -113,7 +115,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                   : 'border-gray-200 hover:border-primary hover:bg-blue-50'
                 }`}
               >
-                <div className="font-medium">{option.season === 'summer' ? 'Summer' : 'Winter'}</div>
+                <div className="font-medium">{option.season === 'summer' ? t('examSelector.summer') : t('examSelector.winter')}</div>
                 <div className="text-sm text-gray-600">{option.label}</div>
               </button>
             ))}
@@ -124,11 +126,11 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
       {/* Show selection summary */}
       {selectedExam && (
         <div className="bg-gray-100 p-3 rounded-lg">
-          <p className="font-medium">Selected Exam:</p>
+          <p className="font-medium">{t('examSelector.selectedExam')}</p>
           <p className="text-sm text-gray-700">
             {selectedExam.id === 'random' 
-              ? 'Random Questions from All Topics' 
-              : `${selectedExam.year} - ${selectedExam.season === 'summer' ? 'Summer' : 'Winter'}`
+              ? t('examSelector.randomQuestions') 
+              : `${selectedExam.year} - ${selectedExam.season === 'summer' ? t('examSelector.summer') : t('examSelector.winter')}`
             }
           </p>
         </div>

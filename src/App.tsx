@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { useAppTranslation } from './hooks/useAppTranslation';
+import LanguageSelector from './components/LanguageSelector';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import ExamSelector from './components/ExamSelector';
@@ -11,6 +13,7 @@ import { availableExams, getExamById, loadExam } from './utils/examData';
 const QUIZ_HISTORY_KEY = 'medborgerskab_quiz_history';
 
 const App: React.FC = () => {
+  const { t } = useAppTranslation();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
@@ -145,8 +148,8 @@ const App: React.FC = () => {
   if (loading) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-        <h1 className="text-3xl font-bold text-blue-600 mb-4">Aktiv Medborgerskab Quiz</h1>
-        <p className="text-xl">Loading questions...</p>
+        <h1 className="text-3xl font-bold text-blue-600 mb-4">{t('app.title')}</h1>
+        <p className="text-xl">{t('app.loading')}</p>
         <div className="mt-4 w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
       </div>
     );
@@ -154,11 +157,15 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4 relative">
-      <h1 className="text-3xl font-bold text-blue-600 mb-4">Aktiv Medborgerskab Quiz</h1>
+      {/* Language selector in top-right corner */}
+      <div className="absolute top-4 right-4">
+        <LanguageSelector />
+      </div>
+      <h1 className="text-3xl font-bold text-blue-600 mb-4">{t('app.title')}</h1>
       
       {showExamSelector ? (
         <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">Select Your Exam</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">{t('app.selectExam')}</h2>
           
           <ExamSelector 
             options={availableExams}
@@ -171,7 +178,7 @@ const App: React.FC = () => {
               onClick={startQuiz}
               className="px-8 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
             >
-              Start Quiz
+              {t('app.startQuiz')}
             </button>
           </div>
         </div>
@@ -199,7 +206,7 @@ const App: React.FC = () => {
           className="py-2 px-4 bg-blue-500 border-2 border-blue-500 text-white rounded-lg text-sm font-medium hover:bg-blue-600 hover:border-blue-600 transition-colors flex items-center justify-center gap-1 shadow-md opacity-75 hover:opacity-100"
           onClick={() => setShowDonateModal(true)}
         >
-          Buy me a coffee<span role="img" aria-label="coffee cup" className="text-md">☕️</span>
+          {t('donate.buyMeACoffee')}<span role="img" aria-label="coffee cup" className="text-md">☕️</span>
         </button>
       </div>
       
@@ -218,7 +225,7 @@ const App: React.FC = () => {
             </button>
             
             <div className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Medborgerskab Quiz</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('app.title')}</h3>
               
               <p className="text-gray-600 text-lg mb-4">
                 5186WU
@@ -235,14 +242,14 @@ const App: React.FC = () => {
               </div>
               
               <p className="mb-6 text-gray-700">
-                If you found this quiz useful for your Danish active citizenship test preparation, consider supporting this project to help with development and server costs.
+                {t('donate.support')}
               </p>
               
               <button
                 onClick={() => setShowDonateModal(false)}
                 className="py-2 px-6 bg-gray-200 text-gray-800 rounded-lg font-medium hover:bg-gray-300 transition-colors"
               >
-                Close
+                {t('close')}
               </button>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useAppTranslation } from '../hooks/useAppTranslation';
 import { Question } from '../types';
 
 interface QuizProps {
@@ -16,6 +17,7 @@ const Quiz: React.FC<QuizProps> = ({
   onAnswer,
   onCancel
 }) => {
+  const { t } = useAppTranslation();
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState<boolean>(false);
   
@@ -36,7 +38,7 @@ const Quiz: React.FC<QuizProps> = ({
       {/* Progress bar */}
       <div className="mb-6">
         <div className="flex justify-between mb-2 text-sm text-gray-600">
-          <span>Question {currentQuestion} of {totalQuestions}</span>
+          <span>{t('quiz.question', { current: currentQuestion, total: totalQuestions })}</span>
           <span>{Math.round((currentQuestion / totalQuestions) * 100)}%</span>
         </div>
         <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">
@@ -92,7 +94,7 @@ const Quiz: React.FC<QuizProps> = ({
           onClick={onCancel}
           disabled={showFeedback}
         >
-          Cancel Quiz
+          {t('quiz.cancel')}
         </button>
       </div>
     </div>
