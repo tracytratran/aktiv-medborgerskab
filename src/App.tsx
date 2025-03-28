@@ -120,6 +120,15 @@ const App: React.FC = () => {
     setQuizCompleted(false);
   };
   
+  // Handle canceling a quiz without saving results
+  const cancelQuiz = () => {
+    // Reset the quiz state and go back to the exam selector
+    setShowExamSelector(true);
+    setCurrentQuestionIndex(0);
+    setUserAnswers([]);
+    setQuizCompleted(false);
+  };
+  
   // Handle exam selection
   const handleSelectExam = (examId: string) => {
     setSelectedExamId(examId);
@@ -174,6 +183,7 @@ const App: React.FC = () => {
               currentQuestion={currentQuestionIndex + 1} 
               totalQuestions={questions.length}
               onAnswer={handleAnswer}
+              onCancel={cancelQuiz}
             />
           </div>
         )

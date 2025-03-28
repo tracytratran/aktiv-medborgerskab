@@ -6,13 +6,15 @@ interface QuizProps {
   currentQuestion: number;
   totalQuestions: number;
   onAnswer: (selectedOption: string) => void;
+  onCancel: () => void; // Add a new prop for canceling the quiz
 }
 
 const Quiz: React.FC<QuizProps> = ({ 
   question, 
   currentQuestion, 
   totalQuestions, 
-  onAnswer 
+  onAnswer,
+  onCancel
 }) => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState<boolean>(false);
@@ -81,6 +83,17 @@ const Quiz: React.FC<QuizProps> = ({
             </button>
           );
         })}
+      </div>
+      
+      {/* Cancel quiz button */}
+      <div className="mt-6 flex justify-center">
+        <button
+          className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg font-medium hover:bg-gray-300 transition-colors focus:outline-none"
+          onClick={onCancel}
+          disabled={showFeedback}
+        >
+          Cancel Quiz
+        </button>
       </div>
     </div>
   );
