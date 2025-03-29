@@ -3,7 +3,8 @@
     "title": "Aktiv Medborgerskab Quiz",
     "loading": "Indlæser spørgsmål...",
     "selectExam": "Vælg Din Eksamen",
-    "startQuiz": "Start Quiz"
+    "startQuiz": "Start Quiz",
+    "connectLinkedIn": "Forbind på LinkedIn"
   },
   "examSelector": {
     "selectYear": "Vælg År:",

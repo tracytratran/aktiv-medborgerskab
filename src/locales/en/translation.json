@@ -3,7 +3,8 @@
     "title": "Active Citizenship Quiz",
     "loading": "Loading questions...",
     "selectExam": "Select Your Exam",
-    "startQuiz": "Start Quiz"
+    "startQuiz": "Start Quiz",
+    "connectLinkedIn": "Connect on LinkedIn"
   },
   "examSelector": {
     "selectYear": "Select Year:",

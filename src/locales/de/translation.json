@@ -3,7 +3,8 @@
     "title": "Aktiv Staatsbürgerschaft Quiz",
     "loading": "Lade Fragen...",
     "selectExam": "Wählen Sie Ihre Prüfung",
-    "startQuiz": "Quiz Starten"
+    "startQuiz": "Quiz Starten",
+    "connectLinkedIn": "Auf LinkedIn verbinden"
   },
   "examSelector": {
     "selectYear": "Jahr auswählen:",

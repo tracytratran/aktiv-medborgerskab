@@ -3,7 +3,8 @@
     "title": "Bài Kiểm Tra Công Dân Tích Cực",
     "loading": "Đang tải câu hỏi...",
     "selectExam": "Chọn Bài Kiểm Tra Của Bạn",
-    "startQuiz": "Bắt Đầu Kiểm Tra"
+    "startQuiz": "Bắt Đầu Kiểm Tra",
+    "connectLinkedIn": "Kết nối trên LinkedIn"
   },
   "examSelector": {
     "selectYear": "Chọn Năm:",

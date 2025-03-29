@@ -167,14 +167,21 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4 relative">
-      {/* Language selector in top-right corner */}
-      <div className="absolute top-4 right-4">
-        <LanguageSelector />
-      </div>
-      <h1 className="text-3xl font-bold text-blue-600 mb-4">
-        {t("app.title")}
-      </h1>
+    <div className="min-h-screen flex flex-col bg-gray-100 relative">
+      {/* Header with language selector */}
+      <header className="sticky top-0 bg-white bg-opacity-95 shadow-sm z-10 py-4">
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <h1 className="text-2xl sm:text-3xl font-bold text-blue-600 text-center sm:text-left">
+            {t("app.title")}
+          </h1>
+          <div className="flex justify-center sm:justify-end">
+            <LanguageSelector />
+          </div>
+        </div>
+      </header>
+
+      {/* Main content */}
+      <main className="flex-grow container mx-auto px-4 py-6 flex flex-col items-center justify-center">
 
       {showExamSelector ? (
         <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-6">
@@ -242,25 +249,47 @@ const App: React.FC = () => {
         </div>
       )}
 
-      {/* Copyright footer */}
-      <div className="fixed bottom-4 left-4">
-        <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
-        </p>
-      </div>
+      </main>
 
-      {/* Coffee button that appears on all pages */}
-      <div className="fixed bottom-4 right-4">
-        <button
-          className="py-2 px-4 bg-blue-500 border-2 border-blue-500 text-white rounded-lg text-sm font-medium hover:bg-blue-600 hover:border-blue-600 transition-colors flex items-center justify-center gap-1 shadow-md opacity-75 hover:opacity-100"
-          onClick={() => setShowDonateModal(true)}
-        >
-          {t("donate.buyMeACoffee")}
-          <span role="img" aria-label="coffee cup" className="text-md">
-            ☕️
-          </span>
-        </button>
-      </div>
+      {/* Mobile-friendly footer */}
+      <footer className="fixed bottom-0 left-0 right-0 bg-white bg-opacity-95 shadow-lg p-4 z-10">
+        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left order-2 sm:order-1">
+            © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
+          </p>
+          
+          {/* Social buttons */}
+          <div className="flex gap-2 order-1 sm:order-2">
+            <a
+              href="https://www.linkedin.com/in/tracytratran"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="py-2 px-4 bg-[#0077b5] border-2 border-[#0077b5] text-white rounded-lg text-sm font-medium hover:bg-[#006396] hover:border-[#006396] transition-colors flex items-center justify-center gap-1 shadow-md opacity-75 hover:opacity-100"
+            >
+              {t("app.connectLinkedIn")}
+              <svg
+                className="w-4 h-4 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <button
+              className="py-2 px-4 bg-blue-500 border-2 border-blue-500 text-white rounded-lg text-sm font-medium hover:bg-blue-600 hover:border-blue-600 transition-colors flex items-center justify-center gap-1 shadow-md opacity-75 hover:opacity-100"
+              onClick={() => setShowDonateModal(true)}
+            >
+              {t("donate.buyMeACoffee")}
+              <span role="img" aria-label="coffee cup" className="text-md">
+                ☕️
+              </span>
+            </button>
+          </div>
+        </div>
+      </footer>
+
+      {/* Add padding to prevent content from being hidden behind the fixed footer */}
+      <div className="pb-32 sm:pb-24"></div>
 
       {/* Donate modal with MobilePay details */}
       {showDonateModal && (

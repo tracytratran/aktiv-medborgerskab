@@ -3,7 +3,8 @@
     "title": "积极公民考试",
     "loading": "正在加载问题...",
     "selectExam": "选择您的考试",
-    "startQuiz": "开始测验"
+    "startQuiz": "开始测验",
+    "connectLinkedIn": "在LinkedIn上连接"
   },
   "examSelector": {
     "selectYear": "选择年份：",
