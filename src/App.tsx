@@ -242,6 +242,13 @@ const App: React.FC = () => {
         </div>
       )}
 
+      {/* Copyright footer */}
+      <div className="fixed bottom-4 left-4">
+        <p className="text-sm text-gray-500">
+          © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
+        </p>
+      </div>
+
       {/* Coffee button that appears on all pages */}
       <div className="fixed bottom-4 right-4">
         <button
