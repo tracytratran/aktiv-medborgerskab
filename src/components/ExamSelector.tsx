@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React from 'react';
 import { useAppTranslation } from '../hooks/useAppTranslation';
 
 export interface ExamOption {
@@ -11,130 +11,51 @@ export interface ExamOption {
 
 interface ExamSelectorProps {
   options: ExamOption[];
-  selectedExamId: string;
   onSelectExam: (examId: string) => void;
 }
 
 const ExamSelector: React.FC<ExamSelectorProps> = ({ 
   options, 
-  selectedExamId, 
   onSelectExam 
-}) => {
+}: ExamSelectorProps) => {
   const { t } = useAppTranslation();
-  const [selectedYear, setSelectedYear] = useState<number | null>(null);
   
-  // Group exams by year for easier selection
-  const groupedExams = useMemo(() => {
-    const grouped: Record<string, ExamOption[]> = {};
+  // Sort exams by year (newest first) and season (winter before summer)
+  const sortedExams = [...options].sort((a, b) => {
+    if (a.id === 'random') return -1;
+    if (b.id === 'random') return 1;
     
-    // Add the random questions option to a special category
-    const randomOption = options.find(opt => opt.id === 'random');
-    if (randomOption) {
-      grouped['Random'] = [randomOption];
+    if (a.year !== b.year) {
+      return b.year - a.year;
     }
-    
-    // Group the rest by year
-    options.forEach(option => {
-      if (option.id === 'random') return; // Skip random as we've already handled it
-      
-      const yearKey = option.year.toString();
-      if (!grouped[yearKey]) {
-        grouped[yearKey] = [];
-      }
-      grouped[yearKey].push(option);
-    });
-    
-    return grouped;
-  }, [options]);
-  
-  // Get sorted list of years
-  const years = useMemo(() => {
-    return Object.keys(groupedExams)
-      .filter(year => year !== 'Random')
-      .sort((a, b) => parseInt(b) - parseInt(a));
-  }, [groupedExams]);
-  
-  // Get the currently selected exam
-  const selectedExam = options.find(opt => opt.id === selectedExamId);
-  
-  // When selecting a year, auto-select if there's only one option for that year
-  const handleYearSelect = (year: string) => {
-    const yearNum = year === 'Random' ? 0 : parseInt(year);
-    setSelectedYear(yearNum);
-    
-    const yearExams = groupedExams[year];
-    if (yearExams.length === 1) {
-      // If only one option for this year, select it automatically
-      onSelectExam(yearExams[0].id);
-    }
-  };
-  
+    return a.season === 'winter' ? -1 : 1;
+  });
+
   return (
-    <div className="mb-6">
-      {/* Year Selection */}
-      <div className="mb-6">
-        <h3 className="font-medium text-gray-700 mb-2">{t('examSelector.selectYear')}</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+    <div className="space-y-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {sortedExams.map(exam => (
           <button
-            key="random"
-            onClick={() => handleYearSelect('Random')}
-            className={`p-3 rounded-lg border-2 transition-all ${selectedYear === 0
-              ? 'border-primary bg-blue-50 text-primary'
-              : 'border-gray-200 hover:border-primary hover:bg-blue-50'
-            }`}
+            key={exam.id}
+            onClick={() => onSelectExam(exam.id)}
+            className="p-6 rounded-lg border-2 border-gray-200 hover:border-primary hover:bg-blue-50 transition-all text-left"
           >
-            {t('examSelector.random')}
+            {exam.id === 'random' ? (
+              <>
+                <div className="font-medium text-lg mb-1">{t('examSelector.random')}</div>
+                <div className="text-sm text-gray-600">{t('examSelector.randomQuestions')}</div>
+              </>
+            ) : (
+              <>
+                <div className="font-medium text-lg mb-1">
+                  {exam.season === 'summer' ? t('examSelector.summer') : t('examSelector.winter')} {exam.year}
+                </div>
+                <div className="text-sm text-gray-600">{exam.label}</div>
+              </>
+            )}
           </button>
-          
-          {years.map(year => (
-            <button
-              key={year}
-              onClick={() => handleYearSelect(year)}
-              className={`p-3 rounded-lg border-2 transition-all ${parseInt(year) === selectedYear
-                ? 'border-primary bg-blue-50 text-primary'
-                : 'border-gray-200 hover:border-primary hover:bg-blue-50'
-              }`}
-            >
-              {year}
-            </button>
-          ))}
-        </div>
+        ))}
       </div>
-      
-      {/* Season Selection (if year is selected) */}
-      {selectedYear !== null && selectedYear !== 0 && (
-        <div className="mb-6">
-          <h3 className="font-medium text-gray-700 mb-2">{t('examSelector.selectSeason')}</h3>
-          <div className="grid grid-cols-2 gap-3">
-            {groupedExams[selectedYear.toString()].map(option => (
-              <button
-                key={option.id}
-                onClick={() => onSelectExam(option.id)}
-                className={`p-4 rounded-lg border-2 transition-all ${selectedExamId === option.id
-                  ? 'border-primary bg-blue-50 text-primary'
-                  : 'border-gray-200 hover:border-primary hover:bg-blue-50'
-                }`}
-              >
-                <div className="font-medium">{option.season === 'summer' ? t('examSelector.summer') : t('examSelector.winter')}</div>
-                <div className="text-sm text-gray-600">{option.label}</div>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-      
-      {/* Show selection summary */}
-      {selectedExam && (
-        <div className="bg-gray-100 p-3 rounded-lg">
-          <p className="font-medium">{t('examSelector.selectedExam')}</p>
-          <p className="text-sm text-gray-700">
-            {selectedExam.id === 'random' 
-              ? t('examSelector.randomQuestions') 
-              : `${selectedExam.year} - ${selectedExam.season === 'summer' ? t('examSelector.summer') : t('examSelector.winter')}`
-            }
-          </p>
-        </div>
-      )}
     </div>
   );
 };
