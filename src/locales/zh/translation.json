@@ -9,7 +9,7 @@
   "examSelector": {
     "selectYear": "选择年份：",
     "selectSeason": "选择季节：",
-    "randomQuestions": "所有主题的随机问题",
+    "randomQuestions": "所有以往考试的随机问题",
     "selectedExam": "已选择的考试：",
     "summer": "夏季",
     "winter": "冬季",

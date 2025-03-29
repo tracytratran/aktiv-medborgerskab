@@ -9,7 +9,7 @@
   "examSelector": {
     "selectYear": "Vælg År:",
     "selectSeason": "Vælg Sæson:",
-    "randomQuestions": "Tilfældige Spørgsmål fra Alle Emner",
+    "randomQuestions": "Tilfældige spørgsmål fra alle tidligere eksamener",
     "selectedExam": "Valgt Eksamen:",
     "summer": "Sommer",
     "winter": "Vinter",

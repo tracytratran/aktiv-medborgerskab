@@ -9,7 +9,7 @@
   "examSelector": {
     "selectYear": "Select Year:",
     "selectSeason": "Select Season:",
-    "randomQuestions": "Random Questions from All Topics",
+    "randomQuestions": "Random questions for all previous exams",
     "selectedExam": "Selected Exam:",
     "summer": "Summer",
     "winter": "Winter",
