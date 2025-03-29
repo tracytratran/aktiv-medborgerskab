@@ -1,6 +1,6 @@
 # Aktiv Medborgerskab Quiz App
 
-A TypeScript and React-based quiz application with Tailwind CSS for studying Danish citizenship questions.
+A TypeScript and React-based quiz application with Tailwind CSS for studying Danish active citizenship questions.
 
 ## Features
 
@@ -24,27 +24,24 @@ A TypeScript and React-based quiz application with Tailwind CSS for studying Dan
 
 ### Prerequisites
 
-- Node.js (v14+)
-- npm or yarn
+- Node.js (v18+)
+- pnpm
 
 ### Installation
 
-1. Navigate to the quiz-app directory:
+1. Install dependencies:
+
    ```
-   cd /Users/chriskhong/Documents/Programming/medborgerskab/web/quiz-app
+   pnpm install
    ```
 
-2. Install dependencies:
+2. Start the development server:
+
    ```
-   npm install
+   pnpm start
    ```
 
-3. Start the development server:
-   ```
-   npm start
-   ```
-
-4. The app will open in your browser at [http://localhost:3000](http://localhost:3000)
+3. The app will open in your browser at [http://localhost:3000](http://localhost:3000)
 
 ## How to Use
 
@@ -60,10 +57,27 @@ A TypeScript and React-based quiz application with Tailwind CSS for studying Dan
 ```
 src/
 ├── components/
-│   ├── Quiz.tsx        # Quiz component for showing questions and options
-│   └── Results.tsx     # Results component for showing score and review
-├── questions-bank.json # Database of quiz questions
-├── types.ts            # TypeScript interfaces
-├── App.tsx             # Main application component
-└── index.tsx           # Entry point
+│   ├── ExamSelector.tsx    # Exam selection component
+│   ├── LanguageSelector.tsx # Language selection component
+│   ├── Quiz.tsx            # Quiz component for showing questions and options
+│   └── Results.tsx         # Results component for showing score and review
+├── banks/                  # Question banks by year
+│   ├── 2021/
+│   ├── 2022/
+│   ├── 2023/
+│   └── 2024/
+├── hooks/
+│   └── useAppTranslation.ts # Custom translation hook
+├── locales/                 # Internationalization files
+│   ├── da/                  # Danish translations
+│   ├── de/                  # German translations
+│   ├── en/                  # English translations
+│   ├── vi/                  # Vietnamese translations
+│   └── zh/                  # Chinese translations
+├── utils/
+│   └── examData.ts          # Exam data utilities
+├── types.ts                 # TypeScript interfaces
+├── i18n.ts                 # Internationalization setup
+├── App.tsx                 # Main application component
+└── index.tsx               # Entry point
 ```
