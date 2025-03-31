@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Hvornår er den første grundlov fra?",
+    "options": [
+      "1600-tallet",
+      "1700-tallet",
+      "1800-tallet"
+    ],
+    "answer": "1800-tallet"
+  },
+  {
+    "question": "Hvilken organisation blev Danmark medlem af i 1945?",
+    "options": [
+      "Forenede Nationer (FN)",
+      "Det Europæiske Fællesskab (EF)",
+      "Nordisk Ministerråd"
+    ],
+    "answer": "Forenede Nationer (FN)"
+  },
+  {
+    "question": "Af hvem bliver tillidsrepræsentanten på en arbejdsplads valgt?",
+    "options": [
+      "Medarbejderne og arbejdsgiveren i fællesskab",
+      "Medarbejderne",
+      "Arbejdsgiveren"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Hvornår bliver man ifølge loven myndig?",
+    "options": [
+      "Når man fylder 15 år",
+      "Når man fylder 18 år",
+      "Når man fylder 21 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Jylland og Fyn?",
+    "options": [
+      "Storebælt",
+      "Øresund",
+      "Lillebælt"
+    ],
+    "answer": "Lillebælt"
+  },
+  {
+    "question": "Er det normalt gratis at være medlem af en fagforening?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad er den mest almindelige arbejdstid, hvis man er ansat på fuldtid?",
+    "options": [
+      "37 timer om ugen",
+      "40 timer om ugen",
+      "43 timer om ugen"
+    ],
+    "answer": "37 timer om ugen"
+  },
+  {
+    "question": "Er det normalt gratis for voksne borgere at gå til læge?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Må man danne en forening, hvis man ikke er dansk statsborger?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem har den dømmende magt?",
+    "options": [
+      "Regeringen",
+      "Folketinget",
+      "Domstolene"
+    ],
+    "answer": "Domstolene"
+  },
+  {
+    "question": "Hvem står for driften af de offentlige vuggestuer?",
+    "options": [
+      "Staten",
+      "Regionerne",
+      "Kommunerne"
+    ],
+    "answer": "Kommunerne"
+  },
+  {
+    "question": "Hvilken virksomhed producerer vindmøller?",
+    "options": [
+      "Novo Nordisk",
+      "Vestas",
+      "Velux"
+    ],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Hvor mange børn mellem tre og fem år passes uden for hjemmet?",
+    "options": [
+      "Næsten alle",
+      "Ca. tre fjerdedele",
+      "Ca. halvdelen"
+    ],
+    "answer": "Næsten alle"
+  },
+  {
+    "question": "Hvordan er stemmeprocenten normalt ved valg til Europa-Parlamentet?",
+    "options": [
+      "På samme niveau som ved folketingsvalg",
+      "Højere end ved folketingsvalg",
+      "Lavere end ved folketingsvalg"
+    ],
+    "answer": "Lavere end ved folketingsvalg"
+  },
+  {
+    "question": "Skal Folketingets medlemmer være medlem af et politisk parti?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvornår blev Reformationen gennemført i Danmark?",
+    "options": [
+      "I 1100-tallet",
+      "I 1300-tallet",
+      "I 1500-tallet"
+    ],
+    "answer": "I 1500-tallet"
+  },
+  {
+    "question": "Hvad er en straffeattest?",
+    "options": [
+      "Et dokument, man skal vise til politiet, hvis man bliver anholdt",
+      "Et dokument, der viser, om man har været straffet"
+    ],
+    "answer": "Et dokument, der viser, om man har været straffet"
+  },
+  {
+    "question": "Hvor mange års undervisningspligt har danske børn?",
+    "options": [
+      "7 år",
+      "10 år",
+      "13 år"
+    ],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvad er den højeste karakter på 7-trins-skalaen?",
+    "options": [
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": "12"
+  },
+  {
+    "question": "Hvornår levede forfatteren H.C. Andersen?",
+    "options": [
+      "1805-1875",
+      "1855-1925",
+      "1905-1975"
+    ],
+    "answer": "1805-1875"
+  },
+  {
+    "question": "Hvortil kan man anke en afgørelse fra Byretten?",
+    "options": [
+      "Til Landsretten",
+      "Til Højesteret"
+    ],
+    "answer": "Til Landsretten"
+  },
+  {
+    "question": "Er undervisningen gratis på de offentlige gymnasier?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvornår blev Danmark under 2. Verdenskrig besat af tyske tropper?",
+    "options": [
+      "I 1937",
+      "I 1940",
+      "I 1945"
+    ],
+    "answer": "I 1940"
+  },
+  {
+    "question": "Hvornår fik Danmark for første gang en kvindelig statsminister?",
+    "options": [
+      "1991",
+      "2001",
+      "2011"
+    ],
+    "answer": "2011"
+  },
+  {
+    "question": "Hvilken kristen højtid fejres syv uger efter påsken?",
+    "options": [
+      "St. Bededag",
+      "Pinse",
+      "Sankt Hans"
+    ],
+    "answer": "Pinse"
+  }
+]

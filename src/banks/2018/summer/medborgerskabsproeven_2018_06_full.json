@@ -1,0 +1,149 @@
+[
+  {
+    "question": "Hvor tit er der valg til kommunalbestyrelser og regionsråd?",
+    "options": ["Hvert tredje år", "Hvert fjerde år", "Hvert femte år"],
+    "answer": "Hvert fjerde år"
+  },
+  {
+    "question": "Hvor kan man få en uddannelse til elektriker?",
+    "options": ["På et gymnasium", "På en handelsskole", "På en erhvervsskole"],
+    "answer": "På en erhvervsskole"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Sjælland og Sverige?",
+    "options": ["Øresund", "Kattegat", "Lillebælt"],
+    "answer": "Øresund"
+  },
+  {
+    "question": "Hvad er værnepligt?",
+    "options": [
+      "Pligten til at være soldat",
+      "Pligten til at forsørge sin familie"
+    ],
+    "answer": "Pligten til at være soldat"
+  },
+  {
+    "question": "Hvad er den mest almindelige arbejdstid normalt ved fuldtidsarbejde?",
+    "options": ["ca. 33 timer", "ca. 37 timer", "ca. 41 timer"],
+    "answer": "ca. 37 timer"
+  },
+  {
+    "question": "Hvem vælger en tillidsrepræsentant på en arbejdsplads?",
+    "options": [
+      "Medarbejderne og arbejdsgiveren i fællesskab",
+      "Arbejdsgiveren",
+      "Medarbejderne"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Hvem holder sin nytårstale den 31. december?",
+    "options": ["Dronningen", "Statsministeren"],
+    "answer": "Dronningen"
+  },
+  {
+    "question": "Hvilken rettighed er sikret i den danske grundlov?",
+    "options": [
+      "Retten til at stifte familie",
+      "Retten til at købe og bruge våben",
+      "Retten til at mødes til en demonstration"
+    ],
+    "answer": "Retten til at mødes til en demonstration"
+  },
+  {
+    "question": "Hvor længe kan politiet tilbageholde en person, der er anholdt, før personen skal stilles for en dommer?",
+    "options": ["72 timer", "48 timer", "24 timer"],
+    "answer": "24 timer"
+  },
+  {
+    "question": "Hvilken forfatter har skrevet eventyret ’Den Grimme Ælling’?",
+    "options": ["Karen Blixen", "H.C. Andersen", "Benny Andersen"],
+    "answer": "H.C. Andersen"
+  },
+  {
+    "question": "Hvor mange kvindelige statsministre har der været i Danmark før Helle Thorning-Schmidt?",
+    "options": ["Ingen", "En", "To"],
+    "answer": "Ingen"
+  },
+  {
+    "question": "Er Danmark medlem af De Forenede Nationer (FN)?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er den højeste karakter på 7-trinsskalaen?",
+    "options": ["7", "10", "12"],
+    "answer": "12"
+  },
+  {
+    "question": "Hvem er medlem af et samarbejdsudvalg?",
+    "options": [
+      "Repræsentanter for medarbejdere og ledelse",
+      "Repræsentanter for staten og kommunerne",
+      "Repræsentanter for kommunerne og virksomhederne"
+    ],
+    "answer": "Repræsentanter for medarbejdere og ledelse"
+  },
+  {
+    "question": "Hvad hedder Danmarks forfatning?",
+    "options": ["Valgloven", "Grundloven", "Kongeloven"],
+    "answer": "Grundloven"
+  },
+  {
+    "question": "Hvornår fik kvinder stemmeret til Folketinget?",
+    "options": ["I 1915", "I 1945", "I 1975"],
+    "answer": "I 1915"
+  },
+  {
+    "question": "Hvor gammel skal man normalt være for at blive gift i Danmark?",
+    "options": ["Mindst 15 år", "Mindst 18 år", "Mindst 21 år"],
+    "answer": "Mindst 18 år"
+  },
+  {
+    "question": "Er det gratis at låne bøger på landets folkebiblioteker?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem har den dømmende magt?",
+    "options": ["Folketinget", "Regeringen", "Domstolene"],
+    "answer": "Domstolene"
+  },
+  {
+    "question": "Kan to personer fra to forskellige trossamfund blive gift i folkekirken?",
+    "options": [
+      "Nej, begge personer skal være medlem af folkekirken",
+      "Ja, hvis den ene person er medlem af folkekirken"
+    ],
+    "answer": "Ja, hvis den ene person er medlem af folkekirken"
+  },
+  {
+    "question": "Hvor mange kommuner er der i Danmark?",
+    "options": ["68", "98", "128"],
+    "answer": "98"
+  },
+  {
+    "question": "Hvad er en straffeattest?",
+    "options": [
+      "Et dokument, man skal udfylde, hvis man ønsker at blive dansk statsborger",
+      "Et dokument, man skal vise til politiet, hvis man bliver anholdt",
+      "Et dokument, der viser, om man har været straffet"
+    ],
+    "answer": "Et dokument, der viser, om man har været straffet"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt i Grønland?",
+    "options": ["2", "4", "6"],
+    "answer": "2"
+  },
+  {
+    "question": "Hvilken af følgende virksomheder producerer vindmøller?",
+    "options": ["Novo Nordisk", "Vestas", "Arla"],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Er det forbudt at slå børn i Danmark?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  }
+]

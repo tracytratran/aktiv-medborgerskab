@@ -1,0 +1,219 @@
+[
+  {
+    "question": "Hvor ligger Danmarks tredjestørste by, Odense?",
+    "options": [
+      "På Sjælland",
+      "I Jylland",
+      "På Fyn"
+    ],
+    "answer": "På Fyn"
+  },
+  {
+    "question": "Hvor mange regioner er der i Danmark?",
+    "options": [
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "Hvad fejres hvert år den 5. juni?",
+    "options": [
+      "Grundlovsdag",
+      "Kristi Himmelfartsdag",
+      "Dronningens fødselsdag"
+    ],
+    "answer": "Grundlovsdag"
+  },
+  {
+    "question": "Hvornår kan man som hjemmeboende tidligst få SU (Statens Uddannelsesstøtte)?",
+    "options": [
+      "Når man fylder 14 år",
+      "Når man fylder 16 år",
+      "Når man fylder 18 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Fyn og Sjælland?",
+    "options": [
+      "Storebælt",
+      "Øresund",
+      "Lillebælt"
+    ],
+    "answer": "Storebælt"
+  },
+  {
+    "question": "Er vaccinationer mod børnesygdommene mæslinger, fåresyge og røde hunde, MFR-vaccinen, gratis?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor ofte skal der ifølge grundloven afholdes folketingsvalg?",
+    "options": [
+      "Mindst hvert andet år",
+      "Mindst hvert tredje år",
+      "Mindst hvert fjerde år"
+    ],
+    "answer": "Mindst hvert fjerde år"
+  },
+  {
+    "question": "Hvad er et samarbejdsudvalg på en arbejdsplads?",
+    "options": [
+      "Et samarbejde mellem medlemmer af forskellige fagforeninger",
+      "Et samarbejde mellem ledelsen og de ansatte"
+    ],
+    "answer": "Et samarbejde mellem ledelsen og de ansatte"
+  },
+  {
+    "question": "Må en arbejdsgiver fyre en kvinde, fordi hun er gravid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilken dansk arkitekt har designet lænestolen Ægget?",
+    "options": [
+      "Arne Jacobsen",
+      "Bjarke Ingels",
+      "Jan Gehl"
+    ],
+    "answer": "Arne Jacobsen"
+  },
+  {
+    "question": "Hvilket af følgende firmaer producerer medicin?",
+    "options": [
+      "Vestas",
+      "Novo Nordisk",
+      "Arla"
+    ],
+    "answer": "Novo Nordisk"
+  },
+  {
+    "question": "Hvad hedder Danmarks første kvindelige statsminister?",
+    "options": [
+      "Pia Kjærsgaard",
+      "Mette Frederiksen",
+      "Helle Thorning-Schmidt"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Hvor højt er det højeste naturlige punkt i det danske landskab?",
+    "options": [
+      "Ca. 170 meter",
+      "Ca. 360 meter",
+      "Ca. 550 meter"
+    ],
+    "answer": "Ca. 170 meter"
+  },
+  {
+    "question": "Hvilket af følgende landområder er ikke med i det danske rigsfællesskab?",
+    "options": [
+      "Færøerne",
+      "Grønland",
+      "Åland"
+    ],
+    "answer": "Åland"
+  },
+  {
+    "question": "Hvem har den lovgivende magt?",
+    "options": [
+      "Folketinget og domstolene",
+      "Regeringen og Folketinget"
+    ],
+    "answer": "Regeringen og Folketinget"
+  },
+  {
+    "question": "Hvornår er der tradition for, at børn klæder sig ud og slår katten af tønden?",
+    "options": [
+      "Til sankthans",
+      "Til fastelavn",
+      "Til pinse"
+    ],
+    "answer": "Til fastelavn"
+  },
+  {
+    "question": "Hvornår er grundloven sidst blevet ændret?",
+    "options": [
+      "1849",
+      "1915",
+      "1953"
+    ],
+    "answer": "1953"
+  },
+  {
+    "question": "Har fædre ret til fædreorlov efter barns fødsel?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er Ludvig Holberg kendt for?",
+    "options": [
+      "Han var maler",
+      "Han var forfatter",
+      "Han var komponist"
+    ],
+    "answer": "Han var forfatter"
+  },
+  {
+    "question": "Hvilket område mistede Danmark blandt andet i 1864?",
+    "options": [
+      "Norge",
+      "Skåne",
+      "Slesvig"
+    ],
+    "answer": "Slesvig"
+  },
+  {
+    "question": "Betyder en betinget fængselsstraf, at man kan undgå at komme i fængsel?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem holder sin nytårstale den 31. december?",
+    "options": [
+      "Dronningen",
+      "Statsministeren"
+    ],
+    "answer": "Dronningen"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt på Færøerne?",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Hvilken rettighed er sikret i den danske grundlov?",
+    "options": [
+      "Retten til at bære våben",
+      "Retten til at stifte familie",
+      "Retten til at forsamles"
+    ],
+    "answer": "Retten til at forsamles"
+  },
+  {
+    "question": "Skal forældrene normalt betale noget for, at deres børn går i en friskole eller privatskole?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  }
+]

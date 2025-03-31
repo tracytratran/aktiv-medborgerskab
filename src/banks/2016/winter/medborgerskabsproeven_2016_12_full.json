@@ -1,0 +1,139 @@
+[
+  {
+    "question": "Hvem bestemmer, hvem der skal danne regering efter et valg?",
+    "options": ["Dronningen", "Folketinget", "Domstolene"],
+    "answer": "Folketinget"
+  },
+  {
+    "question": "Hvilken organisation blev Danmark medlem af i 1949?",
+    "options": ["FN", "NATO", "EU"],
+    "answer": "NATO"
+  },
+  {
+    "question": "Hvem vælger en tillidsrepræsentant på en arbejdsplads?",
+    "options": [
+      "Medarbejderne",
+      "Medarbejderne og arbejdsgiveren i forening",
+      "Arbejdsgiveren"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Hvornår er man ifølge loven myndig i Danmark?",
+    "options": ["Når man er 15 år", "Når man er 18 år", "Når man er 21 år"],
+    "answer": "Når man er 18 år"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Jylland og Fyn?",
+    "options": ["Øresund", "Storebælt", "Lillebælt"],
+    "answer": "Lillebælt"
+  },
+  {
+    "question": "Er det gratis at være medlem af en fagforening?",
+    "options": ["Ja", "Nej"],
+    "answer": "Nej"
+  },
+  {
+    "question": "Skal man underrette politiet, før man holder en demonstration?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Er det normalt gratis for voksne borgere at gå til læge i Danmark?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Må man danne en forening, hvis man ikke er dansk statsborger?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem har den dømmende magt?",
+    "options": ["Regeringen", "Domstolene", "Folketinget"],
+    "answer": "Domstolene"
+  },
+  {
+    "question": "Hvem har ansvaret for de offentlige vuggestuer?",
+    "options": ["Kommunerne", "Regionerne", "Staten"],
+    "answer": "Kommunerne"
+  },
+  {
+    "question": "Hvilken af følgende virksomheder producerer vindmøller?",
+    "options": ["Novo Nordisk", "Vestas", "Mærsk"],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Hvad er normalt den almindelige ugentlige arbejdstid ved et fuldtidsarbejde?",
+    "options": ["27 timer om ugen", "37 timer om ugen", "47 timer om ugen"],
+    "answer": "37 timer om ugen"
+  },
+  {
+    "question": "Hvordan er stemmeprocenten normalt i Danmark ved valg til Europa-Parlamentet?",
+    "options": [
+      "På samme niveau som ved folketingsvalg",
+      "Højere end ved folketingsvalg",
+      "Lavere end ved folketingsvalg"
+    ],
+    "answer": "Lavere end ved folketingsvalg"
+  },
+  {
+    "question": "Skal Folketingets medlemmer være medlem af et politisk parti?",
+    "options": ["Ja", "Nej"],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilket år blev reformationen gennemført i Danmark?",
+    "options": ["1066", "1397", "1536"],
+    "answer": "1536"
+  },
+  {
+    "question": "Hvad er en straffeattest?",
+    "options": [
+      "Et dokument, man skal vise til politiet",
+      "Et dokument, man skal udfylde for statsborgerskab",
+      "Et dokument, der viser, om man har været straffet"
+    ],
+    "answer": "Et dokument, der viser, om man har været straffet"
+  },
+  {
+    "question": "Hvor mange års undervisningspligt har danske børn?",
+    "options": ["7 år", "10 år", "13 år"],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvad er den højeste karakter på 7-trins-skalaen?",
+    "options": ["7", "10", "12"],
+    "answer": "12"
+  },
+  {
+    "question": "Hvornår levede forfatteren H.C. Andersen?",
+    "options": ["1805-1875", "1855-1925", "1905-1975"],
+    "answer": "1805-1875"
+  },
+  {
+    "question": "Hvor kan man anke en afgørelse fra Byretten?",
+    "options": ["Landsretten", "Højesteret"],
+    "answer": "Landsretten"
+  },
+  {
+    "question": "Er undervisningen gratis på de offentlige gymnasier?",
+    "options": ["Ja", "Nej"],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvornår blev Danmark under 2. Verdenskrig besat af tyske tropper?",
+    "options": ["April 1937", "April 1940", "April 1945"],
+    "answer": "April 1940"
+  },
+  {
+    "question": "Hvornår fik Danmark for første gang en kvindelig statsminister?",
+    "options": ["1991", "2001", "2011"],
+    "answer": "2011"
+  },
+  {
+    "question": "Hvilken kristen højtid fejres 7 uger efter påsken?",
+    "options": ["St. Bededag", "Pinse", "Sankt Hans"],
+    "answer": "Pinse"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Hvor ligger Danmarks andenstørste by, Aarhus?",
+    "options": [
+      "På Sjælland",
+      "I Jylland",
+      "På Fyn"
+    ],
+    "answer": "I Jylland"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem København og Sverige?",
+    "options": [
+      "Øresund",
+      "Kattegat",
+      "Lillebælt"
+    ],
+    "answer": "Øresund"
+  },
+  {
+    "question": "Hvor mange års undervisningspligt er der i Danmark?",
+    "options": [
+      "7 år",
+      "10 år",
+      "13 år"
+    ],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvilket land blev Danmark besat af den 9. april 1940?",
+    "options": [
+      "Frankrig",
+      "Sverige",
+      "Tyskland"
+    ],
+    "answer": "Tyskland"
+  },
+  {
+    "question": "Hvornår blev protestantismen indført i Danmark?",
+    "options": [
+      "I 1100-tallet",
+      "I 1300-tallet",
+      "I 1500-tallet"
+    ],
+    "answer": "I 1500-tallet"
+  },
+  {
+    "question": "Hvor mange medlemmer har Folketinget?",
+    "options": [
+      "69",
+      "129",
+      "179"
+    ],
+    "answer": "179"
+  },
+  {
+    "question": "Hvornår er der tradition for at samles om aftenen og tænde bål?",
+    "options": [
+      "Til grundlovsdag",
+      "Til fastelavn",
+      "Til sankthans"
+    ],
+    "answer": "Til sankthans"
+  },
+  {
+    "question": "Hvilken organisation blev Danmark medlem af i 1945?",
+    "options": [
+      "FN",
+      "NATO",
+      "EU"
+    ],
+    "answer": "FN"
+  },
+  {
+    "question": "Skal man være dansk statsborger for at kunne stemme til folketingsvalg i Danmark?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor stor en andel af Folketingets medlemmer er kvinder?",
+    "options": [
+      "Ca. 20 %",
+      "Ca. 40 %",
+      "Ca. 60 %"
+    ],
+    "answer": "Ca. 40 %"
+  },
+  {
+    "question": "Hvad er værnepligt?",
+    "options": [
+      "Pligten til at være med til at forsvare Danmark",
+      "Pligten til at forsørge sin familie"
+    ],
+    "answer": "Pligten til at være med til at forsvare Danmark"
+  },
+  {
+    "question": "Hvem står for driften af folkeskolerne?",
+    "options": [
+      "Staten",
+      "Kommunerne"
+    ],
+    "answer": "Kommunerne"
+  },
+  {
+    "question": "Hvor ofte skal der ifølge grundloven afholdes folketingsvalg?",
+    "options": [
+      "Mindst hvert 2. år",
+      "Mindst hvert 4. år",
+      "Mindst hvert 6. år"
+    ],
+    "answer": "Mindst hvert 4. år"
+  },
+  {
+    "question": "Hvem vælger en tillidsrepræsentant på en arbejdsplads?",
+    "options": [
+      "Arbejdsgiveren",
+      "Medarbejderne"
+    ],
+    "answer": "Medarbejderne"
+  },
+  {
+    "question": "Er det gratis at låne bøger på landets folkebiblioteker?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er den mest almindelige arbejdstid, hvis man er ansat på fuldtid?",
+    "options": [
+      "37 timer om ugen",
+      "42 timer om ugen",
+      "48 timer om ugen"
+    ],
+    "answer": "37 timer om ugen"
+  },
+  {
+    "question": "Hvilken af følgende virksomheder producerer vindmøller?",
+    "options": [
+      "Novo Nordisk",
+      "Vestas",
+      "Arla"
+    ],
+    "answer": "Vestas"
+  },
+  {
+    "question": "Hvornår fik Danmark for første gang en kvindelig statsminister?",
+    "options": [
+      "1924",
+      "1968",
+      "2011"
+    ],
+    "answer": "2011"
+  },
+  {
+    "question": "Hvilken rolle har dronningen blandt andet?",
+    "options": [
+      "Hun udpeger Folketingets formand",
+      "Hun underskriver nye love sammen med en minister",
+      "Hun holder åbningstalen ved Folketingets åbning i oktober"
+    ],
+    "answer": "Hun underskriver nye love sammen med en minister"
+  },
+  {
+    "question": "Hvilken forfatter har skrevet eventyret Den Grimme Ælling?",
+    "options": [
+      "Karen Blixen",
+      "H.C. Andersen",
+      "Benny Andersen"
+    ],
+    "answer": "H.C. Andersen"
+  },
+  {
+    "question": "Hvor mange medlemmer af Folketinget er valgt i Grønland?",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Hvilken rettighed er sikret i grundloven?",
+    "options": [
+      "Retten til at stifte familie",
+      "Retten til at bære våben",
+      "Retten til at ytre sig"
+    ],
+    "answer": "Retten til at ytre sig"
+  },
+  {
+    "question": "Har kvinder ifølge dansk lov ret til samme løn som mænd for samme arbejde?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er en kollektiv overenskomst for privat ansatte?",
+    "options": [
+      "En aftale mellem virksomheder og kommunalbestyrelser",
+      "En aftale mellem staten, regionerne og kommunerne",
+      "En aftale mellem fagforeninger og arbejdsgiverorganisationer"
+    ],
+    "answer": "En aftale mellem fagforeninger og arbejdsgiverorganisationer"
+  },
+  {
+    "question": "Er det forbudt at slå børn i Danmark?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "question": "Er Danmark medlem af NATO?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor i Danmark ligger Aarhus?",
+    "options": [
+      "På Sjælland",
+      "I Jylland",
+      "På Fyn"
+    ],
+    "answer": "I Jylland"
+  },
+  {
+    "question": "Hvornår er Danmarks Riges Grundlov fra?",
+    "options": [
+      "1661",
+      "1788",
+      "1849"
+    ],
+    "answer": "1849"
+  },
+  {
+    "question": "Hvor mange regioner er Danmark opdelt i?",
+    "options": [
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "DA og LO indgår aftaler for store dele af arbejdsmarkedet. Hvad hedder disse aftaler?",
+    "options": [
+      "Arbejdspladsvurderinger",
+      "Kollektive overenskomster"
+    ],
+    "answer": "Kollektive overenskomster"
+  },
+  {
+    "question": "Hvilke reformer gav bønderne frihed til selv at vælge bopæl og arbejde?",
+    "options": [
+      "Landboreformer",
+      "Velfærdsreformer",
+      "Kommunalreformer"
+    ],
+    "answer": "Landboreformer"
+  },
+  {
+    "question": "Hvad markeres hvert år den 5. maj?",
+    "options": [
+      "Genforeningen",
+      "Grundlovens indførelse",
+      "Befrielsen efter Anden Verdenskrig"
+    ],
+    "answer": "Befrielsen efter Anden Verdenskrig"
+  },
+  {
+    "question": "Hvor mange års undervisningspligt er der i Danmark?",
+    "options": [
+      "7 år",
+      "10 år",
+      "12 år"
+    ],
+    "answer": "10 år"
+  },
+  {
+    "question": "Hvornår kan man tidligst få SU (Statens Uddannelsesstøtte)?",
+    "options": [
+      "Når man fylder 15 år",
+      "Når man fylder 18 år",
+      "Når man fylder 21 år"
+    ],
+    "answer": "Når man fylder 18 år"
+  },
+  {
+    "question": "Hvor ofte skal der ifølge grundloven afholdes Folketingsvalg?",
+    "options": [
+      "Mindst hvert 3. år",
+      "Mindst hvert 4. år",
+      "Mindst hvert 5. år"
+    ],
+    "answer": "Mindst hvert 4. år"
+  },
+  {
+    "question": "Er vaccinationer mod børnesygdomme gratis?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er et samarbejdsudvalg?",
+    "options": [
+      "Et samarbejde mellem ledelsen og de ansatte",
+      "Et samarbejde mellem ledere i det offentlige og private"
+    ],
+    "answer": "Et samarbejde mellem ledelsen og de ansatte"
+  },
+  {
+    "question": "Hvilken instans står normalt for driften af de offentlige børnehaver og vuggestuer?",
+    "options": [
+      "Staten",
+      "Regionerne",
+      "Kommunerne"
+    ],
+    "answer": "Kommunerne"
+  },
+  {
+    "question": "Hvor gamle skal unge være, før de må købe vin og øl?",
+    "options": [
+      "16 år",
+      "18 år",
+      "20 år"
+    ],
+    "answer": "16 år"
+  },
+  {
+    "question": "Hvilken arkitekt har tegnet Danmarks Nationalbank i København?",
+    "options": [
+      "Jørn Utzon",
+      "Arne Jacobsen",
+      "Henning Larsen"
+    ],
+    "answer": "Arne Jacobsen"
+  },
+  {
+    "question": "Må en arbejdsgiver fyre en kvinde, fordi hun er gravid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad er det danske firma Novo Nordisk særlig kendt for at producere?",
+    "options": [
+      "Høreapparater",
+      "Vindmøller",
+      "Medicin"
+    ],
+    "answer": "Medicin"
+  },
+  {
+    "question": "Har kvinder normalt mulighed for at få økonomisk støtte under barselsorlov?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Har en medarbejder altid krav på at arbejde på deltid?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvor mange medlemmer vælger Danmark til Europa-Parlamentet?",
+    "options": [
+      "13",
+      "23",
+      "33"
+    ],
+    "answer": "13"
+  },
+  {
+    "question": "Hvem var Danmarks første kvindelige statsminister?",
+    "options": [
+      "Mette Frederiksen",
+      "Helle Thorning-Schmidt",
+      "Margrethe Vestager"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Sidder der elevrepræsentanter i skolebestyrelsen?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilken organisation arbejder for fri handel mellem medlemslandene?",
+    "options": [
+      "NATO",
+      "FN",
+      "EU"
+    ],
+    "answer": "EU"
+  },
+  {
+    "question": "Kan udlændinge stemme til folketingsvalg i Danmark?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Har mænd normalt ret til at tage fædreorlov?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  }
+]

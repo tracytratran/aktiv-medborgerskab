@@ -1,0 +1,224 @@
+[
+  {
+    "question": "Hvor højt er Danmarks højeste geografiske punkt?",
+    "options": [
+      "Godt 380 meter",
+      "Godt 170 meter",
+      "Godt 60 meter"
+    ],
+    "answer": "Godt 170 meter"
+  },
+  {
+    "question": "Hvor tit er der valg til Europa-Parlamentet?",
+    "options": [
+      "Hvert femte år",
+      "Hvert fjerde år",
+      "Hvert tredje år"
+    ],
+    "answer": "Hvert femte år"
+  },
+  {
+    "question": "Hvor gammel skal man være for at kunne få statens uddannelsesstøtte (SU)?",
+    "options": [
+      "6 år",
+      "12 år",
+      "18 år"
+    ],
+    "answer": "18 år"
+  },
+  {
+    "question": "Hvilken international organisation blev Danmark medlem af i 1949?",
+    "options": [
+      "EU",
+      "WTO",
+      "NATO"
+    ],
+    "answer": "NATO"
+  },
+  {
+    "question": "Hvilken af følgende ø-grupper er med i det danske rigsfællesskab?",
+    "options": [
+      "Færøerne",
+      "Ålandsøerne",
+      "Shetlandsøerne"
+    ],
+    "answer": "Færøerne"
+  },
+  {
+    "question": "Hvad er værnepligt?",
+    "options": [
+      "Pligten til at betale skat til staten",
+      "Pligten til at forsvare Danmark",
+      "Pligten til at passe på sin familie"
+    ],
+    "answer": "Pligten til at forsvare Danmark"
+  },
+  {
+    "question": "Har man ifølge Grundloven ret til at danne foreninger i Danmark?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad er en kollektiv overenskomst?",
+    "options": [
+      "En aftale mellem fagforeninger og arbejdsgivere",
+      "En aftale mellem staten, regionerne og kommunerne",
+      "En aftale mellem virksomheder og kommunalbestyrelser"
+    ],
+    "answer": "En aftale mellem fagforeninger og arbejdsgivere"
+  },
+  {
+    "question": "Hvor tit er der valg til Folketinget?",
+    "options": [
+      "Mindst hvert andet år",
+      "Mindst hvert tredje år",
+      "Mindst hvert fjerde år"
+    ],
+    "answer": "Mindst hvert fjerde år"
+  },
+  {
+    "question": "Hvad er normalt ikke gratis for voksne i Danmark?",
+    "options": [
+      "At gå til læge",
+      "At komme på hospitalet",
+      "At gå til tandlæge"
+    ],
+    "answer": "At gå til tandlæge"
+  },
+  {
+    "question": "Hvordan bliver det afgjort, hvem der skal være konge eller dronning i Danmark?",
+    "options": [
+      "Folketinget vælger den bedst kvalificerede",
+      "Det bliver afgjort gennem en folkeafstemning",
+      "Den kommende konge eller dronning arver tronen"
+    ],
+    "answer": "Den kommende konge eller dronning arver tronen"
+  },
+  {
+    "question": "Hvornår er Danmarks Riges Grundlov fra?",
+    "options": [
+      "1649",
+      "1749",
+      "1849"
+    ],
+    "answer": "1849"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Fyn og Sjælland?",
+    "options": [
+      "Storebælt",
+      "Kattegat",
+      "Øresund"
+    ],
+    "answer": "Storebælt"
+  },
+  {
+    "question": "Kan politikerne bestemme, hvordan domstolene skal afgøre en konkret retssag?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvem har normalt forældremyndigheden over et fælles barn, når forældrene er gift med hinanden?",
+    "options": [
+      "Faren",
+      "Moren",
+      "Både faren og moren"
+    ],
+    "answer": "Både faren og moren"
+  },
+  {
+    "question": "Hvilken af følgende er en kristen helligdag?",
+    "options": [
+      "Grundlovsdag",
+      "Nytår",
+      "Pinse"
+    ],
+    "answer": "Pinse"
+  },
+  {
+    "question": "Hvornår er det påske?",
+    "options": [
+      "Om foråret",
+      "Om sommeren",
+      "Om efteråret"
+    ],
+    "answer": "Om foråret"
+  },
+  {
+    "question": "Hvor gammel skal man normalt være for at blive gift i Danmark?",
+    "options": [
+      "15 år",
+      "18 år",
+      "21 år"
+    ],
+    "answer": "18 år"
+  },
+  {
+    "question": "I hvilken pasningsordning bliver barnet passet i et privat hjem?",
+    "options": [
+      "I en udflytterbørnehave",
+      "I en dagpleje",
+      "I en SFO"
+    ],
+    "answer": "I en dagpleje"
+  },
+  {
+    "question": "Er undervisningen gratis på de offentlige gymnasier?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor kan man læse medicin og uddanne sig til læge?",
+    "options": [
+      "På et erhvervsakademi",
+      "På en professionshøjskole",
+      "På et universitet"
+    ],
+    "answer": "På et universitet"
+  },
+  {
+    "question": "Hvad fremstiller den danske virksomhed Vestas?",
+    "options": [
+      "Medicin",
+      "Vindmøller",
+      "Mejeriprodukter"
+    ],
+    "answer": "Vindmøller"
+  },
+  {
+    "question": "Hvad er boligstøtte?",
+    "options": [
+      "Hjælp til at betale husleje",
+      "Hjælp til at renovere sin bolig",
+      "Hjælp til at finde en billig lejlighed"
+    ],
+    "answer": "Hjælp til at betale husleje"
+  },
+  {
+    "question": "Hvor mange ugers ferie har man normalt ret til som lønmodtager i Danmark?",
+    "options": [
+      "1-2 ugers ferie",
+      "3-4 ugers ferie",
+      "5-6 ugers ferie"
+    ],
+    "answer": "5-6 ugers ferie"
+  },
+  {
+    "question": "Hvad er Ludvig Holberg særlig kendt for?",
+    "options": [
+      "Han var forfatter",
+      "Han var komponist",
+      "Han var kunstmaler"
+    ],
+    "answer": "Han var forfatter"
+  }
+]
