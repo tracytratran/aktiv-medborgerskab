@@ -13,7 +13,8 @@
     "selectedExam": "Selected Exam:",
     "summer": "Summer",
     "winter": "Winter",
-    "random": "Random"
+    "random": "Random",
+    "officialExam": "Official Exam {{year}}"
   },
   "quiz": {
     "question": "Question {{current}} of {{total}}",
@@ -30,7 +31,14 @@
     "previousAttempts": "Previous Attempts",
     "date": "Date",
     "noHistory": "No previous quiz attempts",
-    "timeExpired": "Time expired - quiz automatically submitted"
+    "timeExpired": "Time expired - quiz automatically submitted",
+    "score": "Score",
+    "correct": "Correct",
+    "total": "Total",
+    "answers": "Answers",
+    "userAnswer": "Your Answer",
+    "correctAnswer": "Correct Answer",
+    "isCorrect": "Is Correct"
   },
   "donate": {
     "buyMeACoffee": "Buy Me a Coffee",

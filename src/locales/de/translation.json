@@ -1,36 +1,44 @@
 {
   "app": {
-    "title": "Aktiv Staatsbürgerschaft Quiz",
-    "loading": "Lade Fragen...",
+    "title": "Aktives Bürgerquiz",
+    "loading": "Frage werden geladen...",
     "selectExam": "Wählen Sie Ihre Prüfung",
-    "startQuiz": "Quiz Starten",
+    "startQuiz": "Quiz starten",
     "connectLinkedIn": "Auf LinkedIn verbinden"
   },
   "examSelector": {
-    "selectYear": "Jahr auswählen:",
-    "selectSeason": "Jahreszeit auswählen:",
-    "randomQuestions": "Zufällige Fragen aus allen früheren Prüfungen",
+    "selectYear": "Wählen Sie Jahr:",
+    "selectSeason": "Wählen Sie Saison:",
+    "randomQuestions": "Zufallsfragen aus früheren Prüfungen",
     "selectedExam": "Ausgewählte Prüfung:",
     "summer": "Sommer",
     "winter": "Winter",
-    "random": "Zufällig"
+    "random": "Zufällig",
+    "officialExam": "Offizielle Prüfung {{year}}"
   },
   "quiz": {
     "question": "Frage {{current}} von {{total}}",
-    "cancel": "Quiz Abbrechen",
+    "cancel": "Quiz abbrechen",
     "timeRemaining": "Verbleibende Zeit",
     "timeExpired": "Zeit abgelaufen"
   },
   "results": {
-    "title": "Quiz Ergebnisse",
+    "title": "Quiz-Ergebnisse",
     "score": "Ihre Punktzahl: {{score}}%",
     "correct": "Richtig: {{correct}} von {{total}}",
-    "restart": "Noch Ein Quiz Machen",
-    "history": "Quiz Verlauf",
+    "restart": "Neuer Quiz",
+    "history": "Quiz-Historie",
     "previousAttempts": "Vorherige Versuche",
     "date": "Datum",
     "noHistory": "Keine vorherigen Quiz-Versuche",
-    "timeExpired": "Zeit abgelaufen - Quiz automatisch abgegeben"
+    "timeExpired": "Zeit abgelaufen - Quiz automatisch abgegeben",
+    "score": "Punktzahl",
+    "correct": "Richtig",
+    "total": "Total",
+    "answers": "Antworten",
+    "userAnswer": "Ihre Antwort",
+    "correctAnswer": "Richtige Antwort",
+    "isCorrect": "Ist Korrekt"
   },
   "donate": {
     "buyMeACoffee": "Kaufen Sie mir einen Kaffee",

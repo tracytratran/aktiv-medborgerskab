@@ -1,36 +1,42 @@
 {
   "app": {
-    "title": "积极公民考试",
+    "title": "积极公民测验",
     "loading": "正在加载问题...",
     "selectExam": "选择您的考试",
     "startQuiz": "开始测验",
     "connectLinkedIn": "在LinkedIn上连接"
   },
   "examSelector": {
-    "selectYear": "选择年份：",
-    "selectSeason": "选择季节：",
-    "randomQuestions": "所有以往考试的随机问题",
-    "selectedExam": "已选择的考试：",
+    "selectYear": "选择年份:",
+    "selectSeason": "选择季节:",
+    "randomQuestions": "随机选择以前考试的问题",
+    "selectedExam": "已选择的考试:",
     "summer": "夏季",
     "winter": "冬季",
-    "random": "随机"
+    "random": "随机",
+    "officialExam": "官方考试 {{year}}"
   },
   "quiz": {
-    "question": "问题 {{current}}/{{total}}",
+    "question": "问题 {{current}} / {{total}}",
     "cancel": "取消测验",
     "timeRemaining": "剩余时间",
-    "timeExpired": "时间到期"
+    "timeExpired": "时间已到"
   },
   "results": {
     "title": "测验结果",
-    "score": "你的分数: {{score}}%",
-    "correct": "正确: {{correct}}/{{total}}",
-    "restart": "再次测验",
+    "score": "您的得分: {{score}}%",
+    "correct": "正确: {{correct}} / {{total}}",
+    "restart": "重新开始测验",
     "history": "测验历史",
     "previousAttempts": "之前的尝试",
     "date": "日期",
-    "noHistory": "没有之前的测验记录",
-    "timeExpired": "时间到期 - 测验自动提交"
+    "score": "得分",
+    "correct": "正确",
+    "total": "总数",
+    "answers": "答案",
+    "userAnswer": "您的答案",
+    "correctAnswer": "正确答案",
+    "isCorrect": "是否正确"
   },
   "donate": {
     "buyMeACoffee": "请我喝杯咖啡",

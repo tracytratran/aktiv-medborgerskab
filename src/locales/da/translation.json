@@ -2,30 +2,31 @@
   "app": {
     "title": "Aktiv Medborgerskab Quiz",
     "loading": "Indlæser spørgsmål...",
-    "selectExam": "Vælg Din Eksamen",
+    "selectExam": "Vælg Dit Eksamen",
     "startQuiz": "Start Quiz",
     "connectLinkedIn": "Forbind på LinkedIn"
   },
   "examSelector": {
     "selectYear": "Vælg År:",
     "selectSeason": "Vælg Sæson:",
-    "randomQuestions": "Tilfældige spørgsmål fra alle tidligere eksamener",
+    "randomQuestions": "Tilfældige spørgsmål fra tidligere eksamener",
     "selectedExam": "Valgt Eksamen:",
     "summer": "Sommer",
     "winter": "Vinter",
-    "random": "Tilfældig"
+    "random": "Tilfældigt",
+    "officialExam": "Officiel Eksamen {{year}}"
   },
   "quiz": {
     "question": "Spørgsmål {{current}} af {{total}}",
     "cancel": "Annuller Quiz",
-    "timeRemaining": "Resterende tid",
+    "timeRemaining": "Tid tilbage",
     "timeExpired": "Tiden er udløbet"
   },
   "results": {
     "title": "Quiz Resultater",
     "score": "Din score: {{score}}%",
-    "correct": "Korrekt: {{correct}} ud af {{total}}",
-    "restart": "Tag En Anden Quiz",
+    "correct": "Korrekte: {{correct}} ud af {{total}}",
+    "restart": "Tag En Ny Quiz",
     "history": "Quiz Historik",
     "previousAttempts": "Tidligere Forsøg",
     "date": "Dato",

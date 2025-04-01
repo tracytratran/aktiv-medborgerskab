@@ -1,36 +1,42 @@
 {
   "app": {
-    "title": "Bài Kiểm Tra Công Dân Tích Cực",
+    "title": "Quiz Công Dân Chủ Động",
     "loading": "Đang tải câu hỏi...",
-    "selectExam": "Chọn Bài Kiểm Tra Của Bạn",
-    "startQuiz": "Bắt Đầu Kiểm Tra",
-    "connectLinkedIn": "Kết nối trên LinkedIn"
+    "selectExam": "Chọn Kỳ Thi Của Bạn",
+    "startQuiz": "Bắt Đầu Quiz",
+    "connectLinkedIn": "Kết Nối Trên LinkedIn"
   },
   "examSelector": {
     "selectYear": "Chọn Năm:",
     "selectSeason": "Chọn Mùa:",
-    "randomQuestions": "Câu hỏi ngẫu nhiên cho tất cả các kỳ thi trước",
-    "selectedExam": "Bài Kiểm Tra Đã Chọn:",
+    "randomQuestions": "Câu hỏi ngẫu nhiên từ các kỳ thi trước",
+    "selectedExam": "Kỳ Thi Đã Chọn:",
     "summer": "Mùa Hè",
     "winter": "Mùa Đông",
-    "random": "Ngẫu Nhiên"
+    "random": "Ngẫu Nhiên",
+    "officialExam": "Kỳ Thi Chính Thức {{year}}"
   },
   "quiz": {
-    "question": "Câu hỏi {{current}} / {{total}}",
-    "cancel": "Hủy Bài Kiểm Tra",
-    "timeRemaining": "Thời gian còn lại",
-    "timeExpired": "Hết thời gian"
+    "question": "Câu Hỏi {{current}} trên {{total}}",
+    "cancel": "Hủy Quiz",
+    "timeRemaining": "Thời Gian Còn Lại",
+    "timeExpired": "Hết Thời Gian"
   },
   "results": {
-    "title": "Kết Quả Kiểm Tra",
-    "score": "Điểm số của bạn: {{score}}%",
-    "correct": "Chính xác: {{correct}} trên {{total}}",
-    "restart": "Làm Bài Kiểm Tra Khác",
-    "history": "Lịch Sử Kiểm Tra",
-    "previousAttempts": "Các Lần Thử Trước",
+    "title": "Kết Quả Quiz",
+    "score": "Điểm Của Bạn: {{score}}%",
+    "correct": "Đúng: {{correct}} trên {{total}}",
+    "restart": "Thi Lại Quiz",
+    "history": "Lịch Sử Quiz",
+    "previousAttempts": "Các Lần Thi Trước",
     "date": "Ngày",
-    "noHistory": "Không có lần kiểm tra nào trước đây",
-    "timeExpired": "Hết thời gian - bài kiểm tra được nộp tự động"
+    "score": "Điểm",
+    "correct": "Đúng",
+    "total": "Tổng",
+    "answers": "Câu Trả Lời",
+    "userAnswer": "Câu Trả Lời Của Bạn",
+    "correctAnswer": "Câu Trả Lời Đúng",
+    "isCorrect": "Đúng Không"
   },
   "donate": {
     "buyMeACoffee": "Mua Cho Tôi Một Ly Cà Phê",
