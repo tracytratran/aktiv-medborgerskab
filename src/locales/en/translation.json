@@ -2,33 +2,33 @@
   "app": {
     "title": "Active Citizenship Quiz",
     "loading": "Loading questions...",
-    "selectExam": "Select Your Exam",
-    "startQuiz": "Start Quiz",
+    "selectExam": "Select your exam",
+    "startQuiz": "Start quiz",
     "connectLinkedIn": "Connect on LinkedIn"
   },
   "examSelector": {
-    "selectYear": "Select Year:",
-    "selectSeason": "Select Season:",
-    "randomQuestions": "Random questions for all previous exams",
-    "selectedExam": "Selected Exam:",
+    "selectYear": "Select year:",
+    "selectSeason": "Select season:",
+    "randomQuestions": "Random questions from all previous exams",
+    "selectedExam": "Selected exam:",
     "summer": "Summer",
     "winter": "Winter",
     "random": "Random",
-    "officialExam": "Official Exam {{year}}"
+    "officialExam": "Official exam {{year}}"
   },
   "quiz": {
     "question": "Question {{current}} of {{total}}",
-    "cancel": "Cancel Quiz",
-    "timeRemaining": "Time Remaining",
-    "timeExpired": "Time Expired"
+    "cancel": "Cancel quiz",
+    "timeRemaining": "Time remaining",
+    "timeExpired": "Time expired"
   },
   "results": {
-    "title": "Quiz Results",
+    "title": "Quiz results",
     "score": "Your score: {{score}}%",
     "correct": "Correct: {{correct}} out of {{total}}",
-    "restart": "Take Another Quiz",
-    "history": "Quiz History",
-    "previousAttempts": "Previous Attempts",
+    "restart": "Take another quiz",
+    "history": "Quiz history",
+    "previousAttempts": "Previous attempts",
     "date": "Date",
     "noHistory": "No previous quiz attempts",
     "timeExpired": "Time expired - quiz automatically submitted",
@@ -36,12 +36,12 @@
     "correct": "Correct",
     "total": "Total",
     "answers": "Answers",
-    "userAnswer": "Your Answer",
-    "correctAnswer": "Correct Answer",
-    "isCorrect": "Is Correct"
+    "userAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "isCorrect": "Is correct"
   },
   "donate": {
-    "buyMeACoffee": "Buy Me a Coffee",
+    "buyMeACoffee": "Buy me a coffee",
     "support": "Support this project"
   },
   "close": "Close"

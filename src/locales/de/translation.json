@@ -1,14 +1,14 @@
 {
   "app": {
-    "title": "Aktives Bürgerquiz",
-    "loading": "Frage werden geladen...",
+    "title": "Aktives Bürgerschafts-Quiz",
+    "loading": "Fragen werden geladen...",
     "selectExam": "Wählen Sie Ihre Prüfung",
     "startQuiz": "Quiz starten",
     "connectLinkedIn": "Auf LinkedIn verbinden"
   },
   "examSelector": {
-    "selectYear": "Wählen Sie Jahr:",
-    "selectSeason": "Wählen Sie Saison:",
+    "selectYear": "Wählen Sie das Jahr:",
+    "selectSeason": "Wählen Sie die Saison:",
     "randomQuestions": "Zufallsfragen aus früheren Prüfungen",
     "selectedExam": "Ausgewählte Prüfung:",
     "summer": "Sommer",
@@ -26,7 +26,7 @@
     "title": "Quiz-Ergebnisse",
     "score": "Ihre Punktzahl: {{score}}%",
     "correct": "Richtig: {{correct}} von {{total}}",
-    "restart": "Neuer Quiz",
+    "restart": "Neues Quiz",
     "history": "Quiz-Historie",
     "previousAttempts": "Vorherige Versuche",
     "date": "Datum",
@@ -34,11 +34,11 @@
     "timeExpired": "Zeit abgelaufen - Quiz automatisch abgegeben",
     "score": "Punktzahl",
     "correct": "Richtig",
-    "total": "Total",
+    "total": "Gesamt",
     "answers": "Antworten",
     "userAnswer": "Ihre Antwort",
     "correctAnswer": "Richtige Antwort",
-    "isCorrect": "Ist Korrekt"
+    "isCorrect": "Ist richtig"
   },
   "donate": {
     "buyMeACoffee": "Kaufen Sie mir einen Kaffee",
