@@ -38,7 +38,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
           <button
             key={exam.id}
             onClick={() => onSelectExam(exam.id)}
-            className="p-6 rounded-lg border-2 border-gray-200 hover:border-primary hover:bg-blue-50 transition-all text-left"
+            className="p-6 rounded-lg border-2 border-gray-200 hover:border-primary hover:bg-blue-50 transition-all text-center"
           >
             {exam.id === "random" ? (
               <>
