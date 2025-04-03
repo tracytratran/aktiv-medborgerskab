@@ -26,6 +26,7 @@
     "title": "Quiz results",
     "score": "Your score: {{score}}%",
     "correct": "Correct: {{correct}} out of {{total}}",
+    "review": "Review incorrect answers",
     "restart": "Take another quiz",
     "history": "Quiz history",
     "previousAttempts": "Previous attempts",
