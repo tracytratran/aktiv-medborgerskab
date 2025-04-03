@@ -15,119 +15,119 @@ export const availableExams: ExamOption[] = [
     label: "examSelector.officialExam2024",
     year: 2024,
     season: "winter",
-    path: "/banks/2024/winter/medborgerskabsproeven_2024_11_full.json",
+    path: "/banks/2024/winter/medborgerskabsproeven.json",
   },
   {
     id: "2024-summer",
     label: "examSelector.officialExam2024",
     year: 2024,
     season: "summer",
-    path: "/banks/2024/summer/medborgerskabsproeven_2024_05_full.json",
+    path: "/banks/2024/summer/medborgerskabsproeven.json",
   },
   {
     id: "2023-winter",
     label: "examSelector.officialExam2023",
     year: 2023,
     season: "winter",
-    path: "/banks/2023/winter/medborgerskabsproeven_2023_11_full.json",
+    path: "/banks/2023/winter/medborgerskabsproeven.json",
   },
   {
     id: "2023-summer",
     label: "examSelector.officialExam2023",
     year: 2023,
     season: "summer",
-    path: "/banks/2023/summer/medborgerskabsproeven_2023_05_full.json",
+    path: "/banks/2023/summer/medborgerskabsproeven.json",
   },
   {
     id: "2022-winter",
     label: "examSelector.officialExam2022",
     year: 2022,
     season: "winter",
-    path: "/banks/2022/winter/medborgerskabsproeven_2022_11_full.json",
+    path: "/banks/2022/winter/medborgerskabsproeven.json",
   },
   {
     id: "2022-summer",
     label: "examSelector.officialExam2022",
     year: 2022,
     season: "summer",
-    path: "/banks/2022/summer/medborgerskabsproeven_2022_05_full.json",
+    path: "/banks/2022/summer/medborgerskabsproeven.json",
   },
   {
     id: "2021-winter",
     label: "examSelector.officialExam2021",
     year: 2021,
     season: "winter",
-    path: "/banks/2021/winter/medborgerskabsproeven_2021_11_full.json",
+    path: "/banks/2021/winter/medborgerskabsproeven.json",
   },
   {
     id: "2021-summer",
     label: "examSelector.officialExam2021",
     year: 2021,
     season: "summer",
-    path: "/banks/2021/summer/medborgerskabsproeven_2021_05_full.json",
+    path: "/banks/2021/summer/medborgerskabsproeven.json",
   },
   {
     id: "2020-winter",
     label: "examSelector.officialExam2020",
     year: 2020,
     season: "winter",
-    path: "/banks/2020/winter/medborgerskabsproeven_2020_11_full.json",
+    path: "/banks/2020/winter/medborgerskabsproeven.json",
   },
   {
     id: "2020-summer",
     label: "examSelector.officialExam2020",
     year: 2020,
     season: "summer",
-    path: "/banks/2020/summer/medborgerskabsproeven_2020_06_full.json",
+    path: "/banks/2020/summer/medborgerskabsproeven.json",
   },
   {
     id: "2019-winter",
     label: "examSelector.officialExam2019",
     year: 2019,
     season: "winter",
-    path: "/banks/2019/winter/medborgerskabsproeven_2019_11_full.json",
+    path: "/banks/2019/winter/medborgerskabsproeven.json",
   },
   {
     id: "2019-summer",
     label: "examSelector.officialExam2019",
     year: 2019,
     season: "summer",
-    path: "/banks/2019/summer/medborgerskabsproeven_2019_06_full.json",
+    path: "/banks/2019/summer/medborgerskabsproeven.json",
   },
   {
     id: "2018-winter",
     label: "examSelector.officialExam2018",
     year: 2018,
     season: "winter",
-    path: "/banks/2018/winter/medborgerskabsproeven_2018_11_full.json",
+    path: "/banks/2018/winter/medborgerskabsproeven.json",
   },
   {
     id: "2018-summer",
     label: "examSelector.officialExam2018",
     year: 2018,
     season: "summer",
-    path: "/banks/2018/summer/medborgerskabsproeven_2018_06_full.json",
+    path: "/banks/2018/summer/medborgerskabsproeven.json",
   },
   {
     id: "2017-winter",
     label: "examSelector.officialExam2017",
     year: 2017,
     season: "winter",
-    path: "/banks/2017/winter/medborgerskabsproeven_2017_11_full.json",
+    path: "/banks/2017/winter/medborgerskabsproeven.json",
   },
   {
     id: "2017-summer",
     label: "examSelector.officialExam2017",
     year: 2017,
     season: "summer",
-    path: "/banks/2017/summer/medborgerskabsproeven_2017_06_full.json",
+    path: "/banks/2017/summer/medborgerskabsproeven.json",
   },
   {
     id: "2016-winter",
     label: "examSelector.officialExam2016",
     year: 2016,
     season: "winter",
-    path: "/banks/2016/winter/medborgerskabsproeven_2016_12_full.json",
+    path: "/banks/2016/winter/medborgerskabsproeven.json",
   },
 ];
 
@@ -146,9 +146,7 @@ export const loadExam = async (examOption: ExamOption): Promise<Question[]> => {
   try {
     // Using dynamic import based on the exam's year and season
     const examModule = await import(
-      `../banks/${examOption.year}/${examOption.season}/medborgerskabsproeven_${
-        examOption.year
-      }_${examOption.season === "summer" ? "06" : "11"}_full.json`
+      `../banks/${examOption.year}/${examOption.season}/medborgerskabsproeven.json`
     );
     return examModule.default;
   } catch (error) {
@@ -175,9 +173,7 @@ export const generateRandomExamQuestions = async (): Promise<Question[]> => {
     const allQuestionsPromises = examOptions.map(async (exam) => {
       try {
         const questions = await import(
-          `../banks/${exam.year}/${exam.season}/medborgerskabsproeven_${
-            exam.year
-          }_${exam.season === "summer" ? "06" : "11"}_full.json`
+          `../banks/${exam.year}/${exam.season}/medborgerskabsproeven.json`
         );
         return questions.default.map((q: Question) => ({
           ...q,
