@@ -238,7 +238,7 @@ const Results: React.FC<ResultsProps> = ({
                 } rounded-lg p-4 text-center`}
               >
                 <p className="text-sm text-gray-600 mb-1">
-                  Overall Improvement
+                  {t("results.improvement")}
                 </p>
                 <p
                   className={`text-2xl font-bold ${
@@ -254,7 +254,7 @@ const Results: React.FC<ResultsProps> = ({
             {quizHistory.length > 1 && (
               <div className="mb-6">
                 <h3 className="text-lg font-semibold mb-3">
-                  Recent Performance
+                  {t("results.performance")}
                 </h3>
                 <div className="h-40 flex items-end space-x-2">
                   {lastFive.map((score, index) => (

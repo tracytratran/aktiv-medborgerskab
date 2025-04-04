@@ -26,9 +26,12 @@
     "title": "Quiz resultater",
     "score": "Din score: {{score}}%",
     "correct": "Korrekte: {{correct}} ud af {{total}}",
+    "review": "Gennemgå forkerte svar",
     "restart": "Tag en ny quiz",
     "history": "Quiz historik",
     "previousAttempts": "Tidligere forsøg",
+    "improvement": "Overordnet forbedring",
+    "performance": "Seneste resultat",
     "date": "Dato",
     "noHistory": "Ingen tidligere quiz-forsøg",
     "timeExpired": "Tiden er udløbet - quiz automatisk indsendt"
