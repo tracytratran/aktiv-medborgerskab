@@ -24,6 +24,12 @@
   },
   "results": {
     "title": "Kết quả bài thi",
+    "feedback": {
+      "expert": "Tuyệt vời! Bạn là chuyên gia về quyền công dân Đan Mạch!",
+      "advanced": "Rất giỏi! Bạn hiểu rõ về quyền công dân Đan Mạch!",
+      "intermediate": "Làm tốt lắm! Hãy tiếp tục học để cải thiện thêm!",
+      "beginner": "Hãy tiếp tục luyện tập! Bạn sẽ tiến bộ khi học nhiều hơn."
+    },
     "score": "Điểm của bạn: {{score}}%",
     "correct": "Đúng: {{correct}} trên {{total}}",
     "review": "Xem lại câu trả lời sai",

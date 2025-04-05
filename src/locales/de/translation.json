@@ -24,6 +24,12 @@
   },
   "results": {
     "title": "Quiz-Ergebnisse",
+    "feedback": {
+      "expert": "Fantastisch! Sie sind ein Experte für die dänische Staatsbürgerschaft!",
+      "advanced": "Sehr gut! Sie kennen sich mit der dänischen Staatsbürgerschaft gut aus!",
+      "intermediate": "Gute Arbeit! Lernen Sie weiter, um sich zu verbessern!",
+      "beginner": "Üben Sie weiter! Mit mehr Lernen werden Sie sich verbessern."
+    },
     "score": "Ihre Punktzahl: {{score}}%",
     "correct": "Richtig: {{correct}} von {{total}}",
     "review": "Falsche Antworten überprüfen",

@@ -27,10 +27,10 @@ const Results: React.FC<ResultsProps> = ({
 
   const getFeedbackMessage = (): string => {
     if (percentage >= 90)
-      return "Fantastic! You're a Danish citizenship expert!";
-    if (percentage >= 75) return "Great job! You know Danish citizenship well!";
-    if (percentage >= 60) return "Good work! Keep studying to improve further.";
-    return "Keep practicing! You'll improve with more study.";
+      return t('results.feedback.expert');
+    if (percentage >= 75) return t('results.feedback.advanced');
+    if (percentage >= 60) return t('results.feedback.intermediate');
+    return t('results.feedback.beginner');
   };
 
   const getGradeColorClasses = (): string => {

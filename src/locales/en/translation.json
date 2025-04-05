@@ -24,6 +24,12 @@
   },
   "results": {
     "title": "Quiz results",
+    "feedback": {
+      "expert": "Fantastic! You're a Danish citizenship expert!",
+      "advanced": "Great job! You know Danish citizenship well!",
+      "intermediate": "Good work! Keep studying to improve further.",
+      "beginner": "Keep practicing! You'll improve with more study."
+    },
     "score": "Your score: {{score}}%",
     "correct": "Correct: {{correct}} out of {{total}}",
     "review": "Review incorrect answers",

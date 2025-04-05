@@ -24,6 +24,12 @@
   },
   "results": {
     "title": "测验结果",
+    "feedback": {
+      "expert": "太棒了！您是丹麦公民权的专家！",
+      "advanced": "做得好！您对丹麦公民权了解得很清楚！",
+      "intermediate": "不错！继续学习以提高成绩！",
+      "beginner": "继续练习！通过更多学习您会进步的。"
+    },
     "score": "您的得分: {{score}}%",
     "correct": "正确: {{correct}} / {{total}}",
     "review": "查看错误答案",
