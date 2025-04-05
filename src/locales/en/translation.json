@@ -32,6 +32,8 @@
     },
     "score": "Your score: {{score}}%",
     "correct": "Correct: {{correct}} out of {{total}}",
+    "correctOutOf": "correct out of",
+    "questions": "questions",
     "review": "Review incorrect answers",
     "restart": "Take another quiz",
     "history": "Quiz history",

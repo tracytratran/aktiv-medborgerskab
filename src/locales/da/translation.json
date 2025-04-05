@@ -32,6 +32,8 @@
     },
     "score": "Din score: {{score}}%",
     "correct": "Korrekte: {{correct}} ud af {{total}}",
+    "correctOutOf": "korrekte ud af",
+    "questions": "spørgsmål",
     "review": "Gennemgå forkerte svar",
     "restart": "Tag en ny quiz",
     "history": "Quiz historik",

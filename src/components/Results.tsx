@@ -26,11 +26,10 @@ const Results: React.FC<ResultsProps> = ({
   const incorrectAnswers = userAnswers.filter((answer) => !answer.isCorrect);
 
   const getFeedbackMessage = (): string => {
-    if (percentage >= 90)
-      return t('results.feedback.expert');
-    if (percentage >= 75) return t('results.feedback.advanced');
-    if (percentage >= 60) return t('results.feedback.intermediate');
-    return t('results.feedback.beginner');
+    if (percentage >= 90) return t("results.feedback.expert");
+    if (percentage >= 75) return t("results.feedback.advanced");
+    if (percentage >= 60) return t("results.feedback.intermediate");
+    return t("results.feedback.beginner");
   };
 
   const getGradeColorClasses = (): string => {
@@ -298,8 +297,8 @@ const Results: React.FC<ResultsProps> = ({
                 </div>
                 <div className="flex flex-col">
                   <p className="text-gray-700">
-                    {attempt.correctAnswers} correct out of{" "}
-                    {attempt.totalQuestions} questions
+                    {attempt.correctAnswers} {t("results.correctOutOf")}{" "}
+                    {attempt.totalQuestions} {t("results.questions")}
                   </p>
                   {attempt.timeExpired && (
                     <div className="flex items-center text-amber-600 mt-2 text-sm">

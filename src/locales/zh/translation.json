@@ -32,6 +32,8 @@
     },
     "score": "您的得分: {{score}}%",
     "correct": "正确: {{correct}} / {{total}}",
+    "correctOutOf": "正确，共",
+    "questions": "题",
     "review": "查看错误答案",
     "restart": "重新开始测验",
     "history": "测验历史",
