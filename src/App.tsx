@@ -132,6 +132,7 @@ const App: React.FC = () => {
   // Handle canceling a quiz without saving results
   const cancelQuiz = () => {
     // Reset the quiz state and go back to the exam selector
+    setQuestions([]);
     setShowExamSelector(true);
     setCurrentQuestionIndex(0);
     setUserAnswers([]);
