@@ -30,12 +30,12 @@ const App: React.FC = () => {
   // Random questions are now generated in the examData.ts file
 
   // Load questions based on the selected exam
-  const loadSelectedExam = async () => {
+  const loadSelectedExam = async (examId?: string) => {
     setLoading(true);
-    const selectedExam = getExamById(selectedExamId);
+    const selectedExam = getExamById(examId || selectedExamId);
 
     if (!selectedExam) {
-      console.error(`Exam with ID ${selectedExamId} not found`);
+      console.error(`Exam with ID ${examId || selectedExamId} not found`);
       setLoading(false);
       return;
     }
@@ -92,7 +92,7 @@ const App: React.FC = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
-      logAction('submit-quiz');
+      logAction("submit-quiz");
       setQuizCompleted(true);
       setTimerActive(false);
 
@@ -142,14 +142,14 @@ const App: React.FC = () => {
   // Handle exam selection
   const handleSelectExam = (examId: string) => {
     setSelectedExamId(examId);
-    startQuiz();
+    startQuiz(examId);
   };
 
   // Start the quiz with the selected exam
-  const startQuiz = () => {
-    logAction('start-quiz');
+  const startQuiz = (examId?: string) => {
+    logAction("start-quiz");
     setShowExamSelector(false);
-    loadSelectedExam();
+    loadSelectedExam(examId || selectedExamId);
     // Reset and start timer
     setTimeRemaining(30 * 60); // Reset to 30 minutes
     setTimerActive(true);
@@ -185,73 +185,71 @@ const App: React.FC = () => {
 
       {/* Main content */}
       <main className="flex-grow container mx-auto px-4 py-6 flex flex-col items-center justify-center">
+        {showExamSelector ? (
+          <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-6">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+              {t("app.selectExam")}
+            </h2>
 
-      {showExamSelector ? (
-        <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            {t("app.selectExam")}
-          </h2>
-
-          <ExamSelector
-            options={availableExams}
-            onSelectExam={handleSelectExam}
-          />
-        </div>
-      ) : !quizCompleted ? (
-        questions.length > 0 && (
-          <div className="w-full max-w-3xl">
-            <Quiz
-              question={questions[currentQuestionIndex]}
-              currentQuestion={currentQuestionIndex + 1}
-              totalQuestions={questions.length}
-              timeRemaining={timeRemaining}
-              setTimeRemaining={setTimeRemaining}
-              timerActive={timerActive}
-              onAnswer={handleAnswer}
-              onCancel={cancelQuiz}
-              onTimeout={() => {
-                // Auto-submit the quiz when time runs out
-                setQuizCompleted(true);
-                setTimerActive(false);
-
-                // Create a new quiz attempt with current answers
-                const correctCount = userAnswers.filter(
-                  (answer) => answer.isCorrect
-                ).length;
-                const score = Math.round(
-                  (correctCount / userAnswers.length) * 100
-                );
-
-                const newQuizAttempt: QuizAttempt = {
-                  date: new Date().toISOString(),
-                  score,
-                  correctAnswers: correctCount,
-                  totalQuestions: userAnswers.length,
-                  answers: userAnswers,
-                  timeExpired: true, // Flag to indicate the quiz was ended due to timeout
-                };
-
-                // Update quiz history
-                const updatedHistory = [newQuizAttempt, ...quizHistory];
-                setQuizHistory(updatedHistory);
-                localStorage.setItem(
-                  QUIZ_HISTORY_KEY,
-                  JSON.stringify(updatedHistory)
-                );
-              }}
+            <ExamSelector
+              options={availableExams}
+              onSelectExam={handleSelectExam}
             />
           </div>
-        )
-      ) : (
-        <div className="w-full max-w-3xl">
-          <Results
-            userAnswers={userAnswers}
-            quizHistory={quizHistory}
-            restartQuiz={restartQuiz}
-          />
-        </div>
-      )}
+        ) : !quizCompleted ? (
+          questions.length > 0 && (
+            <div className="w-full max-w-3xl">
+              <Quiz
+                question={questions[currentQuestionIndex]}
+                currentQuestion={currentQuestionIndex + 1}
+                totalQuestions={questions.length}
+                timeRemaining={timeRemaining}
+                setTimeRemaining={setTimeRemaining}
+                timerActive={timerActive}
+                onAnswer={handleAnswer}
+                onCancel={cancelQuiz}
+                onTimeout={() => {
+                  // Auto-submit the quiz when time runs out
+                  setQuizCompleted(true);
+                  setTimerActive(false);
 
+                  // Create a new quiz attempt with current answers
+                  const correctCount = userAnswers.filter(
+                    (answer) => answer.isCorrect
+                  ).length;
+                  const score = Math.round(
+                    (correctCount / userAnswers.length) * 100
+                  );
+
+                  const newQuizAttempt: QuizAttempt = {
+                    date: new Date().toISOString(),
+                    score,
+                    correctAnswers: correctCount,
+                    totalQuestions: userAnswers.length,
+                    answers: userAnswers,
+                    timeExpired: true, // Flag to indicate the quiz was ended due to timeout
+                  };
+
+                  // Update quiz history
+                  const updatedHistory = [newQuizAttempt, ...quizHistory];
+                  setQuizHistory(updatedHistory);
+                  localStorage.setItem(
+                    QUIZ_HISTORY_KEY,
+                    JSON.stringify(updatedHistory)
+                  );
+                }}
+              />
+            </div>
+          )
+        ) : (
+          <div className="w-full max-w-3xl">
+            <Results
+              userAnswers={userAnswers}
+              quizHistory={quizHistory}
+              restartQuiz={restartQuiz}
+            />
+          </div>
+        )}
       </main>
 
       {/* Mobile-friendly footer */}
@@ -260,7 +258,7 @@ const App: React.FC = () => {
           <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left order-2 sm:order-1">
             © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
           </p>
-          
+
           {/* Social buttons */}
           <div className="flex gap-2 order-1 sm:order-2">
             <a
