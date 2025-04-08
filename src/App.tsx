@@ -8,6 +8,7 @@ import { Question, UserAnswer, QuizAttempt } from "./types";
 // No longer needed as we're using exam data directly
 // import topicQuestionsData from './medborgerskab_quiz_by_topic.json';
 import { availableExams, getExamById, loadExam } from "./utils/examData";
+import { logAction } from "./utils/trafficLog";
 
 // LocalStorage key for storing quiz history
 const QUIZ_HISTORY_KEY = "medborgerskab_quiz_history";
@@ -91,6 +92,7 @@ const App: React.FC = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
+      logAction('submit-quiz');
       setQuizCompleted(true);
       setTimerActive(false);
 
@@ -145,6 +147,7 @@ const App: React.FC = () => {
 
   // Start the quiz with the selected exam
   const startQuiz = () => {
+    logAction('start-quiz');
     setShowExamSelector(false);
     loadSelectedExam();
     // Reset and start timer
