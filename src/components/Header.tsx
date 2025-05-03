@@ -2,10 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppTranslation } from "../hooks/useAppTranslation";
 import LanguageSelector from "./LanguageSelector";
+import useQuizHistory from "../hooks/useQuizHistory";
 
 const Header: React.FC = () => {
   const { t } = useAppTranslation();
   const navigate = useNavigate();
+  const { quizHistory } = useQuizHistory();
 
   return (
     <header className="sticky top-0 bg-white bg-opacity-95 shadow-sm z-10 py-4">
@@ -17,12 +19,16 @@ const Header: React.FC = () => {
           {t("app.title")}
         </h1>
         <div className="flex flex-row items-center gap-4">
-          <button
-            onClick={() => navigate("/results")}
-            className="flex items-center gap-2 py-2 px-4 text-primary hover:text-primary-dark font-medium transition-colors"
-          >
-            <span>{t("app.reviewHistory")}</span>
-          </button>
+          {
+            quizHistory.length > 0 && (
+              <button
+                onClick={() => navigate("/results")}
+                className="flex items-center gap-2 py-2 px-4 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+              >
+                <span>{t("app.reviewHistory")}</span>
+              </button>
+            )
+          }
           <div className="flex justify-center sm:justify-end">
             <LanguageSelector />
           </div>
