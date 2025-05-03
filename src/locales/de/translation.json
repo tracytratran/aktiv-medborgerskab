@@ -31,7 +31,7 @@
       "intermediate": "Gute Arbeit! Lernen Sie weiter, um sich zu verbessern!",
       "beginner": "Üben Sie weiter! Mit mehr Lernen werden Sie sich verbessern."
     },
-    "score": "Ihr Ergebnis: {{score}}%",
+    "score": "Ihr Ergebnis",
     "correct": "Richtig: {{correct}} von {{total}}",
     "correctOutOf": "richtig von",
     "questions": "Fragen",

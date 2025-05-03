@@ -31,7 +31,7 @@
       "intermediate": "Làm tốt! Hãy tiếp tục học để cải thiện thêm!",
       "beginner": "Hãy tiếp tục luyện tập! Bạn sẽ tiến bộ khi học nhiều hơn."
     },
-    "score": "Điểm của bạn: {{score}}%",
+    "score": "Điểm của bạn",
     "correct": "Đúng: {{correct}} trên {{total}}",
     "correctOutOf": "đúng trên",
     "questions": "câu hỏi",

@@ -31,7 +31,7 @@
       "intermediate": "做得好！继续学习以提高！",
       "beginner": "继续练习！通过更多学习您会进步的。"
     },
-    "score": "您的分数：{{score}}%",
+    "score": "您的分数",
     "correct": "正确：{{correct}} / {{total}}",
     "correctOutOf": "正确 / ",
     "questions": "问题",

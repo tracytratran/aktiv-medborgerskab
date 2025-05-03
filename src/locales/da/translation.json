@@ -31,7 +31,7 @@
       "intermediate": "Godt arbejde! Bliv ved med at studere for at forbedre dig!",
       "beginner": "Bliv ved med at øve dig! Du vil forbedre dig med mere studium."
     },
-    "score": "Din score: {{score}}%",
+    "score": "Din score",
     "correct": "Korrekte: {{correct}} ud af {{total}}",
     "correctOutOf": "korrekte ud af",
     "questions": "spørgsmål",
