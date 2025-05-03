@@ -66,7 +66,7 @@ const ReviewHistoryPage: React.FC = () => {
                       <div className="space-y-3">
                         <div className="flex flex-col">
                           <span className="text-sm font-medium text-gray-600 mb-1">
-                            {t("results.yourAnswer")}:
+                            {t("results.userAnswer")}:
                           </span>
                           <div className="p-3 bg-red-50 text-red-700 border border-red-200 rounded">
                             {answer.userAnswer}
