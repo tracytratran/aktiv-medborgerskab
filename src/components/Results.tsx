@@ -3,6 +3,7 @@ import { useAppTranslation } from "../hooks/useAppTranslation";
 import { UserAnswer } from "../types";
 import { useNavigate } from "react-router-dom";
 import useQuizHistory from "../hooks/useQuizHistory";
+import { BASE_PATH } from "../App";
 
 interface ResultsProps {
   userAnswers: UserAnswer[];
@@ -73,7 +74,7 @@ const Results: React.FC<ResultsProps> = ({
           {incorrectAnswers.length > 0 && (
             <button
               className="py-3 px-6 bg-white border-2 border-primary text-primary rounded-lg font-medium hover:bg-blue-50 transition-colors"
-              onClick={() => navigate("/results")}
+              onClick={() => navigate(`${BASE_PATH}/results`)}
             >
               {t("results.review")}
             </button>

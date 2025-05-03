@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAppTranslation } from "../hooks/useAppTranslation";
 import { QuizAttempt } from "../types";
 import useQuizHistory from "../hooks/useQuizHistory";
+import { BASE_PATH } from "../App";
 
 const ReviewHistoryPage: React.FC = () => {
   const { t } = useAppTranslation();
@@ -23,7 +24,7 @@ const ReviewHistoryPage: React.FC = () => {
   };
 
   const restartQuiz = () => {
-    navigate("/");
+    navigate(`${BASE_PATH}`);
   };
 
   return (
