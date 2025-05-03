@@ -4,7 +4,7 @@ import { useAppTranslation } from "../hooks/useAppTranslation";
 import { UserAnswer, QuizAttempt } from "../types";
 import useQuizHistory from "../hooks/useQuizHistory";
 
-const Results: React.FC = () => {
+const ReviewHistoryPage: React.FC = () => {
   const { t } = useAppTranslation();
   const navigate = useNavigate();
   const location = useLocation();
@@ -324,4 +324,4 @@ const Results: React.FC = () => {
   );
 };
 
-export default Results;
+export default ReviewHistoryPage;

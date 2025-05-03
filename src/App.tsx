@@ -8,6 +8,7 @@ import ExamSelector from "./components/ExamSelector";
 import { Question, UserAnswer, QuizAttempt } from "./types";
 import { availableExams, getExamById, loadExam } from "./utils/examData";
 import { logAction } from "./utils/trafficLog";
+import ReviewHistoryPage from "./pages/Results";
 
 const AppContent: React.FC = () => {
   const navigate = useNavigate();
@@ -186,15 +187,13 @@ const AppContent: React.FC = () => {
 };
 
 const App: React.FC = () => {
-  const ResultsPage = React.lazy(() => import("./pages/Results"));
-
   return (
     <Router>
       <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
         <Layout>
           <Routes>
             <Route path="/" element={<AppContent />} />
-            <Route path="/results" element={<ResultsPage />} />
+            <Route path="/results" element={<ReviewHistoryPage />} />
           </Routes>
         </Layout>
       </Suspense>
