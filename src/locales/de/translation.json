@@ -8,16 +8,21 @@
     "reviewHistory": "Verlauf überprüfen"
   },
   "examSelector": {
+    "practiceWrongAnswers": "Falsche Antworten üben",
+    "wrongAnswersCount": "{{count}} Fragen zum Wiederholen",
     "selectYear": "Wählen Sie das Jahr:",
     "selectSeason": "Wählen Sie die Saison:",
     "randomQuestions": "Zufallsfragen aus früheren Prüfungen",
+    "random": "Zufällige Fragen",
+    "randomDescription": "Üben Sie mit einer Mischung aus Fragen aller Prüfungen",
     "selectedExam": "Ausgewählte Prüfung:",
     "summer": "Sommer",
     "winter": "Winter",
-    "random": "Zufällig",
     "officialExam": "Offizielle Prüfung {{year}}"
   },
   "quiz": {
+    "title": "Quiz",
+    "practiceMode": "Übungsmodus - ",
     "question": "Frage {{current}} von {{total}}",
     "cancel": "Quiz abbrechen",
     "timeRemaining": "Verbleibende Zeit",

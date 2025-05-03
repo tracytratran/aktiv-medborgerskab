@@ -12,6 +12,7 @@ interface QuizProps {
   onAnswer: (selectedOption: string) => void;
   onCancel: () => void;
   onTimeout: () => void;
+  isWrongAnswersPractice?: boolean;
 }
 
 const Quiz: React.FC<QuizProps> = ({ 
@@ -23,7 +24,8 @@ const Quiz: React.FC<QuizProps> = ({
   timerActive,
   onAnswer,
   onCancel,
-  onTimeout
+  onTimeout,
+  isWrongAnswersPractice = false
 }) => {
   const { t } = useAppTranslation();
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -77,7 +79,9 @@ const Quiz: React.FC<QuizProps> = ({
       {/* Timer and Progress bar */}
       <div className="mb-6">
         <div className="flex justify-between mb-2 text-sm text-gray-600">
-          <span>{t('quiz.question', { current: currentQuestion, total: totalQuestions })}</span>
+          <span className='flex flex-row gap-1'>
+            {`${isWrongAnswersPractice ? t('quiz.practiceMode') : t('quiz.title')} ${t('quiz.question', { current: currentQuestion, total: totalQuestions })}`} 
+          </span>
           <div className="flex items-center">
             <span className={`font-medium mr-2 ${timeRemaining < 300 ? 'text-red-600' : ''}`}>
               ⏱️ {formatTime(timeRemaining)}

@@ -1,5 +1,6 @@
 import React from "react";
 import { useAppTranslation } from "../hooks/useAppTranslation";
+import useQuizHistory from "../hooks/useQuizHistory";
 
 export interface ExamOption {
   id: string;
@@ -19,6 +20,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
   onSelectExam,
 }: ExamSelectorProps) => {
   const { t } = useAppTranslation();
+  const { wrongAnswers } = useQuizHistory();
 
   // Sort exams by year (newest first) and season (winter before summer)
   const sortedExams = [...options].sort((a, b) => {
@@ -34,6 +36,19 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {wrongAnswers.length > 0 && (
+          <button
+            onClick={() => onSelectExam("wrong-answers")}
+            className="p-6 bg-gradient-to-br from-red-50 to-red-100 rounded-lg shadow-md hover:shadow-lg transition-shadow border-2 border-red-200 hover:border-red-300 flex flex-col items-center justify-center gap-2 text-center group"
+          >
+            <div className="text-xl font-semibold text-red-700 mb-2 group-hover:text-red-800">
+              {t("examSelector.practiceWrongAnswers")}
+            </div>
+            <div className="text-sm text-red-600 group-hover:text-red-700">
+              {t("examSelector.wrongAnswersCount", { count: wrongAnswers.length })}
+            </div>
+          </button>
+        )}
         {sortedExams.map((exam) => (
           <button
             key={exam.id}

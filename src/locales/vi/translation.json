@@ -12,16 +12,25 @@
     "selectSeason": "Chọn mùa:",
     "randomQuestions": "Câu hỏi ngẫu nhiên từ các kỳ thi trước",
     "selectedExam": "Kỳ thi đã chọn:",
+    "practiceWrongAnswers": "Luyện Tập Câu Sai",
+    "wrongAnswersCount": "{{count}} câu hỏi cần ôn tập",
+    "selectExam": "Chọn bài thi",
+    "random": "Câu Hỏi Ngẫu Nhiên",
+    "randomDescription": "Luyện tập với các câu hỏi từ tất cả các bài thi",
+    "officialExam": "Bài thi chính thức {{year}}",
     "summer": "Mùa hè",
-    "winter": "Mùa đông",
-    "random": "Ngẫu nhiên",
-    "officialExam": "Kỳ thi chính thức {{year}}"
+    "winter": "Mùa đông"
   },
   "quiz": {
+    "title": "Bài Kiểm Tra",
+    "practiceMode": "Chế Độ Luyện Tập - ",
     "question": "Câu hỏi {{current}} trên {{total}}",
-    "cancel": "Hủy bài thi",
+    "cancel": "Hủy Bài Kiểm Tra",
     "timeRemaining": "Thời gian còn lại",
-    "timeExpired": "Hết thời gian"
+    "submit": "Nộp Bài",
+    "next": "Câu Hỏi Tiếp Theo",
+    "finish": "Kết Thúc",
+    "timeExpired": "Hết giờ"
   },
   "results": {
     "title": "Kết quả kiểm tra",

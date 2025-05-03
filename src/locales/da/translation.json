@@ -12,15 +12,24 @@
     "selectSeason": "Vælg sæson:",
     "randomQuestions": "Tilfældige spørgsmål fra tidligere eksamener",
     "selectedExam": "Valgt eksamen:",
+    "practiceWrongAnswers": "Øv Forkerte Svar",
+    "wrongAnswersCount": "{{count}} spørgsmål at gennemgå",
+    "selectExam": "Vælg en prøve",
+    "random": "Tilfældige Spørgsmål",
+    "randomDescription": "Øv med en blanding af spørgsmål fra alle prøver",
+    "officialExam": "Officiel eksamen {{year}}",
     "summer": "Sommer",
-    "winter": "Vinter",
-    "random": "Tilfældigt",
-    "officialExam": "Officiel eksamen {{year}}"
+    "winter": "Vinter"
   },
   "quiz": {
+    "title": "Quiz",
+    "practiceMode": "Øvelsestilstand - ",
     "question": "Spørgsmål {{current}} af {{total}}",
-    "cancel": "Annuller quiz",
-    "timeRemaining": "Tid tilbage",
+    "cancel": "Annuller Quiz",
+    "timeRemaining": "Resterende tid",
+    "submit": "Indsend",
+    "next": "Næste Spørgsmål",
+    "finish": "Afslut Quiz",
     "timeExpired": "Tiden er udløbet"
   },
   "results": {

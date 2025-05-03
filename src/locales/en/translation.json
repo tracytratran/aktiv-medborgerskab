@@ -14,14 +14,22 @@
     "selectedExam": "Selected exam:",
     "summer": "Summer",
     "winter": "Winter",
-    "random": "Random",
-    "officialExam": "Official exam {{year}}"
+    "random": "Random Questions",
+    "officialExam": "Official exam {{year}}",
+    "practiceWrongAnswers": "Practice Wrong Answers",
+    "wrongAnswersCount": "{{count}} questions to review",
+    "randomDescription": "Practice with a mix of questions from all exams"
   },
   "quiz": {
+    "title": "Quiz",
+    "practiceMode": "Practice Mode - ",
     "question": "Question {{current}} of {{total}}",
     "cancel": "Cancel quiz",
     "timeRemaining": "Time remaining",
-    "timeExpired": "Time expired"
+    "timeExpired": "Time expired",
+    "submit": "Submit",
+    "next": "Next Question",
+    "finish": "Finish Quiz"
   },
   "results": {
     "title": "Quiz results",

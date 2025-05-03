@@ -15,13 +15,21 @@
     "summer": "夏季",
     "winter": "冬季",
     "random": "随机",
-    "officialExam": "官方考试 {{year}}"
+    "officialExam": "官方考试 {{year}}",
+    "practiceWrongAnswers": "练习错题",
+    "wrongAnswersCount": "{{count}} 道题目需要复习",
+    "randomDescription": "练习所有考试中的混合题目"
   },
   "quiz": {
+    "title": "测验",
+    "practiceMode": "练习模式 - ",
     "question": "问题 {{current}} / {{total}}",
-    "cancel": "取消测验",
     "timeRemaining": "剩余时间",
-    "timeExpired": "时间已到"
+    "cancel": "取消测验",
+    "submit": "提交",
+    "next": "下一题",
+    "finish": "完成测验",
+    "timeExpired": "时间到"
   },
   "results": {
     "title": "测验结果",
