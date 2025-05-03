@@ -2,9 +2,10 @@
   "app": {
     "title": "Bài Kiểm Tra Công Dân Tích Cực",
     "loading": "Đang tải câu hỏi...",
-    "selectExam": "Chọn kỳ thi của bạn",
-    "startQuiz": "Bắt đầu bài thi",
-    "connectLinkedIn": "Kết nối trên LinkedIn"
+    "selectExam": "Chọn bài thi của bạn",
+    "startQuiz": "Bắt đầu kiểm tra",
+    "connectLinkedIn": "Kết nối trên LinkedIn",
+    "reviewHistory": "Xem lịch sử"
   },
   "examSelector": {
     "selectYear": "Chọn năm:",
@@ -23,11 +24,11 @@
     "timeExpired": "Hết thời gian"
   },
   "results": {
-    "title": "Kết quả bài thi",
+    "title": "Kết quả kiểm tra",
     "feedback": {
       "expert": "Tuyệt vời! Bạn là chuyên gia về quyền công dân Đan Mạch!",
-      "advanced": "Rất giỏi! Bạn hiểu rõ về quyền công dân Đan Mạch!",
-      "intermediate": "Làm tốt lắm! Hãy tiếp tục học để cải thiện thêm!",
+      "advanced": "Rất tốt! Bạn hiểu biết nhiều về quyền công dân Đan Mạch!",
+      "intermediate": "Làm tốt! Hãy tiếp tục học để cải thiện thêm!",
       "beginner": "Hãy tiếp tục luyện tập! Bạn sẽ tiến bộ khi học nhiều hơn."
     },
     "score": "Điểm của bạn: {{score}}%",
@@ -35,17 +36,22 @@
     "correctOutOf": "đúng trên",
     "questions": "câu hỏi",
     "review": "Xem lại câu trả lời sai",
-    "restart": "Thi lại",
-    "history": "Lịch sử bài thi",
-    "previousAttempts": "Các lần thi trước",
-    "improvement": "Tổng quan cải thiện",
+    "restart": "Làm bài kiểm tra khác",
+    "history": "Lịch sử kiểm tra",
+    "previousAttempts": "Các lần thử trước",
+    "improvement": "Cải thiện tổng thể",
     "performance": "Kết quả gần đây",
     "date": "Ngày",
-    "total": "Tổng",
-    "answers": "Câu trả lời",
-    "userAnswer": "Câu trả lời của bạn",
-    "correctAnswer": "Câu trả lời đúng",
-    "isCorrect": "Đúng không"
+    "noHistory": "Không có lần kiểm tra trước đây",
+    "timeExpired": "Hết giờ - bài kiểm tra tự động nộp",
+    "historyTitle": "Lịch sử kiểm tra",
+    "historyReviewTitle": "Xem lại câu trả lời sai",
+    "backToHistory": "Quay lại lịch sử",
+    "backToResults": "Quay lại kết quả",
+    "reviewIncorrect": "Xem lại {{count}} câu sai",
+    "reviewSubtitle": "{{count}} câu hỏi cần xem lại",
+    "tryAgain": "Thử lại",
+    "correctCount": "{{correct}} / {{total}} đúng"
   },
   "donate": {
     "buyMeACoffee": "Mua cho tôi một ly cà phê",

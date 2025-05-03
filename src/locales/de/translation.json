@@ -1,10 +1,11 @@
 {
   "app": {
-    "title": "Aktives Bürgerschafts-Quiz",
+    "title": "Aktive Bürgerschaft Quiz",
     "loading": "Fragen werden geladen...",
     "selectExam": "Wählen Sie Ihre Prüfung",
     "startQuiz": "Quiz starten",
-    "connectLinkedIn": "Auf LinkedIn verbinden"
+    "connectLinkedIn": "Auf LinkedIn verbinden",
+    "reviewHistory": "Verlauf überprüfen"
   },
   "examSelector": {
     "selectYear": "Wählen Sie das Jahr:",
@@ -23,31 +24,34 @@
     "timeExpired": "Zeit abgelaufen"
   },
   "results": {
-    "title": "Quiz-Ergebnisse",
+    "title": "Quiz Ergebnisse",
     "feedback": {
       "expert": "Fantastisch! Sie sind ein Experte für die dänische Staatsbürgerschaft!",
       "advanced": "Sehr gut! Sie kennen sich mit der dänischen Staatsbürgerschaft gut aus!",
       "intermediate": "Gute Arbeit! Lernen Sie weiter, um sich zu verbessern!",
       "beginner": "Üben Sie weiter! Mit mehr Lernen werden Sie sich verbessern."
     },
-    "score": "Ihre Punktzahl: {{score}}%",
+    "score": "Ihr Ergebnis: {{score}}%",
     "correct": "Richtig: {{correct}} von {{total}}",
     "correctOutOf": "richtig von",
     "questions": "Fragen",
     "review": "Falsche Antworten überprüfen",
-    "restart": "Neues Quiz",
-    "history": "Quiz-Historie",
+    "restart": "Neues Quiz starten",
+    "history": "Quiz Verlauf",
     "previousAttempts": "Vorherige Versuche",
-    "improvement": "Gesamtfortschritt",
+    "improvement": "Gesamtverbesserung",
     "performance": "Aktuelle Leistung",
     "date": "Datum",
     "noHistory": "Keine vorherigen Quiz-Versuche",
-    "timeExpired": "Zeit abgelaufen - Quiz automatisch abgegeben",
-    "total": "Gesamt",
-    "answers": "Antworten",
-    "userAnswer": "Ihre Antwort",
-    "correctAnswer": "Richtige Antwort",
-    "isCorrect": "Ist richtig"
+    "timeExpired": "Zeit abgelaufen - Quiz automatisch eingereicht",
+    "historyTitle": "Quiz Verlauf",
+    "historyReviewTitle": "Falsche Antworten überprüfen",
+    "backToHistory": "Zurück zum Verlauf",
+    "backToResults": "Zurück zu den Ergebnissen",
+    "reviewIncorrect": "{{count}} falsche überprüfen",
+    "reviewSubtitle": "{{count}} Fragen zu überprüfen",
+    "tryAgain": "Erneut versuchen",
+    "correctCount": "{{correct}} / {{total}} richtig"
   },
   "donate": {
     "buyMeACoffee": "Kaufen Sie mir einen Kaffee",

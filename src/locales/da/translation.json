@@ -4,7 +4,8 @@
     "loading": "Indlæser spørgsmål...",
     "selectExam": "Vælg dit eksamen",
     "startQuiz": "Start quiz",
-    "connectLinkedIn": "Forbind på LinkedIn"
+    "connectLinkedIn": "Forbind på LinkedIn",
+    "reviewHistory": "Gennemgå historik"
   },
   "examSelector": {
     "selectYear": "Vælg år:",
@@ -42,7 +43,15 @@
     "performance": "Seneste resultat",
     "date": "Dato",
     "noHistory": "Ingen tidligere quiz-forsøg",
-    "timeExpired": "Tiden er udløbet - quiz automatisk indsendt"
+    "timeExpired": "Tiden er udløbet - quiz automatisk indsendt",
+    "historyTitle": "Quiz historik",
+    "historyReviewTitle": "Gennemgå forkerte svar",
+    "backToHistory": "Tilbage til historik",
+    "backToResults": "Tilbage til resultater",
+    "reviewIncorrect": "Gennemgå {{count}} forkerte",
+    "reviewSubtitle": "{{count}} spørgsmål at gennemgå",
+    "tryAgain": "Prøv igen",
+    "correctCount": "{{correct}} / {{total}} korrekte"
   },
   "donate": {
     "buyMeACoffee": "Køb mig en kaffe",

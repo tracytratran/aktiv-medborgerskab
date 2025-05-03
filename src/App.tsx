@@ -26,6 +26,7 @@ const App: React.FC = () => {
   const [showDonateModal, setShowDonateModal] = useState<boolean>(false);
   const [timeRemaining, setTimeRemaining] = useState<number>(30 * 60); // 30 minutes in seconds
   const [timerActive, setTimerActive] = useState<boolean>(false);
+  const [showHistory, setShowHistory] = useState<boolean>(false);
 
   // Random questions are now generated in the examData.ts file
 
@@ -188,16 +189,32 @@ const App: React.FC = () => {
       <main className="flex-grow container mx-auto px-4 py-6 flex flex-col items-center justify-center">
         {showExamSelector ? (
           <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
-              {t("app.selectExam")}
-            </h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-bold text-gray-800">
+                {t("app.selectExam")}
+              </h2>
+              {quizHistory.length > 0 && (
+                <button
+                  onClick={() => {
+                    setShowHistory(true);
+                    setShowExamSelector(false);
+                  }}
+                  className="flex items-center gap-2 py-2 px-4 text-primary hover:text-primary-dark font-medium transition-colors"
+                >
+                  <span>{t("app.reviewHistory")}</span>
+                  <span className="bg-primary/10 text-primary px-2 py-0.5 rounded-full text-sm">
+                    {quizHistory.length}
+                  </span>
+                </button>
+              )}
+            </div>
 
             <ExamSelector
               options={availableExams}
               onSelectExam={handleSelectExam}
             />
           </div>
-        ) : !quizCompleted ? (
+        ) : !quizCompleted && !showHistory ? (
           questions.length > 0 && (
             <div className="w-full max-w-3xl">
               <Quiz
@@ -242,9 +259,22 @@ const App: React.FC = () => {
               />
             </div>
           )
+        ) : showHistory ? (
+          <div className="w-full max-w-3xl">
+            <Results
+              showHistory={showHistory}
+              userAnswers={[]}
+              quizHistory={quizHistory}
+              restartQuiz={() => {
+                setShowHistory(false);
+                setShowExamSelector(true);
+              }}
+            />
+          </div>
         ) : (
           <div className="w-full max-w-3xl">
             <Results
+              showHistory={showHistory}
               userAnswers={userAnswers}
               quizHistory={quizHistory}
               restartQuiz={restartQuiz}
@@ -257,7 +287,7 @@ const App: React.FC = () => {
       <footer className="fixed bottom-0 left-0 right-0 bg-white bg-opacity-95 shadow-lg p-4 z-10">
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left order-2 sm:order-1">
-            © {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
+            {new Date().getFullYear()} Tracy Tra Tran. All rights reserved.
           </p>
 
           {/* Social buttons */}

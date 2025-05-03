@@ -4,7 +4,8 @@
     "loading": "Loading questions...",
     "selectExam": "Select your exam",
     "startQuiz": "Start quiz",
-    "connectLinkedIn": "Connect on LinkedIn"
+    "connectLinkedIn": "Connect on LinkedIn",
+    "reviewHistory": "Review History"
   },
   "examSelector": {
     "selectYear": "Select year:",
@@ -47,7 +48,15 @@
     "answers": "Answers",
     "userAnswer": "Your answer",
     "correctAnswer": "Correct answer",
-    "isCorrect": "Is correct"
+    "isCorrect": "Is correct",
+    "historyTitle": "Quiz History",
+    "historyReviewTitle": "Review Wrong Answers",
+    "backToHistory": "Back to History",
+    "backToResults": "Back to Results",
+    "reviewIncorrect": "Review {{count}} incorrect",
+    "reviewSubtitle": "{{count}} questions to review",
+    "tryAgain": "Try Again",
+    "correctCount": "{{correct}} / {{total}} correct"
   },
   "donate": {
     "buyMeACoffee": "Buy me a coffee",
