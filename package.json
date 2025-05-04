@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://tracytratran.github.io/aktiv-medborgerskab/",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@types/node": "^16.18.46",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",

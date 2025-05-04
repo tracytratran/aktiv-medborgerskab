@@ -41,6 +41,8 @@ jobs:
       run: pnpm install --no-frozen-lockfile
     
     - name: Build
+      env:
+        REACT_APP_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: pnpm build
     
     - name: Deploy to GitHub Pages
