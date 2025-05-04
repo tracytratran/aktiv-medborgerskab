@@ -18,7 +18,6 @@ const getGeminiAI = () => {
 
 // For testing if the API key is configured
 export const isGeminiConfigured = (): boolean => {
-  console.log('process.env', process.env);
   return !!process.env.REACT_APP_GEMINI_API_KEY;
 };
 
