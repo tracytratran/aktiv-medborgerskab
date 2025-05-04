@@ -2,7 +2,11 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize the Gemini API with your API key from environment variables
 const getGeminiAI = () => {
+  // Access the API key from environment variables
   const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+  
+  // For debugging - remove in production
+  console.log("API Key available:", API_KEY ? "Yes" : "No");
   
   if (!API_KEY) {
     console.warn("Gemini API key is not set. AI explanations will not work.");
@@ -12,10 +16,16 @@ const getGeminiAI = () => {
   return new GoogleGenerativeAI(API_KEY);
 };
 
+// For testing if the API key is configured
+export const isGeminiConfigured = (): boolean => {
+  console.log('process.env', process.env);
+  return !!process.env.REACT_APP_GEMINI_API_KEY;
+};
+
 export const generateExplanation = async (question: string, correctAnswer: string, language: string): Promise<string> => {
   try {
     const genAI = getGeminiAI();
-    const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     // Create a prompt that asks for an explanation of the question and answer
     const prompt = `

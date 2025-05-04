@@ -4,7 +4,7 @@ import { useAppTranslation } from "../hooks/useAppTranslation";
 import { QuizAttempt } from "../types";
 import useQuizHistory from "../hooks/useQuizHistory";
 import { BASE_PATH } from "../App";
-import { generateExplanation } from "../utils/aiHelper";
+import { generateExplanation, isGeminiConfigured } from "../utils/aiHelper";
 
 const ReviewHistoryPage: React.FC = () => {
   const { t, i18n } = useAppTranslation();
@@ -40,7 +40,7 @@ const ReviewHistoryPage: React.FC = () => {
       const currentLanguage = i18n.language;
       
       // Check if API key is configured
-      if (!process.env.REACT_APP_GEMINI_API_KEY) {
+      if (!isGeminiConfigured()) {
         throw new Error("API key not configured");
       }
       
@@ -53,7 +53,7 @@ const ReviewHistoryPage: React.FC = () => {
       console.error("Failed to get AI explanation:", error);
       
       // Different error message based on error type
-      const errorMessage = !process.env.REACT_APP_GEMINI_API_KEY
+      const errorMessage = !isGeminiConfigured()
         ? t("results.apiKeyMissing")
         : t("results.aiExplanationError");
       
