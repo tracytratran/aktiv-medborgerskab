@@ -21,6 +21,17 @@ export const isGeminiConfigured = (): boolean => {
   return !!process.env.REACT_APP_GEMINI_API_KEY;
 };
 
+export const getLanguageName = (code: string): string => {
+  switch (code) {
+    case 'en': return 'English';
+    case 'da': return 'Dansk';
+    case 'de': return 'Deutsch';
+    case 'zh': return '中文';
+    case 'vi': return 'Tiếng Việt';
+    default: return code;
+  }
+};
+
 export const generateExplanation = async (question: string, correctAnswer: string, language: string): Promise<string> => {
   try {
     const genAI = getGeminiAI();
@@ -36,7 +47,7 @@ export const generateExplanation = async (question: string, correctAnswer: strin
       Please explain this topic in simple terms. Focus on the historical, cultural, or political context 
       that makes this answer correct. Keep your explanation under 200 words and make it easy to understand.
       
-      Respond in ${language} language.
+      Respond in ${getLanguageName(language)} language.
     `;
 
     const result = await model.generateContent(prompt);
