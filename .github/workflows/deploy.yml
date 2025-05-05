@@ -42,7 +42,7 @@ jobs:
     
     - name: Create production env file
       run: |
-        echo "REACT_APP_GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+        echo "REACT_APP_GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env.production
     
     - name: Build
       run: pnpm build
