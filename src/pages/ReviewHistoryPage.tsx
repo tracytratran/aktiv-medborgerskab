@@ -4,15 +4,14 @@ import { useAppTranslation } from "../hooks/useAppTranslation";
 import { QuizAttempt } from "../types";
 import useQuizHistory from "../hooks/useQuizHistory";
 import { BASE_PATH } from "../App";
-import { generateExplanation, isGeminiConfigured } from "../utils/aiHelper";
+import { useAIExplanations } from "../hooks/useAIExplanations";
 
 const ReviewHistoryPage: React.FC = () => {
-  const { t, i18n } = useAppTranslation();
+  const { t } = useAppTranslation();
   const navigate = useNavigate();
   const { quizHistory } = useQuizHistory();
   const [selectedHistoryAttempt, setSelectedHistoryAttempt] = useState<QuizAttempt | null>(null);
-  const [aiExplanations, setAiExplanations] = useState<Record<string, string>>({});
-  const [loadingExplanations, setLoadingExplanations] = useState<Record<string, boolean>>({});
+  const { explanations, loadingStates, getExplanation } = useAIExplanations();
 
   // Format date to a more readable format
   const formatDate = (dateString: string): string => {
@@ -31,43 +30,8 @@ const ReviewHistoryPage: React.FC = () => {
   };
 
   // Get AI explanation for a wrong answer
-  const handleLearnMore = async (question: string, correctAnswer: string, answerId: string) => {
-    // Set loading state for this specific answer
-    setLoadingExplanations(prev => ({ ...prev, [answerId]: true }));
-    
-    try {
-      // Get current language
-      const currentLanguage = i18n.language;
-      
-      // Check if API key is configured
-      if (!isGeminiConfigured()) {
-        throw new Error("API key not configured");
-      }
-      
-      // Generate explanation using Gemini
-      const explanation = await generateExplanation(question, correctAnswer, currentLanguage);
-      
-      // Store the explanation
-      setAiExplanations(prev => ({ ...prev, [answerId]: explanation }));
-    } catch (error) {
-      console.error("Failed to get AI explanation:", error);
-      
-      // Different error message based on error type
-      const errorMessage = !isGeminiConfigured()
-        ? t("results.apiKeyMissing")
-        : t("results.aiExplanationError");
-      
-      // Store error message
-      setAiExplanations(prev => ({ ...prev, [answerId]: errorMessage }));
-    } finally {
-      // Clear loading state
-      setLoadingExplanations(prev => ({ ...prev, [answerId]: false }));
-    }
-  };
-
-  // Generate a unique ID for each answer
-  const getAnswerId = (attemptDate: string, questionText: string) => {
-    return `${attemptDate}-${questionText.substring(0, 20)}`;
+  const handleLearnMore = (question: string, correctAnswer: string) => {
+    getExplanation(question, correctAnswer);
   };
 
   return (
@@ -98,9 +62,8 @@ const ReviewHistoryPage: React.FC = () => {
                 {selectedHistoryAttempt.answers
                   .filter((answer) => !answer.isCorrect)
                   .map((answer, index) => {
-                    const answerId = getAnswerId(selectedHistoryAttempt.date, answer.question);
-                    const hasExplanation = answerId in aiExplanations;
-                    const isLoading = loadingExplanations[answerId] || false;
+                    const hasExplanation = answer.question in explanations;
+                    const isLoading = loadingStates[answer.question] || false;
 
                     return (
                       <div
@@ -138,8 +101,7 @@ const ReviewHistoryPage: React.FC = () => {
                               <button
                                 onClick={() => handleLearnMore(
                                   answer.question, 
-                                  answer.correctAnswer, 
-                                  answerId
+                                  answer.correctAnswer
                                 )}
                                 disabled={isLoading}
                                 className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -167,7 +129,7 @@ const ReviewHistoryPage: React.FC = () => {
                                   {t("results.aiExplanation")}:
                                 </h4>
                                 <div className="bg-white p-4 rounded-md border border-gray-300 text-gray-700 whitespace-pre-line">
-                                  {aiExplanations[answerId]}
+                                  {explanations[answer.question]}
                                 </div>
                               </div>
                             )}
