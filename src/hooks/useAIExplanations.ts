@@ -23,13 +23,6 @@ export const useAIExplanations = (): UseAIExplanationsReturn => {
     }
   }, []);
 
-  // Save explanations to local storage when they change
-  useEffect(() => {
-    if (Object.keys(explanations).length > 0) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(explanations));
-    }
-  }, [explanations]);
-
   const getExplanation = async (question: string, correctAnswer: string) => {
     // Check if explanation exists in local storage
     const storedExplanations = localStorage.getItem(STORAGE_KEY);
@@ -57,8 +50,14 @@ export const useAIExplanations = (): UseAIExplanationsReturn => {
         i18n.language
       );
 
+      const newExplanations = {
+        ...explanations,
+        [question]: explanation
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(newExplanations));
+
       // Store the explanation
-      setExplanations(prev => ({ ...prev, [question]: explanation }));
+      setExplanations(newExplanations);
     } catch (error) {
       console.error("Failed to get AI explanation:", error);
 
