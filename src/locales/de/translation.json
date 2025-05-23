@@ -18,7 +18,8 @@
     "selectedExam": "Ausgewählte Prüfung:",
     "summer": "Sommer",
     "winter": "Winter",
-    "officialExam": "Offizielle Prüfung {{year}}"
+    "officialExam": "Offizielle Prüfung {{year}}",
+    "attempted": "Versucht"
   },
   "quiz": {
     "title": "Quiz",

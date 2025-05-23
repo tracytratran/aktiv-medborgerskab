@@ -126,6 +126,7 @@ const QuizSelectorPage: React.FC = () => {
                 correctAnswers: correctCount,
                 totalQuestions: questions.length,
                 answers: newAnswers,
+                examId: selectedExamId,
             };
 
             // Add the new attempt to history
@@ -213,6 +214,7 @@ const QuizSelectorPage: React.FC = () => {
                                     correctAnswers: correctCount,
                                     totalQuestions: questions.length,
                                     answers: userAnswers,
+                                    examId: selectedExamId,
                                     timeExpired: true, // Flag to indicate the quiz was ended due to timeout
                                 };
 

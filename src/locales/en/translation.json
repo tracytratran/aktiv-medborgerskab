@@ -18,7 +18,8 @@
     "officialExam": "Official exam {{year}}",
     "practiceWrongAnswers": "Practice Wrong Answers",
     "wrongAnswersCount": "{{count}} questions to review",
-    "randomDescription": "Practice with a mix of questions from all exams"
+    "randomDescription": "Practice with a mix of questions from all exams",
+    "attempted": "Attempted"
   },
   "quiz": {
     "title": "Quiz",

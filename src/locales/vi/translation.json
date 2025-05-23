@@ -19,7 +19,8 @@
     "randomDescription": "Luyện tập với các câu hỏi từ tất cả các bài thi",
     "officialExam": "Bài thi chính thức {{year}}",
     "summer": "Mùa hè",
-    "winter": "Mùa đông"
+    "winter": "Mùa đông",
+    "attempted": "Đã thử"
   },
   "quiz": {
     "title": "Bài Kiểm Tra",

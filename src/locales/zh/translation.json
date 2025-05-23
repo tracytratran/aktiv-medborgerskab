@@ -18,7 +18,8 @@
     "officialExam": "官方考试 {{year}}",
     "practiceWrongAnswers": "练习错题",
     "wrongAnswersCount": "{{count}} 道题目需要复习",
-    "randomDescription": "练习所有考试中的混合题目"
+    "randomDescription": "练习所有考试中的混合题目",
+    "attempted": "已尝试"
   },
   "quiz": {
     "title": "测验",

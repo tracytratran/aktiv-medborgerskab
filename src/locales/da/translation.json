@@ -19,7 +19,8 @@
     "randomDescription": "Øv med en blanding af spørgsmål fra alle prøver",
     "officialExam": "Officiel eksamen {{year}}",
     "summer": "Sommer",
-    "winter": "Vinter"
+    "winter": "Vinter",
+    "attempted": "Forsøgt"
   },
   "quiz": {
     "title": "Quiz",

@@ -12,6 +12,7 @@ export interface UserAnswer {
 }
 
 export interface QuizAttempt {
+  examId: string; // ID of the exam that was attempted
   date: string; // ISO string of when the attempt was completed
   score: number; // Percentage score (0-100)
   correctAnswers: number; // Number of correct answers

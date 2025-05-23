@@ -20,7 +20,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
   onSelectExam,
 }: ExamSelectorProps) => {
   const { t } = useAppTranslation();
-  const { wrongAnswers } = useQuizHistory();
+  const { wrongAnswers, hasAttemptedExam, getExamBestScore } = useQuizHistory();
 
   // Sort exams by year (newest first) and season (winter before summer)
   const sortedExams = [...options].sort((a, b) => {
@@ -53,8 +53,13 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
           <button
             key={exam.id}
             onClick={() => onSelectExam(exam.id)}
-            className="p-6 rounded-lg border-2 border-gray-200 hover:border-primary hover:bg-blue-50 transition-all text-center"
+            className={`p-6 rounded-lg border-2 ${hasAttemptedExam(exam.id) ? 'border-green-300 bg-green-50' : 'border-gray-200'} hover:border-primary hover:bg-blue-50 transition-all text-center relative`}
           >
+            {hasAttemptedExam(exam.id) && (
+              <span className="absolute top-2 right-2 bg-green-600 text-white text-xs px-2 py-1 rounded-full">
+                {getExamBestScore(exam.id)}%
+              </span>
+            )}
             {exam.id === "random" ? (
               <>
                 <div className="font-medium text-lg mb-1">
@@ -63,6 +68,11 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                 <div className="text-sm text-gray-600">
                   {t("examSelector.randomQuestions")}
                 </div>
+                {hasAttemptedExam(exam.id) && (
+                  <div className="text-xs text-green-700 mt-2">
+                    {t("examSelector.attempted")}
+                  </div>
+                )}
               </>
             ) : (
               <>
@@ -75,6 +85,11 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                 <div className="text-sm text-gray-600">
                   {t(`examSelector.officialExam`, { year: exam.year })}
                 </div>
+                {hasAttemptedExam(exam.id) && (
+                  <div className="text-xs text-green-700 mt-2">
+                    {t("examSelector.attempted")}
+                  </div>
+                )}
               </>
             )}
           </button>
