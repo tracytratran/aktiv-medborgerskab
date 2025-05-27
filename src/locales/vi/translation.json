@@ -20,7 +20,8 @@
     "officialExam": "Bài thi chính thức {{year}}",
     "summer": "Mùa hè",
     "winter": "Mùa đông",
-    "attempted": "Đã thử"
+    "attempted": "Đã thử",
+    "new": "MỚI"
   },
   "quiz": {
     "title": "Bài Kiểm Tra",

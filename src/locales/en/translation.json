@@ -19,7 +19,8 @@
     "practiceWrongAnswers": "Practice Wrong Answers",
     "wrongAnswersCount": "{{count}} questions to review",
     "randomDescription": "Practice with a mix of questions from all exams",
-    "attempted": "Attempted"
+    "attempted": "Attempted",
+    "new": "NEW"
   },
   "quiz": {
     "title": "Quiz",

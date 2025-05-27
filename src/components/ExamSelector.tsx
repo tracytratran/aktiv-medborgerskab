@@ -45,7 +45,9 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
               {t("examSelector.practiceWrongAnswers")}
             </div>
             <div className="text-sm text-red-600 group-hover:text-red-700">
-              {t("examSelector.wrongAnswersCount", { count: wrongAnswers.length })}
+              {t("examSelector.wrongAnswersCount", {
+                count: wrongAnswers.length,
+              })}
             </div>
           </button>
         )}
@@ -53,11 +55,24 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
           <button
             key={exam.id}
             onClick={() => onSelectExam(exam.id)}
-            className={`p-6 rounded-lg border-2 ${hasAttemptedExam(exam.id) ? 'border-green-300 bg-green-50' : 'border-gray-200'} hover:border-primary hover:bg-blue-50 transition-all text-center relative`}
+            className={`p-6 rounded-lg border-2 ${
+              hasAttemptedExam(exam.id)
+                ? "border-green-300 bg-green-50"
+                : "border-gray-200"
+            } ${
+              exam.year === 2025 && exam.season === "summer"
+                ? "border-blue-400 bg-blue-50"
+                : ""
+            } hover:border-primary hover:bg-blue-50 transition-all text-center relative`}
           >
             {hasAttemptedExam(exam.id) && (
               <span className="absolute top-2 right-2 bg-green-600 text-white text-xs px-2 py-1 rounded-full">
                 {getExamBestScore(exam.id)}%
+              </span>
+            )}
+            {exam.year === 2025 && exam.season === "summer" && (
+              <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded-full animate-pulse">
+                {t("examSelector.new")}
               </span>
             )}
             {exam.id === "random" ? (

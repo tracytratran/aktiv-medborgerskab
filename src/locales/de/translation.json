@@ -19,7 +19,8 @@
     "summer": "Sommer",
     "winter": "Winter",
     "officialExam": "Offizielle Prüfung {{year}}",
-    "attempted": "Versucht"
+    "attempted": "Versucht",
+    "new": "NEU"
   },
   "quiz": {
     "title": "Quiz",

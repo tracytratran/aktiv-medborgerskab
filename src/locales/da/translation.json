@@ -20,7 +20,8 @@
     "officialExam": "Officiel eksamen {{year}}",
     "summer": "Sommer",
     "winter": "Vinter",
-    "attempted": "Forsøgt"
+    "attempted": "Forsøgt",
+    "new": "NY"
   },
   "quiz": {
     "title": "Quiz",
