@@ -11,11 +11,11 @@ export const availableExams: ExamOption[] = [
     path: "", // No path needed for random selection
   },
   {
-    id: "2024-winter",
-    label: "examSelector.officialExam2024",
-    year: 2024,
-    season: "winter",
-    path: "/banks/2024/winter/medborgerskabsproeven.json",
+    id: "2025-winter",
+    label: "examSelector.officialExam2025",
+    year: 2025,
+    season: "summer",
+    path: "/banks/2025/summer/medborgerskabsproeven.json",
   },
   {
     id: "2024-summer",

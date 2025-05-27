@@ -1,0 +1,139 @@
+[
+  {
+    "question": "Hvad bestemmer overenskomster på arbejdsmarkedet blandt andet?",
+    "options": ["Skatter", "Arbejdstid"],
+    "answer": "Arbejdstid"
+  },
+  {
+    "question": "Hvor mange ugers ferie har man normalt ret til som lønmodtager?",
+    "options": ["1-2 uger om året", "3-4 uger om året", "5-6 uger om året"],
+    "answer": "5-6 uger om året"
+  },
+  {
+    "question": "Hvad skal man være medlem af en a-kasse for at kunne få?",
+    "options": ["Arbejdsløshedsdagpenge", "Kontanthjælp", "Førtidspension"],
+    "answer": "Arbejdsløshedsdagpenge"
+  },
+  {
+    "question": "Hvordan bliver de fleste udgifter til sundhedsvæsenet betalt?",
+    "options": [
+      "Skatter og afgifter",
+      "Direkte egenbetaling",
+      "Private forsikringer"
+    ],
+    "answer": "Skatter og afgifter"
+  },
+  {
+    "question": "Fik alle mænd og kvinder over 18 år stemmeret til Folketinget med Grundloven i 1849?",
+    "options": ["Ja", "Nej"],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvad har der været flest folkeafstemninger om i Danmark siden 1953?",
+    "options": ["Danmarks forhold til EU", "Valgretsalderen", "Grundloven"],
+    "answer": "Danmarks forhold til EU"
+  },
+  {
+    "question": "Hvilket år blev Danmark befriet fra den tyske besættelse?",
+    "options": ["1940", "1943", "1945"],
+    "answer": "1945"
+  },
+  {
+    "question": "Hvornår blev Danmark medlem af NATO?",
+    "options": ["1949", "1969", "1989"],
+    "answer": "1949"
+  },
+  {
+    "question": "Hvad producerer virksomheden Novo Nordisk primært?",
+    "options": ["Vindmøller", "Legetøj", "Medicin"],
+    "answer": "Medicin"
+  },
+  {
+    "question": "Hvordan har antallet af landmænd i Danmark udviklet sig siden 1960?",
+    "options": ["Antallet er steget", "Antallet er faldet"],
+    "answer": "Antallet er faldet"
+  },
+  {
+    "question": "Betyder en betinget fængselsstraf, at man skal direkte i fængsel?",
+    "options": ["Ja", "Nej"],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvortil kan man normalt anke (appellere) en afgørelse fra byretten?",
+    "options": ["Landsretten", "Højesteret"],
+    "answer": "Landsretten"
+  },
+  {
+    "question": "Fra hvilket land kom der særligt mange indvandrere til Danmark i slutningen af 1960’erne?",
+    "options": ["Syrien", "Tyrkiet", "Rumænien"],
+    "answer": "Tyrkiet"
+  },
+  {
+    "question": "Hvilken daginstitution går børn normalt i, når de er fire år?",
+    "options": ["Vuggestue", "Børnehave"],
+    "answer": "Børnehave"
+  },
+  {
+    "question": "Hvad er Grenen, som ligger ved byen Skagen?",
+    "options": [
+      "Danmarks sydligste punkt",
+      "Danmarks østligste punkt",
+      "Danmarks nordligste punkt"
+    ],
+    "answer": "Danmarks nordligste punkt"
+  },
+  {
+    "question": "Hvad hedder farvandet mellem Sjælland og Fyn?",
+    "options": ["Storebælt", "Lillebælt", "Øresund"],
+    "answer": "Storebælt"
+  },
+  {
+    "question": "Hvilken af følgende byer har flest indbyggere?",
+    "options": ["Esbjerg", "Randers", "Aalborg"],
+    "answer": "Aalborg"
+  },
+  {
+    "question": "Er Det Konservative Folkeparti med i den nuværende regering?",
+    "options": ["Ja", "Nej"],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvilket parti fik flest stemmer ved folketingsvalget i 2022?",
+    "options": ["Socialdemokratiet", "Dansk Folkeparti", "Venstre"],
+    "answer": "Socialdemokratiet"
+  },
+  {
+    "question": "Hvem er Danmarks konge?",
+    "options": ["Frederik 4.", "Frederik 7.", "Frederik 10."],
+    "answer": "Frederik 10."
+  },
+  {
+    "question": "Hvad er besluttet omkring værnepligten i 2024?",
+    "options": [
+      "At der skal indkaldes flere værnepligtige",
+      "At der skal indkaldes samme antal værnepligtige",
+      "At der skal indkaldes færre værnepligtige"
+    ],
+    "answer": "At der skal indkaldes flere værnepligtige"
+  },
+  {
+    "question": "Hvilket politisk parti blev dannet omkring 1870?",
+    "options": ["Dansk Folkeparti", "Socialistisk Folkeparti", "Venstre"],
+    "answer": "Venstre"
+  },
+  {
+    "question": "Hvad er Søren Kierkegaard (1813-55) særligt kendt for?",
+    "options": ["Han var kunstmaler", "Han var filosof", "Han var fysiker"],
+    "answer": "Han var filosof"
+  },
+  {
+    "question": "Hvem har skrevet fortællingen Den Grimme Ælling?",
+    "options": ["H.C. Andersen", "Karen Blixen", "Ludvig Holberg"],
+    "answer": "H.C. Andersen"
+  },
+  {
+    "question": "I hvilken måned fejres sankthans?",
+    "options": ["I maj", "I juni", "I juli"],
+    "answer": "I juni"
+  }
+]
