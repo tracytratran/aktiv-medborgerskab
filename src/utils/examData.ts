@@ -14,8 +14,22 @@ export const availableExams: ExamOption[] = [
     id: "2025-winter",
     label: "examSelector.officialExam2025",
     year: 2025,
+    season: "winter",
+    path: "/banks/2025/winter/medborgerskabsproeven.json",
+  },
+  {
+    id: "2025-summer",
+    label: "examSelector.officialExam2025",
+    year: 2025,
     season: "summer",
     path: "/banks/2025/summer/medborgerskabsproeven.json",
+  },
+  {
+    id: "2024-winter",
+    label: "examSelector.officialExam2024",
+    year: 2024,
+    season: "winter",
+    path: "/banks/2024/winter/medborgerskabsproeven.json",
   },
   {
     id: "2024-summer",
@@ -189,12 +203,12 @@ export const generateRandomExamQuestions = async (): Promise<Question[]> => {
 
     // Flatten and deduplicate questions (using the question text as a unique identifier)
     const uniqueQuestions = Array.from(
-      new Map(allQuestionsArrays.flat().map((q) => [q.question, q])).values()
+      new Map(allQuestionsArrays.flat().map((q) => [q.question, q])).values(),
     );
 
     // Shuffle the questions
     const shuffledQuestions = [...uniqueQuestions].sort(
-      () => Math.random() - 0.5
+      () => Math.random() - 0.5,
     );
 
     // Take the first 25 questions (or all if less than 25)

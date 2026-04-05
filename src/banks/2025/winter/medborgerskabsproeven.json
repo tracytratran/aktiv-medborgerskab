@@ -1,0 +1,221 @@
+[
+  {
+    "question": "På hvilke klassetrin kan man gå på efterskole?",
+    "options": [
+      "0., 1. og 2. klasse",
+      "4., 5. og 6. klasse",
+      "8., 9. og 10. klasse"
+    ],
+    "answer": "8., 9. og 10. klasse"
+  },
+  {
+    "question": "Hvor gammel skal man mindst være for at få kørekort til almindelig bil?",
+    "options": [
+      "17 år",
+      "19 år",
+      "21 år"
+    ],
+    "answer": "17 år"
+  },
+  {
+    "question": "Hvor mange borgere i Danmark mellem 15 og 64 år har et arbejde?",
+    "options": [
+      "Cirka to ud af fem",
+      "Cirka to ud af tre",
+      "Cirka tre ud af fire"
+    ],
+    "answer": "Cirka tre ud af fire"
+  },
+  {
+    "question": "Hvem var Danmarks første kvindelige statsminister?",
+    "options": [
+      "Pia Kjærsgaard",
+      "Helle Thorning-Schmidt",
+      "Mette Frederiksen"
+    ],
+    "answer": "Helle Thorning-Schmidt"
+  },
+  {
+    "question": "Skal der være en folkeafstemning, hvis den danske grundlov skal ændres?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvor mange kommuner er der i Danmark?",
+    "options": [
+      "19",
+      "41",
+      "98"
+    ],
+    "answer": "98"
+  },
+  {
+    "question": "Hvilken popgruppe udgav nummeret Barbie Girl i 1990’erne?",
+    "options": [
+      "Gasolin",
+      "Me & My",
+      "Aqua"
+    ],
+    "answer": "Aqua"
+  },
+  {
+    "question": "Hvad var Yahya Hassan (1995-2020) særligt kendt for?",
+    "options": [
+      "Han var musiker",
+      "Han var digter",
+      "Han var fodboldspiller"
+    ],
+    "answer": "Han var digter"
+  },
+  {
+    "question": "Hvilket land er ikke med i det danske rigsfællesskab?",
+    "options": [
+      "Island",
+      "Færøerne",
+      "Grønland"
+    ],
+    "answer": "Island"
+  },
+  {
+    "question": "Hvilket af følgende lande var i union med Danmark over 400 år frem til 1814?",
+    "options": [
+      "Sverige",
+      "Norge",
+      "Finland"
+    ],
+    "answer": "Norge"
+  },
+  {
+    "question": "Hvilket år blev Danmark besat af tyske tropper?",
+    "options": [
+      "1932",
+      "1940",
+      "1944"
+    ],
+    "answer": "1940"
+  },
+  {
+    "question": "Hvad var middel-levetiden for mænd i 2024?",
+    "options": [
+      "Cirka 70 år",
+      "Cirka 75 år",
+      "Cirka 80 år"
+    ],
+    "answer": "Cirka 80 år"
+  },
+  {
+    "question": "Hvad er moms?",
+    "options": [
+      "En skat man betaler af sin indkomst",
+      "En afgift på blandt andet varer man køber i butikkerne",
+      "Et gebyr man betaler for at bruge DR's tv- og radiokanaler"
+    ],
+    "answer": "En afgift på blandt andet varer man køber i butikkerne"
+  },
+  {
+    "question": "Hvilken slags daginstitution går børn normalt i, når de er to år?",
+    "options": [
+      "Vuggestue",
+      "Børnehave"
+    ],
+    "answer": "Vuggestue"
+  },
+  {
+    "question": "Hvordan blev grænsen for fri abort ændret i 2025?",
+    "options": [
+      "Den blev sat op fra 12 til 18 uger",
+      "Den blev sat ned fra 12 til 9 uger"
+    ],
+    "answer": "Den blev sat op fra 12 til 18 uger"
+  },
+  {
+    "question": "Hvilket farvand ligger mellem Sjælland og Sverige?",
+    "options": [
+      "Storebælt",
+      "Lillebælt",
+      "Øresund"
+    ],
+    "answer": "Øresund"
+  },
+  {
+    "question": "Hvor meget af Danmarks areal er landbrug?",
+    "options": [
+      "Cirka 10 procent",
+      "Cirka 35 procent",
+      "Cirka 60 procent"
+    ],
+    "answer": "Cirka 60 procent"
+  },
+  {
+    "question": "Skal man være dansk statsborger for at stemme til folketingsvalg?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilket parti er ældst?",
+    "options": [
+      "Dansk Folkeparti",
+      "Det Konservative Folkeparti"
+    ],
+    "answer": "Det Konservative Folkeparti"
+  },
+  {
+    "question": "Kan regeringen bestemme, hvordan en dommer skal dømme i en konkret retssag?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Nej"
+  },
+  {
+    "question": "Hvor mange stemmer normalt ved valg til Folketinget?",
+    "options": [
+      "Cirka 40-50 procent",
+      "Cirka 60-70 procent",
+      "Cirka 80-90 procent"
+    ],
+    "answer": "Cirka 80-90 procent"
+  },
+  {
+    "question": "Hvor blev danske soldater udsendt til i 1990’erne som en del af FN’s styrker?",
+    "options": [
+      "Syrien",
+      "Bosnien",
+      "Libyen"
+    ],
+    "answer": "Bosnien"
+  },
+  {
+    "question": "Hvilken verdensdel modtager størstedelen af den danske udviklingsbistand?",
+    "options": [
+      "Afrika",
+      "Asien",
+      "Sydamerika"
+    ],
+    "answer": "Afrika"
+  },
+  {
+    "question": "Hvad hedder Danmarks kronprins?",
+    "options": [
+      "Christian",
+      "Nikolaj",
+      "Frederik"
+    ],
+    "answer": "Christian"
+  },
+  {
+    "question": "På hvilken dato er det grundlovsdag?",
+    "options": [
+      "5. april",
+      "5. maj",
+      "5. juni"
+    ],
+    "answer": "5. juni"
+  }
+]

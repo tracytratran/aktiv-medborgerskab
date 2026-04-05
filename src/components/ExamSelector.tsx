@@ -60,7 +60,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                 ? "border-green-300 bg-green-50"
                 : "border-gray-200"
             } ${
-              exam.year === 2025 && exam.season === "summer"
+              exam.year === 2025 && exam.season === "winter"
                 ? "border-blue-400 bg-blue-50"
                 : ""
             } hover:border-primary hover:bg-blue-50 transition-all text-center relative`}
@@ -70,7 +70,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                 {getExamBestScore(exam.id)}%
               </span>
             )}
-            {exam.year === 2025 && exam.season === "summer" && (
+            {exam.year === 2025 && exam.season === "winter" && (
               <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded-full animate-pulse">
                 {t("examSelector.new")}
               </span>
