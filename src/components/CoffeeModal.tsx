@@ -27,7 +27,7 @@ const CoffeeModal: React.FC<CoffeeModalProps> = ({ onClose }) => {
         </button>
 
         <img
-          src={`${BASE_PATH}/mobilepay-qrcode.jpg`}
+          src={`${BASE_PATH}/images/mobilepay-qrcode.jpg`}
           alt="MobilePay QR code"
           className="w-56 h-56 object-contain rounded-lg"
         />

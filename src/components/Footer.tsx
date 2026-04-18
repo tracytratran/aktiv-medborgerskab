@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             >
               {t("donate.buyMeACoffee")}
               <img
-                src={`${BASE_PATH}/buy-me-a-coffee.png`}
+                src={`${BASE_PATH}/images/buy-me-a-coffee.png`}
                 alt="Buy me a coffee"
                 className="w-5 h-5"
               />
