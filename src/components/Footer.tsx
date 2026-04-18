@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { useAppTranslation } from "../hooks/useAppTranslation";
+import CoffeeModal from "./CoffeeModal";
 
 const Footer: React.FC = () => {
+  const { t } = useAppTranslation();
+  const [showCoffee, setShowCoffee] = useState(false);
+
   return (
+    <>
     <footer className="fixed bottom-0 left-0 right-0 bg-white bg-opacity-95 shadow-lg p-4 z-10">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left order-2 sm:order-1">
@@ -10,6 +16,12 @@ const Footer: React.FC = () => {
 
         {/* Social buttons */}
         <div className="flex gap-2 order-1 sm:order-2">
+          <button
+            onClick={() => setShowCoffee(true)}
+            className="py-2 px-4 bg-amber-400 text-black rounded-lg text-sm font-medium hover:bg-amber-500 transition-colors shadow-md"
+          >
+            {t("donate.buyMeACoffee")}
+          </button>
           <a
             href="https://www.linkedin.com/in/tracytratran"
             target="_blank"
@@ -28,6 +40,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
+    {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />}
+    </>
   );
 };
 

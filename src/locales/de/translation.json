@@ -72,7 +72,8 @@
   },
   "donate": {
     "buyMeACoffee": "Kaufen Sie mir einen Kaffee",
-    "support": "Unterstützen Sie dieses Projekt"
+    "support": "Diese Website unterstützen",
+    "message": "Wenn diese Website Ihnen bei der Vorbereitung auf den Staatsbürgerschaftstest geholfen hat, denken Sie daran, mir einen Kaffee zu kaufen. Es hilft mir, motiviert zu bleiben und die Kosten für die Wartung der Website zu decken."
   },
   "close": "Schließen"
 }

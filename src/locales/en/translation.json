@@ -78,7 +78,8 @@
   },
   "donate": {
     "buyMeACoffee": "Buy me a coffee",
-    "support": "Support this project"
+    "support": "Support this site",
+    "message": "If this site helped you prepare for your citizenship test, consider buying me a coffee. It helps me stay motivated cover the fees maintaining the website."
   },
   "close": "Close"
 }

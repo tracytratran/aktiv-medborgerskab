@@ -13,8 +13,8 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 bg-white bg-opacity-95 shadow-sm z-10 py-4">
       <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <h1 
-          onClick={() => navigate(BASE_PATH)} 
+        <h1
+          onClick={() => navigate(BASE_PATH)}
           className="text-2xl sm:text-3xl font-bold text-blue-600 text-center sm:text-left cursor-pointer hover:text-blue-700 transition-colors"
         >
           {t("app.title")}

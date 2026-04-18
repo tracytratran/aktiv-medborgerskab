@@ -75,7 +75,8 @@
   },
   "donate": {
     "buyMeACoffee": "Køb mig en kaffe",
-    "support": "Støt dette projekt"
+    "support": "Støt denne hjemmeside",
+    "message": "Hvis denne hjemmeside hjalp dig med at forberede dig til medborgerskabsprøven, så overvej at købe mig en kaffe. Det hjælper mig med at forblive motiveret og dække udgifterne til at vedligeholde hjemmesiden."
   },
   "close": "Luk"
 }

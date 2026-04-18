@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useAppTranslation } from "../hooks/useAppTranslation";
 import { UserAnswer } from "../types";
 import { useNavigate } from "react-router-dom";
 import useQuizHistory from "../hooks/useQuizHistory";
 import { BASE_PATH } from "../App";
+import CoffeeModal from "./CoffeeModal";
 
 interface ResultsProps {
   userAnswers: UserAnswer[];
@@ -17,6 +18,7 @@ const Results: React.FC<ResultsProps> = ({
   const { t } = useAppTranslation();
   const navigate = useNavigate();
   const { quizHistory } = useQuizHistory();
+  const [showCoffee, setShowCoffee] = useState(false);
   
   const correctAnswersCount = userAnswers.filter(
     (answer) => answer.isCorrect
@@ -86,8 +88,17 @@ const Results: React.FC<ResultsProps> = ({
           >
             {t("results.restart")}
           </button>
+
+          <button
+            className="py-3 px-6 bg-amber-400 text-black rounded-lg font-medium hover:bg-amber-500 transition-colors"
+            onClick={() => setShowCoffee(true)}
+          >
+            {t("donate.support")}
+          </button>
         </div>
       </div>
+
+      {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />}
     </div>
   );
 };
