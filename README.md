@@ -71,6 +71,8 @@ src/
 │   ├── 2022/
 │   ├── 2023/
 │   └── 2024/
+│   └── 2025/
+│   └── 2026/
 ├── hooks/
 │   └── useAppTranslation.ts # Custom translation hook
 ├── locales/                 # Internationalization files
