@@ -1,25 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { useAppTranslation } from "../hooks/useAppTranslation";
 import { UserAnswer } from "../types";
 import { useNavigate } from "react-router-dom";
 import useQuizHistory from "../hooks/useQuizHistory";
 import { BASE_PATH } from "../App";
+import CoffeeModal from "./CoffeeModal";
 
 interface ResultsProps {
   userAnswers: UserAnswer[];
   restartQuiz: () => void;
 }
 
-const Results: React.FC<ResultsProps> = ({
-  userAnswers,
-  restartQuiz,
-}) => {
+const Results: React.FC<ResultsProps> = ({ userAnswers, restartQuiz }) => {
   const { t } = useAppTranslation();
   const navigate = useNavigate();
   const { quizHistory } = useQuizHistory();
-  
+  const [showCoffee, setShowCoffee] = useState(false);
+
   const correctAnswersCount = userAnswers.filter(
-    (answer) => answer.isCorrect
+    (answer) => answer.isCorrect,
   ).length;
   const totalQuestions = quizHistory[0]?.totalQuestions || 0;
   const percentage = Math.round((correctAnswersCount / totalQuestions) * 100);
@@ -50,9 +49,7 @@ const Results: React.FC<ResultsProps> = ({
         <div
           className={`w-40 h-40 md:w-48 md:h-48 rounded-full border-8 flex flex-col justify-center items-center mb-8 ${getGradeColorClasses()}`}
         >
-          <span className="text-4xl md:text-5xl font-bold">
-            {percentage}%
-          </span>
+          <span className="text-4xl md:text-5xl font-bold">{percentage}%</span>
           <span className="text-sm mt-2">
             {t("results.correct", {
               correct: correctAnswersCount,
@@ -86,8 +83,22 @@ const Results: React.FC<ResultsProps> = ({
           >
             {t("results.restart")}
           </button>
+
+          <button
+            className="py-3 px-6 bg-amber-400 text-black rounded-lg font-medium hover:bg-amber-500 transition-colors flex items-center gap-2 justify-center"
+            onClick={() => setShowCoffee(true)}
+          >
+            {t("donate.buyMeACoffee")}
+            <img
+              src={`${BASE_PATH}/images/buy-me-a-coffee.png`}
+              alt="Buy me a coffee"
+              className="w-5 h-5"
+            />
+          </button>
         </div>
       </div>
+
+      {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />}
     </div>
   );
 };
