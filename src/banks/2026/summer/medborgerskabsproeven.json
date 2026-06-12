@@ -1,0 +1,220 @@
+[
+  {
+    "question": "Hvor går de fleste børn i skole?",
+    "options": [
+      "Kommunale folkeskoler",
+      "Private grundskoler"
+    ],
+    "answer": "Kommunale folkeskoler"
+  },
+  {
+    "question": "Hvordan bliver de fleste udgifter til sundhedsvæsenet betalt?",
+    "options": [
+      "Via skatter og afgifter",
+      "Via direkte egenbetaling",
+      "Via private forsikringer"
+    ],
+    "answer": "Via skatter og afgifter"
+  },
+  {
+    "question": "Hvilket af følgende områder har kommunerne ansvaret for?",
+    "options": [
+      "Sygehuse",
+      "Børnehaver",
+      "Politiet"
+    ],
+    "answer": "Børnehaver"
+  },
+  {
+    "question": "Hvornår er grundloven sidst blevet ændret?",
+    "options": [
+      "1866",
+      "1915",
+      "1953"
+    ],
+    "answer": "1953"
+  },
+  {
+    "question": "Fra hvilket land kom der særligt mange indvandrere til Danmark i slutningen af 1960’erne?",
+    "options": [
+      "Rumænien",
+      "Tyrkiet",
+      "Syrien"
+    ],
+    "answer": "Tyrkiet"
+  },
+  {
+    "question": "Hvor højt er Danmarks højeste naturlige punkt, Møllehøj?",
+    "options": [
+      "Ca. 170 meter",
+      "Ca. 460 meter",
+      "Ca. 750 meter"
+    ],
+    "answer": "Ca. 170 meter"
+  },
+  {
+    "question": "Hvor ligger Danmarks femtestørste by, Esbjerg?",
+    "options": [
+      "I Nordjylland",
+      "I Østjylland",
+      "I Vestjylland"
+    ],
+    "answer": "I Vestjylland"
+  },
+  {
+    "question": "Hvad er 'Gedser Odde', som ligger på øen Falster?",
+    "options": [
+      "Danmarks nordligste punkt",
+      "Danmarks østligste punkt",
+      "Danmarks sydligste punkt"
+    ],
+    "answer": "Danmarks sydligste punkt"
+  },
+  {
+    "question": "Hvor mange ugers ferie har man normalt ret til som lønmodtager?",
+    "options": [
+      "3-4 uger",
+      "5-6 uger",
+      "7-8 uger"
+    ],
+    "answer": "5-6 uger"
+  },
+  {
+    "question": "Er det gratis at få vaccineret sine børn mod stivkrampe, mæslinger og HPV?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Under hvilken krig var Danmark besat af tyske tropper?",
+    "options": [
+      "1. Verdenskrig",
+      "2. Verdenskrig"
+    ],
+    "answer": "2. Verdenskrig"
+  },
+  {
+    "question": "Hvad åbnede i Danmark i 1840'erne?",
+    "options": [
+      "De første motorveje",
+      "De første jernbaner",
+      "De første lufthavne"
+    ],
+    "answer": "De første jernbaner"
+  },
+  {
+    "question": "Hvilket politisk parti blev dannet omkring 1870?",
+    "options": [
+      "Dansk Folkeparti",
+      "Socialistisk Folkeparti",
+      "Venstre"
+    ],
+    "answer": "Venstre"
+  },
+  {
+    "question": "Hvem er medlemmerne af Europa-Parlamentet valgt af?",
+    "options": [
+      "Befolkningerne i EU-landene",
+      "Regeringerne i EU-landene"
+    ],
+    "answer": "Befolkningerne i EU-landene"
+  },
+  {
+    "question": "Hvor mange medlemmer har Folketinget?",
+    "options": [
+      "87",
+      "179",
+      "265"
+    ],
+    "answer": "179"
+  },
+  {
+    "question": "Hvem er Danmarks konge?",
+    "options": [
+      "Frederik 4.",
+      "Frederik 7.",
+      "Frederik 10."
+    ],
+    "answer": "Frederik 10."
+  },
+  {
+    "question": "Skal forældre normalt betale for, at deres børn går i en friskole eller privatskole?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvilket af følgende lande har Danmark størst samhandel (import og eksport) med?",
+    "options": [
+      "Kina",
+      "Tyskland",
+      "Storbritannien"
+    ],
+    "answer": "Tyskland"
+  },
+  {
+    "question": "Hvor stor en andel af Danmarks areal er landbrugsjord?",
+    "options": [
+      "Cirka 20 procent",
+      "Cirka 40 procent",
+      "Cirka 60 procent"
+    ],
+    "answer": "Cirka 60 procent"
+  },
+  {
+    "question": "For hvilken film vandt Thomas Vinterberg en Oscar i 2021?",
+    "options": [
+      "Druk",
+      "Hævnen",
+      "Nattevagten"
+    ],
+    "answer": "Druk"
+  },
+  {
+    "question": "Hvad fejres hvert år den 5. juni?",
+    "options": [
+      "Kristi Himmelfart",
+      "Grundlovsdag",
+      "Kvindernes Internationale Kampdag"
+    ],
+    "answer": "Grundlovsdag"
+  },
+  {
+    "question": "Er et flertal af Danmarks befolkning medlem af Folkekirken?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvem har værnepligt i Danmark?",
+    "options": [
+      "Kun mænd",
+      "Kun kvinder",
+      "Både mænd og kvinder"
+    ],
+    "answer": "Både mænd og kvinder"
+  },
+  {
+    "question": "Er det gratis at låne bøger på landets folkebiblioteker?",
+    "options": [
+      "Ja",
+      "Nej"
+    ],
+    "answer": "Ja"
+  },
+  {
+    "question": "Hvad fremstiller den danske virksomhed LEGO?",
+    "options": [
+      "Insulin",
+      "Legetøj",
+      "Vindmøller"
+    ],
+    "answer": "Legetøj"
+  }
+]
