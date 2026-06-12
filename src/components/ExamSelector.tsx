@@ -70,7 +70,7 @@ const ExamSelector: React.FC<ExamSelectorProps> = ({
                 {getExamBestScore(exam.id)}%
               </span>
             )}
-            {exam.year === 2025 && exam.season === "winter" && (
+            {exam.year === 2026 && exam.season === "summer" && (
               <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded-full animate-pulse">
                 {t("examSelector.new")}
               </span>
