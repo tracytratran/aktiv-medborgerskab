@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { BASE_PATH } from "../App";
-import { useAppTranslation } from "../hooks/useAppTranslation";
-import CoffeeModal from "./CoffeeModal";
+import React from "react";
+// import { BASE_PATH } from "../App";
+// import { useAppTranslation } from "../hooks/useAppTranslation";
+// import CoffeeModal from "./CoffeeModal";
 
 const Footer: React.FC = () => {
-  const { t } = useAppTranslation();
-  const [showCoffee, setShowCoffee] = useState(false);
+  // const { t } = useAppTranslation();
+  // const [showCoffee, setShowCoffee] = useState(false);
 
   return (
     <>
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 
           {/* Social buttons */}
           <div className="flex gap-2 order-1 sm:order-2">
-            <button
+            {/* <button
               onClick={() => setShowCoffee(true)}
               className="py-2 px-4 bg-amber-400 text-black rounded-lg text-sm font-medium hover:bg-amber-500 transition-colors shadow-md flex items-center gap-2"
             >
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 alt="Buy me a coffee"
                 className="w-5 h-5"
               />
-            </button>
+            </button> */}
             <a
               href="https://www.linkedin.com/in/tracytratran"
               target="_blank"
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </footer>
-      {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />}
+      {/* {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />} */}
     </>
   );
 };

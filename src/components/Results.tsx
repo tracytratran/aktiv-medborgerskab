@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { useAppTranslation } from "../hooks/useAppTranslation";
 import { UserAnswer } from "../types";
 import { useNavigate } from "react-router-dom";
 import useQuizHistory from "../hooks/useQuizHistory";
 import { BASE_PATH } from "../App";
-import CoffeeModal from "./CoffeeModal";
+// import CoffeeModal from "./CoffeeModal";
 
 interface ResultsProps {
   userAnswers: UserAnswer[];
@@ -15,7 +15,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, restartQuiz }) => {
   const { t } = useAppTranslation();
   const navigate = useNavigate();
   const { quizHistory } = useQuizHistory();
-  const [showCoffee, setShowCoffee] = useState(false);
+  // const [showCoffee, setShowCoffee] = useState(false);
 
   const correctAnswersCount = userAnswers.filter(
     (answer) => answer.isCorrect,
@@ -84,7 +84,7 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, restartQuiz }) => {
             {t("results.restart")}
           </button>
 
-          <button
+          {/* <button
             className="py-3 px-6 bg-amber-400 text-black rounded-lg font-medium hover:bg-amber-500 transition-colors flex items-center gap-2 justify-center"
             onClick={() => setShowCoffee(true)}
           >
@@ -94,11 +94,11 @@ const Results: React.FC<ResultsProps> = ({ userAnswers, restartQuiz }) => {
               alt="Buy me a coffee"
               className="w-5 h-5"
             />
-          </button>
+          </button> */}
         </div>
       </div>
 
-      {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />}
+      {/* {showCoffee && <CoffeeModal onClose={() => setShowCoffee(false)} />} */}
     </div>
   );
 };
