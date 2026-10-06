@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aktiv-medborgerskab/static/css/main.f423506c.css",
-    "main.js": "/aktiv-medborgerskab/static/js/main.8a7a6a4b.js",
+    "main.js": "/aktiv-medborgerskab/static/js/main.752aefd1.js",
     "static/js/331.365ab08f.chunk.js": "/aktiv-medborgerskab/static/js/331.365ab08f.chunk.js",
     "static/js/974.147d2c9c.chunk.js": "/aktiv-medborgerskab/static/js/974.147d2c9c.chunk.js",
     "static/js/466.9f2e2172.chunk.js": "/aktiv-medborgerskab/static/js/466.9f2e2172.chunk.js",
@@ -24,10 +24,10 @@
     "static/js/866.6df4685d.chunk.js": "/aktiv-medborgerskab/static/js/866.6df4685d.chunk.js",
     "index.html": "/aktiv-medborgerskab/index.html",
     "main.f423506c.css.map": "/aktiv-medborgerskab/static/css/main.f423506c.css.map",
-    "main.8a7a6a4b.js.map": "/aktiv-medborgerskab/static/js/main.8a7a6a4b.js.map"
+    "main.752aefd1.js.map": "/aktiv-medborgerskab/static/js/main.752aefd1.js.map"
   },
   "entrypoints": [
     "static/css/main.f423506c.css",
-    "static/js/main.8a7a6a4b.js"
+    "static/js/main.752aefd1.js"
   ]
 }
