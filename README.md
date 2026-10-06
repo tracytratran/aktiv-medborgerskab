@@ -1,4 +1,4 @@
-# Aktiv Medborgerskab Quiz App
+# Danish Active Citizenship Quiz App
 
 A TypeScript and React-based quiz application with Tailwind CSS for studying Danish active citizenship questions.
 
